@@ -1,0 +1,50 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 2000000000,
+  "powerRate": 1000000000,
+  "input": {
+    "item": "kubejs:halfdone_exoalloy"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "aether_redux:veridium_ingot"
+    },
+    {
+      "item": "tinkerscalibration:oraclium_ingot"
+    },
+    {
+      "item": "aether_redux:gravitite_ingot"
+    },
+    {
+      "item": "iceandfire:dragonsteel_ice_ingot"
+    },
+    {
+      "item": "iceandfire:dragonsteel_fire_ingot"
+    },
+    {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    {
+      "item": "twilightforest:arctic_fur"
+    },
+    {
+      "item": "twilightforest:knightmetal_ingot"
+    },
+    {
+      "item": "twilightforest:carminite"
+    }
+  ],
+  "result": {
+    "item": "etshtinker:exo_alloy",
+    "count": 8
+  }
+}

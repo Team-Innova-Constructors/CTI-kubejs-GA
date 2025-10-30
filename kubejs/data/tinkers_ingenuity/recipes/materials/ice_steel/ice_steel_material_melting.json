@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "kubejs:ice_steel",
+  "temperature": 4750,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_ice_steel",
+    "amount": 90
+  }
+}

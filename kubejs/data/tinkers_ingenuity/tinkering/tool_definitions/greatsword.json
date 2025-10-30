@@ -1,0 +1,72 @@
+{
+  "modules": [
+    {
+      "type": "tconstruct:part_stats",
+      "parts": [
+        "tconstruct:broad_blade",
+        "tconstruct:broad_blade",
+        "tinkers_ingenuity:gscore",
+        "tconstruct:large_plate",
+        "tconstruct:tough_handle"
+      ]
+    },
+    {
+      "type": "tconstruct:default_materials",
+      "materials": [
+        {
+          "type": "tconstruct:random",
+          "tier": 1
+        },
+        {
+          "type": "tconstruct:random",
+          "tier": 1
+        },
+        {
+          "type": "tconstruct:random",
+          "tier": 1
+        },
+        {
+          "type": "tconstruct:random",
+          "tier": 1
+        },
+        {
+          "type": "tconstruct:random",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "type": "tconstruct:base_stats",
+      "stats": {
+        "tconstruct:attack_damage": 3,
+        "tconstruct:attack_speed": 1.1
+      }
+    },
+    {
+      "type": "tconstruct:multiply_stats",
+      "multipliers": {
+        "tconstruct:attack_speed": 0.75,
+        "tconstruct:attack_damage": 1.4,
+        "tconstruct:durability": 2.3
+      }
+    },
+    {
+      "type": "tconstruct:modifier_slots",
+      "slots": {
+        "abilities": 1,
+        "upgrades": 2
+      }
+    },
+    {
+      "type": "tconstruct:sweep_melee",
+      "range": 2.0
+    },
+    {
+      "type": "tconstruct:tool_actions",
+      "tool_actions": [
+        "axe_dig",
+        "tconstruct:sweep"
+      ]
+    }
+  ]
+}

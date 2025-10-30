@@ -1,0 +1,50 @@
+{
+  "default": [
+    {
+      "name": "etshtinker:sharpnessex",
+      "level": 1
+    },
+    {
+      "name": "tinkers_ingenuity:puncture",
+      "level": 1
+    },
+    {
+      "name": "cti:refined",
+      "level": 5
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "cti:anisotropy",
+        "level": 1
+      },
+      {
+        "name": "cti:refined",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      }
+    ],
+    "tconstruct:head": [
+      {
+      "name": "cti:ion_apocalypse",
+      "level": 1
+    },
+    {
+      "name": "cti:refined",
+      "level": 5
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+正式版CTI的kubejs仓库
+不要上传其他的非kubejs文件

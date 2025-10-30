@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   ABA   ",
+    "   CDC   ",
+    "  CDEDC  ",
+    " CDFEFDC ",
+    "CDEEGEEDC",
+    " CDFEFDC ",
+    "  CDEDC  ",
+    "   CDC   ",
+    "   HHH   "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:void_eye"
+    },
+    "B": {
+      "item": "l2hostility:killer_aura"
+    },
+    "C": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "D": {
+      "item": "solidarytinker:violane"
+    },
+    "E": {
+      "item": "l2complements:life_essence"
+    },
+    "F": {
+      "item": "minecraft:nether_star"
+    },
+    "G": {
+      "item": "kubejs:core_diamond"
+    },
+    "H": {
+      "item": "cataclysm:ancient_metal_block"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:starfall_ingot"
+  }
+}

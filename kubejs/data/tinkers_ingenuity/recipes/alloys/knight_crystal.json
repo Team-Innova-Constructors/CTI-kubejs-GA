@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "cloudertinker:molten_knightmetal",
+      "amount": 90
+    },
+    {
+      "name": "tconstruct:molten_amethyst",
+      "amount": 100
+    },
+    {
+      "name": "tconstruct:molten_diamond",
+      "amount": 400
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_knight_crystal",
+    "amount": 90
+    },
+  "temperature": 2000
+}

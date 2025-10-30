@@ -1,0 +1,63 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 2000000000,
+    "powerRate": 1000000000,
+    "input": {
+      "item": "etshtinker:alloy_fracture"
+    },
+    "ingredients": [
+    
+    {
+      "item": "kubejs:atherium_casing"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "kubejs:reactor_casing"
+    },
+    {
+      "item": "kubejs:electronium_block"
+    },
+    {
+      "item": "kubejs:violium_casing"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "kubejs:pressurized_casing"
+    },
+    {
+      "item": "kubejs:ultra_dense_block"
+    },
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "avaritia:neutron"
+    },
+    {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "immersiveengineering:storage_steel"
+    }
+    ],
+    "result": {
+      "item": "kubejs:halfdone_exoalloy"
+    }
+  }
+  

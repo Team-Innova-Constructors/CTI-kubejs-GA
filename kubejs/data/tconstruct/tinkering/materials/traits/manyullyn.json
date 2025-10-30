@@ -1,0 +1,52 @@
+{
+  "default": [
+    {
+      "name": "tconstruct:insatiable",
+      "level": 1
+    },
+    {
+      "name": "tinkerscalibration:stone_cold",
+      "level": 1
+    }
+  ],
+  "perStat": {
+  "tconstruct:armor": [
+    {
+      "level": 2,
+      "name": "tconstruct:kinetic"
+    },
+    {
+      "level": 1,
+      "name": "cti:stress"
+    }
+  ],
+  "tconstruct:shield_core": [
+      {
+      "level": 3,
+      "name": "tconstruct:kinetic"
+    },
+    {
+      "level": 2,
+      "name": "cti:stress"
+    },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ],
+    "tconstruct:maille": [
+      {
+      "level": 3,
+      "name": "tconstruct:kinetic"
+    },
+    {
+      "level": 2,
+      "name": "cti:stress"
+    },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ]
+}
+}

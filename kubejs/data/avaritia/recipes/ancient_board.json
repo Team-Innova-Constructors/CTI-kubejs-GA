@@ -1,0 +1,58 @@
+{
+    "type": "avaritia:shaped_extreme_craft",
+    "category": "misc",
+    "pattern": [
+    "  A A A  ",
+    "  ABABA  ",
+    "BCACACACB",
+    "DCEFGHECD",
+    "BCEDIDECB",
+    "DCEJGKECD",
+    "BCLCLCLCB",
+    "  LBLBL  ",
+    "  L L L  "
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:pyrocrystal"
+    },
+    "B": {
+      "item": "obscure_api:astral_dust"
+    },
+    "C": {
+      "item": "kubejs:ultra_dense_hydride_crystal"
+    },
+    "D": {
+      "item": "etshtinker:energized_sculk_alloy"
+    },
+    "E": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "F": {
+      "item": "meetyourfight:phantoplasm"
+    },
+    "G": {
+      "item": "aether:golden_amber"
+    },
+    "H": {
+      "item": "meetyourfight:mossy_tooth"
+    },
+    "I": {
+      "item": "tinkers_ingenuity:shine_alloy_ingot"
+    },
+    "J": {
+      "item": "meetyourfight:violet_bloom"
+    },
+    "K": {
+      "item": "meetyourfight:fortunes_favor"
+    },
+    "L": {
+      "item": "kubejs:electrocrystal"
+    }
+  },
+    "result": {
+      "item": "kubejs:ancient_circuitboard",
+      "count": 8
+    },
+    "show_notification": false
+  }

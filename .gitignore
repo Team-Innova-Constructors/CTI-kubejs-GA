@@ -1,0 +1,43 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/CTI.jar
+/CTI.json
+/o_prof
+/options.txt
+/patchouli_data.json
+/rhino.local.properties
+/TrashSlotSaveState.json
+/usercache.json
+/usernamecache.json
+/shaderpacks/
+/tconplanner/
+/thingpacks/
+/XaeroWaypoints/
+/XaeroWaypoints_BACKUP032021/
+/XaeroWorldMap/
+/saves/
+/PCL/
+/patchouli_books/
+/modernfix/
+/logs/
+/localconfigs/
+/local/
+/lightspeed-cache/
+/keybinding presets/
+/fancymenu_data/
+/CustomSkinLoader/
+/defaultconfigs/
+/CTI-natives/
+/crash-reports/
+/Construct Technological Innovation-natives/
+/config/
+/backups/
+/mods/
+/resourcepacks/
+/schematics/

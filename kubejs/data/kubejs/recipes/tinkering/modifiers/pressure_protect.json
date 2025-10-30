@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "kubejs:pneumatic_shield",
+      "amount_needed": 4
+    },
+    {
+      "item": "kubejs:carbon_plate",
+      "amount_needed": 1
+    },
+    {
+      "item": "kubejs:carbon_plate",
+      "amount_needed": 1
+    },
+    {
+      "item": "kubejs:carbon_plate",
+      "amount_needed": 1
+    },
+    {
+      "item": "kubejs:carbon_plate",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:pressure_protect",
+  "level": {
+    "max": 5
+  }
+}

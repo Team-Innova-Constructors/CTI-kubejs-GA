@@ -1,0 +1,20 @@
+{
+  "default": [
+    {
+          "name": "cti:industrial_armor",
+          "level": 1
+        },
+    {
+      "name": "etshtinker:iluminate",
+      "level": 1
+    },
+    {
+      "name": "cti:gold_simulate",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:foolish_gold",
+      "level": 1
+    }
+  ]
+}

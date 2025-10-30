@@ -1,0 +1,28 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "ABDBA",
+    "ADEDA",
+    "ABDBA",
+    "AAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "etshtinker:chroma_plate"
+    },
+    "D": {
+      "item": "thermal:machine_frame"
+    },
+    "E": {
+      "item": "thermal:cured_rubber_block"
+    }
+  },
+  "result": {
+    "item": "mekanism:steel_casing",
+    "count": 8
+  }
+}
