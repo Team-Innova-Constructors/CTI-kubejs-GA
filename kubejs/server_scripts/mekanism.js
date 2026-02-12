@@ -662,11 +662,11 @@ event.custom({
   "energyRequired": 100000,
   "fluidInput": {
     "amount": 80,
-    "fluid": "kubejs:methane"
+    "fluid": "mekanism:sulfuric_acid"
   },
   "gasInput": {
     "amount": 100,
-    "gas": "mekanism:sulfuric_acid"
+    "gas": "cti:methane"
   },
   "itemInput": {
     "ingredient": {
