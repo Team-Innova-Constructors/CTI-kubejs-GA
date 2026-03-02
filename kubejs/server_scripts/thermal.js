@@ -47,6 +47,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crystallizer('2x ae2:quartz_cluster', ['ae2:certus_quartz_crystal', Fluid.of('kubejs:crystal_growth', 100)]).energy(2000)
   event.recipes.thermal.crystallizer('ae2:flawless_budding_quartz', ['ae2:flawed_budding_quartz', Fluid.of('manaliquidizer:mana_fluid', 32000)]).energy(32000)
   event.recipes.thermal.crystallizer('etshtinker:knsu', ['thermal:niter_dust', Fluid.of('thermal:syrup', 250)]).energy(10000)
+  event.recipes.thermal.crystallizer('create:andesite_casing', ['#minecraft:logs', Fluid.of("tinkersinnovation:molten_andesite_alloy", 90)]).energy(2000)
+  event.recipes.thermal.crystallizer('create:brass_casing', ['#minecraft:logs', Fluid.of("tconstruct:molten_brass", 90)]).energy(2000)
   //熔岩炉
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(400000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(400000)

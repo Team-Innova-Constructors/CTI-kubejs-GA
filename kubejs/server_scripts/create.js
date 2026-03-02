@@ -9,11 +9,10 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(Fluid.of('cti:lava_overheated').withAmount(1000), [Fluid.of('cti:lava_heated').withAmount(500),'kubejs:aetheric_thermite'])
     event.recipes.create.mixing(Fluid.of('cti:lava_atomic').withAmount(1000), [Fluid.of('cti:lava_plasmatic').withAmount(1000),'tinkers_ingenuity:bedrock_alloy_ingot','aether_redux:gravitite_ingot'])
     event.recipes.create.mixing(Item.of('create:brass_ingot',2), [Fluid.of('tconstruct:molten_copper').withAmount(90),'create:zinc_ingot'])
-
+    event.recipes.create.mixing(Item.of('createutilities:void_steel_ingot',2), ['2x create:brass_ingot','2x minecraft:ender_pearl'])
     event.recipes.create.mixing(Fluid.of('kubejs:redstone_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x minecraft:redstone']).superheated()
     event.recipes.create.mixing(Fluid.of('kubejs:diamond_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x thermal:diamond_dust']).superheated()
     event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x create:powdered_obsidian']).superheated()
-
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_helmet')
 ]  ,Item.of('pneumaticcraft:pneumatic_helmet'), [
@@ -77,15 +76,6 @@ event.recipes.create.sequenced_assembly([
     event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:large_cogwheel']),
     event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', '#forge:nuggets/iron']),
 ]).transitionalItem('create:incomplete_precision_mechanism').loops(3)
-
-event.recipes.create.sequenced_assembly([
-    Item.of('createutilities:void_steel_ingot')
-]  ,Item.of('powah:steel_energized'), [
-    event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'minecraft:ender_pearl']),
-    event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'create:sturdy_sheet']),
-    event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('tconstruct:blazing_blood').withAmount(1000)]),
-    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
-]).transitionalItem('create:unprocessed_obsidian_sheet').loops(2)
 
 event.shaped(Item.of('createoreexcavation:vein_finder',1), [
         'DC ',
@@ -213,5 +203,4 @@ event.custom({
     }
   ]
 })
-
 })
