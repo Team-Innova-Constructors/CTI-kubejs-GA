@@ -57,4 +57,8 @@ event.custom({
   event.replaceInput({id:'immersiveengineering:crafting/rs_engineering'},'#forge:ingots/copper','create:copper_casing')
   event.replaceInput({id:'immersiveengineering:crafting/light_engineering'},'#forge:ingots/copper','create:andesite_casing')
   event.replaceInput({id:'immersiveengineering:crafting/heavy_engineering'},'#forge:ingots/electrum','create:brass_casing')
+
+  event.recipes.immersiveengineering.arc_furnace('4x kubejs:silicon_carbide','kubejs:pure_silicon',['#forge:dusts/coal'])
+  event.recipes.immersiveengineering.arc_furnace('2x kubejs:silicon_carbide','#forge:silicon',['#forge:dusts/coal'])
+  event.recipes.immersiveengineering.arc_furnace('kubejs:silicon_carbide','#forge:sand',['#forge:dusts/coal'])
 })

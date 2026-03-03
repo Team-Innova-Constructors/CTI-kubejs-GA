@@ -107,8 +107,7 @@ ServerEvents.recipes(event => {
             }
     )
 
-    event.custom(
-            {
+event.custom({
   "type": "tconstruct:modifier",
   "allow_crystal": true,
   "inputs": [
@@ -133,8 +132,7 @@ ServerEvents.recipes(event => {
   "tools": {
     "tag": "tconstruct:modifiable/armor/helmets"
   }
-}
-    )
+})
 
     event.custom({
   "type": "tconstruct:ore_melting",
@@ -162,6 +160,151 @@ ServerEvents.recipes(event => {
   "temperature": 200,
   "time": 60
 })
-    
-    
+    event.shaped(Item.of('cti:silicated_bricks'),[
+      'AB',
+      'BA'
+    ],{
+      A:'kubejs:silicon_carbide',
+      B:'tconstruct:scorched_brick'
+    })
+    event.shaped(Item.of('cti:silicated_glass'),[
+      ' A ',
+      'BCB',
+      ' A '
+    ],{
+      A:'kubejs:silicon_carbide',
+      B:'tconstruct:scorched_brick',
+      C:'#thermal:glass/hardened'
+    })
+    event.shaped(Item.of('cti:silicated_chute'),[
+      'ABA',
+      ' C ',
+      'ABA'
+    ],{
+      A:'thermal:steel_plate',
+      B:'#forge:ingots/hop_graphite',
+      C:'cti:silicated_bricks',
+    })
+    event.shaped(Item.of('cti:silicated_drain'),[
+      'A A',
+      'BCB',
+      'A A'
+    ],{
+      A:'thermal:steel_plate',
+      B:'#forge:ingots/hop_graphite',
+      C:'cti:silicated_bricks',
+    })
+    event.shaped(Item.of('cti:silicated_duct'),[
+      'A A',
+      'BCB',
+      'A A'
+    ],{
+      A:'thermal:gold_plate',
+      B:'#forge:ingots/hop_graphite',
+      C:'cti:silicated_bricks',
+    })
+    event.shaped(Item.of('cti:silicated_valve'),[
+      'A A',
+      'BCB',
+      'A A'
+    ],{
+      A:'kubejs:zirconium_alloy',
+      B:'#forge:ingots/hop_graphite',
+      C:'cti:silicated_bricks',
+    })
+    event.shaped(Item.of('cti:silicated_ingot_gauge'),[
+      'ACA',
+      'BAB',
+      'ACA'
+    ],{
+      A:'#thermal:glass/hardened',
+      B:'tconstruct:scorched_brick',
+      C:'kubejs:silicon_carbide',
+    })
+    event.shaped(Item.of('cti:silicated_fuel_gauge'),[
+      'BAC',
+      'AAA',
+      'CAB'
+    ],{
+      A:'#thermal:glass/hardened',
+      B:'tconstruct:scorched_brick',
+      C:'kubejs:silicon_carbide',
+    })
+    event.shaped(Item.of('3x cti:hepatizon_faucet'),[
+      'A A',
+      ' A '
+    ],{
+      A:'tconstruct:hepatizon_ingot',
+    })
+    event.shaped(Item.of('cti:hepatizon_casting_basin'),[
+      'A A',
+      'A A',
+      'AAA'
+    ],{
+      A:'tconstruct:hepatizon_ingot',
+    })
+    event.shaped(Item.of('cti:hepatizon_casting_table'),[
+      'AAA',
+      'A A',
+      'A A'
+    ],{
+      A:'tconstruct:hepatizon_ingot',
+    })
+    event.shaped(Item.of('cti:advanced_alloyer'),[
+      'AAA',
+      'ABA',
+      'AAA'
+    ],{
+      A:'tconstruct:hepatizon_ingot',
+      B:'tconstruct:scorched_alloyer'
+    })
+    event.shaped(Item.of('3x cti:zirconium_alloy_faucet'),[
+      'A A',
+      ' A '
+    ],{
+      A:'kubejs:zirconium_alloy',
+    })
+    event.shaped(Item.of('cti:zirconium_alloy_casting_basin'),[
+      'A A',
+      'ABA',
+      'AAA'
+    ],{
+      A:'kubejs:zirconium_alloy',
+      B:'pneumaticcraft:logistics_core'
+    })
+    event.shaped(Item.of('cti:zirconium_alloy_casting_table'),[
+      'AAA',
+      'ABA',
+      'A A'
+    ],{
+      A:'kubejs:zirconium_alloy',
+      B:'pneumaticcraft:logistics_core'
+    })
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "l2complements:sculkium_ingot"
+    },
+    {
+      "item": "l2complements:void_eye",
+      "amount_needed": 3
+    },
+    {
+      "item":"tconstruct:manyullyn_ingot",
+      "amount_needed": 3
+    },
+    {
+      "item":"etshtinker:lightless_alloy"
+    }
+  ],
+  "level": 1,
+  "result": "cti:shadow_slash",
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  }
+})
+
 })

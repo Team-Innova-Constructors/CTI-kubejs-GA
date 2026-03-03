@@ -75,6 +75,8 @@ StartupEvents.registry("item",event=>{
     event.create("broken_victory_medal","basic")
     event.create("phoenix_ingot","basic")
     event.create("valkyrie_ingot","basic")
+    event.create("unipolar_magnet_shard","basic")
+    event.create("silicon_carbide","basic")
 
     event.create("luminous_metal_plate","basic")
     event.create("radient_engine","basic")

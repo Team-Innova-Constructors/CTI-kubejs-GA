@@ -1279,4 +1279,6 @@ event.custom({
   rotary("mekanismgenerators:tritium","mekanismgenerators:tritium")
   rotary("mekanismgenerators:deuterium","mekanismgenerators:deuterium")
   electrolysis("mekanism:heavy_water",10,"mekanismgenerators:deuterium",10,"mekanism:oxygen",5)
+
+  event.recipes.mekanism.combining('kubejs:particle_container','16x kubejs:unipolar_magnet_shard','#forge:ingots')
 })

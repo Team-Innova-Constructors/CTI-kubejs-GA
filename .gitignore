@@ -64,3 +64,4 @@ gen
 /replay_pid6968.log
 /servers.dat
 /.vscode/settings.json
+*.log
