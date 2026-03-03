@@ -656,6 +656,27 @@ event.custom({
     "item": "minecraft:dragon_egg"
   }
 })
+event.shaped(Item.of('dimstorage:dimensional_chest', 1), [
+   'AAA',
+   'ACA',
+   'AAA'
+],
+   {
+      A: 'tinkers_thinking:tinkers_bronze_ingot',
+      C: 'ae2:singularity',
+   }
+)
+event.shaped(Item.of('dimstorage:dimensional_tank', 1), [
+   'ABA',
+   'BCB',
+   'ABA'
+],
+   {
+      A: 'tinkers_thinking:tinkers_bronze_ingot',
+      C: 'ae2:singularity',
+      B: '#forge:glass',
+   }
+)
    event.shapeless('aether:enchanted_gravitite', '9x aether_redux:gravitite_ingot')
    event.shapeless('9x aether_redux:gravitite_ingot', 'aether:enchanted_gravitite')
 })

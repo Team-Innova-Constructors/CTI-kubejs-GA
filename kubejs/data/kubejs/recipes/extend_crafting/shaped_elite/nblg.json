@@ -1,0 +1,56 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAA  ",
+    " ABCDA ",
+    " AEFEA ",
+    "AGHIHGA",
+    " AJKJA ",
+    " ALJMA ",
+    "  AAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "B": {
+      "item": "enigmaticlegacy:guardian_heart"
+    },
+    "C": {
+      "item": "l2hostility:hard_skin"
+    },
+    "D": {
+      "item": "enigmaticlegacy:monster_charm"
+    },
+    "E": {
+      "item": "l2complements:warden_bone_shard"
+    },
+    "F": {
+      "item": "kubejs:evil_mechanism"
+    },
+    "G": {
+      "item": "l2hostility:hostility_essence"
+    },
+    "H": {
+      "item": "l2complements:life_essence"
+    },
+    "I": {
+      "item": "minecraft:dragon_egg"
+    },
+    "J": {
+      "item": "l2complements:explosion_shard"
+    },
+    "K": {
+      "item": "l2hostility:pulling"
+    },
+    "L": {
+      "item": "enigmaticlegacy:soul_crystal"
+    },
+    "M": {
+      "item": "l2complements:guardian_eye"
+    }
+  },
+  "result": {
+    "item": "cti:ring_of_nibelungen"
+  }
+}

@@ -206,6 +206,9 @@ ServerEvents.recipes(event => {
 		'tinkers_thinking:common/chlorophyte/ingot_blasting',
 		'tinkers_thinking:common/chlorophyte/compound_melting',
 		'kubejs:thermal/smelter/chloro',
+		//维度箱子
+		'dimstorage:dimensional_tank',
+		'dimstorage:dimensional_chest',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
