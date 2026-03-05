@@ -434,5 +434,15 @@
     "gui.aether_redux.solar_emblem_fireball": "按 [%s] 释放火球",
     "gui.aether_redux.vampire_amulet_day_debuff": "白天时受到伤害增加",
     "gui.aether_redux.vampire_amulet_night_ability": "在佩戴超过一个主世界日后，增加伤害吸收量。",
-    "gui.aether_redux.wisdom_ring_xp_increase": "获得20%~30%的来自生物的经验加成"
+    "gui.aether_redux.wisdom_ring_xp_increase": "获得20%~30%的来自生物的经验加成",
+
+
+
+    "modifier.tconstruct.overworked.description": "使黏液覆层的回复量和消耗量均加倍",
+    "material.tconstruct.manyullyn.encyclopedia": "8次连击后，每级伤害+4。",
+
+    "effect.cti.insatiable_boost":"贪婪增强",
+
+    "curios.identifier.slime_can": "加压黏液罐"
+
 }

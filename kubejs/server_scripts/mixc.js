@@ -679,4 +679,15 @@ event.shaped(Item.of('dimstorage:dimensional_tank', 1), [
 )
    event.shapeless('aether:enchanted_gravitite', '9x aether_redux:gravitite_ingot')
    event.shapeless('9x aether_redux:gravitite_ingot', 'aether:enchanted_gravitite')
+
+   event.remove({id:'enigmaticlegacy:evil_ingot'})
+   event.shaped(Item.of('enigmaticlegacy:evil_ingot',4),[
+      'ABA',
+      'BCB',
+      'ABA'
+   ],{
+      A:'tconstruct:dragon_scale',
+      B:'enigmaticlegacy:evil_essence',
+      C:'tconstruct:manyullyn_ingot'
+   })
 })
