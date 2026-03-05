@@ -244,4 +244,5 @@ ServerEvents.recipes(event => {
     metalMaterialNoNuggetMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_nugget",4950)
     craftableMaterial("kubejs:carbon_plate","kubejs:carbon_plate")
     metalMaterial("kubejs:star_dragon","cti:molten_star_dragon","cti:star_dragon_ingot",9273)
+    metalMaterialNoIngotMelt("kubejs:endergobber","tinkerscalibration:moltenendgobber","gobber2:gobber2_ingot_end",1750)
 })

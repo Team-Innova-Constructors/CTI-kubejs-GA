@@ -307,4 +307,16 @@ event.custom({
   }
 })
 
+event.custom({
+  "type":"tconstruct:casting_basin",
+  "cast": { "item": "cti:silicated_bricks" },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_steel",
+    "amount": 360
+  },
+  "result": "cti:refinery_controller",
+  "cooling_time": 200
+})
+
 })

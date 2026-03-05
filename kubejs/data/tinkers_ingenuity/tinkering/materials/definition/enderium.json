@@ -6,17 +6,14 @@
         "type": "tconstruct:config"
       },
       {
-        "value": {
-          "tag": "gobber2:gobber2_ore",
-          "type": "forge:tag_empty"
-        },
-        "type": "forge:not"
+        "modid": "thermal",
+        "type": "forge:mod_loaded"
       }
     ],
     "type": "forge:or"
   },
   "craftable": false,
   "tier": 5,
-  "sortOrder": 15,
+  "sortOrder": 2,
   "hidden": false
 }
