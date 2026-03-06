@@ -25,7 +25,7 @@
       "durability": 2259,
       "mining_speed": 9.9,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 7.6
+      "melee_attack": 57.6
     },
     "tconstruct:limb": {
       "durability": 2259,
@@ -40,33 +40,33 @@
     },
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 7.0,
+      "armor": 27.0,
       "durability": 8780,
       "knockback_resistance": 1,
-      "toughness": 6
+      "toughness": 16
     },
     "tconstruct:plating_chestplate": {
-      "armor": 9.0,
+      "armor": 39.0,
       "durability": 10025,
       "knockback_resistance": 1,
-      "toughness": 6
+      "toughness": 16
     },
     "tconstruct:plating_leggings": {
-      "armor": 8.0,
+      "armor": 38.0,
       "durability": 9467,
       "knockback_resistance": 1,
-      "toughness": 6
+      "toughness": 16
     },
     "tconstruct:plating_boots": {
-      "armor": 7.0,
+      "armor": 27.0,
       "durability": 8002,
       "knockback_resistance": 1,
-      "toughness": 6
+      "toughness": 16
     },
     "tconstruct:plating_shield": {
       "durability": 8000,
       "knockback_resistance": 1,
-      "toughness": 8
+      "toughness": 16
     },
     "solidarytinker:soulge_heart": {
       "detection_range": 70,

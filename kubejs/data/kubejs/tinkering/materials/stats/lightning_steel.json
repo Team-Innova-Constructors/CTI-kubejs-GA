@@ -14,7 +14,7 @@
       "durability": 16384,
       "mining_speed": 25.0,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 30.0
+      "melee_attack": 75.0
     },
     "etshtinker:fluid_chamber": {
       "fluid_capacity": 240000

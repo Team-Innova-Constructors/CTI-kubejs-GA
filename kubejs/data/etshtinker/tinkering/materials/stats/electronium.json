@@ -6,8 +6,8 @@
   "stats": {
     "tconstruct:limb": {
       "durability": 2200,
-      "draw_speed": 2.5,
-      "velocity": 20,
+      "draw_speed": 25,
+      "velocity": 50,
       "accuracy": 0.1
     },
     "tconstruct:grip": {
@@ -17,33 +17,33 @@
     },
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 4.0,
+      "armor": 44.0,
       "durability": 3000,
       "knockback_resistance": 0.1,
-      "toughness": 10
+      "toughness": 100
     },
     "tconstruct:plating_chestplate": {
-      "armor": 6.0,
+      "armor": 66.0,
       "durability": 4500,
       "knockback_resistance": 0.1,
-      "toughness": 10
+      "toughness": 100
     },
     "tconstruct:plating_leggings": {
-      "armor": 4.0,
+      "armor": 64.0,
       "durability": 3775,
       "knockback_resistance": 0.1,
-      "toughness": 10
+      "toughness": 100
     },
     "tconstruct:plating_boots": {
-      "armor": 2.5,
+      "armor": 33.5,
       "durability": 2750,
       "knockback_resistance": 0.1,
-      "toughness": 10
+      "toughness": 100
     },
     "tconstruct:plating_shield": {
       "durability": 2070,
       "knockback_resistance": 0.1,
-      "toughness": 10
+      "toughness": 100
     }
   }
 }
