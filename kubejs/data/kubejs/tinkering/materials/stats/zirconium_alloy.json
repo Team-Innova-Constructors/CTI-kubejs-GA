@@ -14,7 +14,7 @@
     },
     "tconstruct:head": {
       "durability": 1350,
-      "melee_attack": 19.0,
+      "melee_attack": 9.0,
       "mining_speed": 7.5,
       "mining_tier": "minecraft:netherite"
     },
@@ -25,25 +25,25 @@
       "velocity": 0.5
     },
     "tconstruct:plating_boots": {
-      "armor": 15.5,
+      "armor": 5.5,
       "durability": 1394,
       "knockback_resistance": 0.01,
       "toughness": 1.5
     },
     "tconstruct:plating_chestplate": {
-      "armor": 18,
+      "armor": 8,
       "durability": 1770,
       "knockback_resistance": 0.01,
       "toughness": 1.5
     },
     "tconstruct:plating_helmet": {
-      "armor": 17,
+      "armor": 7,
       "durability": 1567,
       "knockback_resistance": 0.01,
       "toughness": 1.5
     },
     "tconstruct:plating_leggings": {
-      "armor": 15.0,
+      "armor": 5.0,
       "durability": 1273,
       "knockback_resistance": 0.01,
       "toughness": 1.5
