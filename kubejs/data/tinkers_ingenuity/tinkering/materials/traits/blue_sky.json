@@ -1,0 +1,58 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:territoral_sky",
+        "level": 1
+      },
+      {
+      "level": 6,
+      "name": "cti:slime_strike"
+    },
+    {
+      "level": 3,
+      "name": "cti:slime_explode"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:overslime"
+    }
+    ],
+    "tconstruct:armor": [
+      {
+      "level": 6,
+      "name": "cti:slime_shield"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:overslime"
+    },
+      {
+        "name": "cti:flying",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:celestial",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "tinkers_ingenuity:territoral_sky",
+        "level": 1
+      },
+      {
+      "level": 6,
+      "name": "cti:slime_strike"
+    },
+    {
+      "level": 3,
+      "name": "cti:slime_explode"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:overslime"
+    }
+    ]
+  }
+}

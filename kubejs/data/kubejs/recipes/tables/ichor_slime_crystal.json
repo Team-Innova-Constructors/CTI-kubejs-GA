@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "tconstruct:ichor_slime_crystal_block"
+      "item": "tconstruct:ichor_slime_crystal_block"
     }
   ],
   "result": {

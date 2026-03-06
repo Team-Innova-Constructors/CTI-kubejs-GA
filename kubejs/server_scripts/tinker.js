@@ -302,6 +302,19 @@ event.custom({
   ],
   "level": 1,
   "result": "cti:shadow_slash",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  }
+})
+event.custom({
+    "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:shadow_slash",
+  "slots": {
+    "abilities": 1
+  },
   "tools": {
     "tag": "tconstruct:modifiable/melee"
   }
@@ -317,6 +330,72 @@ event.custom({
   },
   "result": "cti:refinery_controller",
   "cooling_time": 200
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "create:mechanical_pump"
+    },
+    {
+      "item": "create:precision_mechanism",
+    },
+    {
+      "item":"tconstruct:slimesteel_ingot",
+      "amount_needed": 4
+    }
+  ],
+  "level": 1,
+  "result": "cti:overfill",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "cti:slime_can"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:overfill",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "cti:slime_can"
+  }
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "tag": "tconstruct:slimy_logs",
+      "amount_needed": 4
+    }
+  ],
+  "level": {
+    "max": 2
+  },
+  "result": "cti:replaced_overgrowth",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "cti:slime_can"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:replaced_overgrowth",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "cti:slime_can"
+  }
 })
 
 })

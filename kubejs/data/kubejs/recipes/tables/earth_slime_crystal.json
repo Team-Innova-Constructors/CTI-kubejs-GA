@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "tconstruct:earth_slime_crystal_block"
+      "item": "tconstruct:earth_slime_crystal_block"
     }
   ],
   "result": {
