@@ -73,6 +73,43 @@ ServerEvents.recipes(event => {
     )
 
     event.custom(
+            {
+                "type":"tconstruct:casting_table",
+                "fluid": {
+                    "name": "kubejs:molten_azure_swet",
+                    "amount": 250
+                },
+                "result": "aether:swet_ball",
+                "cooling_time": 20
+            }
+    )
+    event.custom(
+            {
+                "type":"tconstruct:casting_table",
+                "fluid": {
+                    "name": "kubejs:molten_gold_swet",
+                    "amount": 250
+                },
+                "result": "aether_redux:golden_swet_ball",
+                "cooling_time": 20
+            }
+    )
+    event.custom(
+            {
+                "type":"tconstruct:casting_table",
+                "fluid": {
+                    "name": "kubejs:molten_dark_swet",
+                    "amount": 250
+                },
+                "result": "aether_redux:dark_swet_ball",
+                "cooling_time": 20
+            }
+    )
+    addMelting("aether:swet_ball","kubejs:molten_azure_swet",250,1750,90)
+    addMelting("aether_redux:golden_swet_ball","kubejs:molten_gold_swet",250,1750,90)
+    addMelting("aether_redux:dark_swet_ball","kubejs:molten_dark_swet",250,1750,90)
+
+    event.custom(
         {
   "type": "tconstruct:ore_melting",
   "byproducts": [

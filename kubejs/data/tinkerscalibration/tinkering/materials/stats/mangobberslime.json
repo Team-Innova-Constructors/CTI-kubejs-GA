@@ -13,6 +13,8 @@
       "mining_tier": "gobber2:end_gobber",
       "melee_attack": 15
     },
+    "tconstruct:grip": null,
+    "tconstruct:limb": null,
     "tconstruct:maille": {},
     "tconstruct:shield_core": {},
     "tconstruct:plating_boots": {

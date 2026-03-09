@@ -93,4 +93,6 @@ StartupEvents.registry("item",event=>{
     event.create("carbon_plate","basic")
     event.create("life_crystal","basic")
     event.create("evil_processor","basic")
+
+    event.create("swet_bronze_ingot","basic")
 })

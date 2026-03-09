@@ -13,6 +13,8 @@
       "mining_tier": "minecraft:netherite",
       "melee_attack": 13.2
     },
+    "tconstruct:grip": null,
+    "tconstruct:limb": null,
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
       "armor": 14.0,

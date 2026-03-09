@@ -18,11 +18,15 @@
     {
       "name": "tinkerscalibration:moltenendgobber",
       "amount": 180
+    },
+    {
+      "name": "kubejs:molten_dark_swet",
+      "amount": 250
     }
   ],
   "result": {
     "fluid": "tinkerscalibration:moltenmangobberslime",
-    "amount": 270
+    "amount": 360
   },
   "temperature": 2500
 }

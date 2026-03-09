@@ -37,6 +37,12 @@
     "fluid.kubejs.phenol": "苯酚",
     "fluid.kubejs.benzoic_acid": "苯甲酸",
 
+    "fluid.kubejs.molten_blue_sky": "熔融碧空",
+    "fluid.kubejs.molten_azure_swet": "天蓝史维特粘浆",
+    "fluid.kubejs.molten_gold_swet": "金黄史维特粘浆",
+    "fluid.kubejs.molten_dark_swet": "暗黑史维特粘浆",
+    "fluid.kubejs.molten_swet_bronze": "熔融史维特青铜",
+
     
     "item.kubejs.molten_veridium_bucket":"熔融实金桶",
     "item.kubejs.molten_gravitite_bucket":"熔融重力晶桶",
@@ -372,6 +378,11 @@
     "material.kubejs.endergobber.flavor": "末影戈伯",
     "material.kubejs.endergobber.encyclopedia": "戈伯的最终形态！",
 
+    "item.kubejs.swet_bronze_ingot": "史维特青铜锭",
+    "material.kubejs.swet_bronze": "史维特青铜",
+    "material.kubejs.swet_bronze.flavor": "拥有神之能量的黏液合金",
+    "material.kubejs.swet_bronze.encyclopedia": "拥有神之能量的黏液合金",
+
 
 
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
@@ -409,6 +420,7 @@
     "item.aether_redux.sentry_chip": "哨卫石AI芯片",
     "item.aether_redux.gravitite_ingot": "小块重力晶",
     "item.aether_redux.veridium_ingot": "实金锭",
+    "item.aether_redux.dark_swet_ball": "暗黑史维特球",
 
     "item.kubejs.carbon_plate": "碳复合板",
     "item.kubejs.pneumatic_shield": "压强抵抗装置",

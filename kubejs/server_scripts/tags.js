@@ -351,5 +351,13 @@ ServerEvents.tags('fluid', event => {
   for (let i of metalToolTip) {
     event.add('tconstruct:tooltips/metal', `${i}`)
   }
+  let slimeToolTip = [
+    'kubejs:molten_azure_swet',
+    'kubejs:molten_gold_swet',
+    'kubejs:molten_dark_swet'
+  ]
+  for (let i of slimeToolTip) {
+    event.add('tconstruct:tooltips/slime', `${i}`)
+  }
   
 })
