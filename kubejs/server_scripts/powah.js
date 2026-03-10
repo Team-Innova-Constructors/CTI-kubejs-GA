@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id:'powah:crafting/thermo_generator_nitro'}, 'powah:dielectric_paste','kubejs:dielectric_paste_6')
 
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
+    event.recipes.powah.energizing(["minecraft:redstone"], 'cti:refined_stone',350000)
     event.recipes.powah.energizing(["minecraft:emerald"], "powah:crystal_spirited",8000000)
     event.recipes.powah.energizing(["minecraft:diamond"], "powah:crystal_niotic",2400000)
     event.recipes.powah.energizing(["minecraft:blaze_rod"], "powah:crystal_blazing",600000)
@@ -56,7 +57,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: '#forge:ingots/invar',
+        A: '#forge:ingots/steel',
         B: 'powah:capacitor_basic_large',
         C: 'powah:uraninite'
       }
@@ -68,7 +69,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: '#forge:ingots/steel',
+        A: 'kubejs:compressed_hardlead',
         B: 'powah:capacitor_hardened',
         C: 'powah:uraninite'
       }
@@ -80,7 +81,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:compressed_hardlead',
+        A: 'kubejs:tungsten_steel_ingot',
         B: 'powah:capacitor_blazing',
         C: 'powah:uraninite'
       }
@@ -92,7 +93,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:zirconium_alloy',
+        A: 'kubejs:violium_alloy',
         B: 'powah:capacitor_niotic',
         C: 'powah:uraninite'
       }
@@ -104,7 +105,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:violium_alloy',
+        A: 'etshtinker:trinity_intereactive_alloy',
         B: 'powah:capacitor_spirited',
         C: 'powah:uraninite'
       }
@@ -116,7 +117,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'etshtinker:trinity_intereactive_alloy',
+        A: 'kubejs:atherium_alloy',
         B: 'powah:capacitor_nitro',
         C: 'powah:uraninite'
       }
@@ -494,7 +495,6 @@ PowahEvents.registerHeatSource(event => {
 	event.add('avaritia:infinity', 32768);
 })
 PowahEvents.registerCoolants(event => {
-	event.addFluid("kubejs:fluid_cryotheum", -40);
-})
-PowahEvents.registerMagmaticFluid(event => {
+	event.addFluid("kubejs:fluid_cryotheum", -98);
+	event.addFluid("industrialforegoing:ether_gas", -152);
 })

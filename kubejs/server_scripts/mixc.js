@@ -316,6 +316,7 @@ ServerEvents.recipes(event => {
       }
    )
    event.smithing('cti:meteorium_plane','ae2:annihilation_plane','kubejs:meteorium_ingot')
+   
 
    event.shaped(Item.of('cti:meteor_shower_tablet', 1), [
       'CA',
@@ -325,43 +326,38 @@ ServerEvents.recipes(event => {
          C: 'ars_nouveau:red_archwood_log',
          A: 'kubejs:meteorium_scrap',
       }
-   )
+   );
     event.shaped(Item.of('gobber2:gobber2_ingot',2), [
-        'ABC',
+        'FBC',
         'BEB',
         'DBF'
     ], {
-        A: '#forge:ingots/electrum',
         B: 'tconstruct:sky_slime_ball',
-        C: 'tinkers_ingenuity:ocean_alloy_ingot',
+        C: 'tconstruct:seared_brick',
         D: 'tconstruct:slimesteel_ingot',
         E: 'gobber2:gobber2_glob',
         F: '#forge:ingots/bronze'
     });
-    event.shaped(Item.of('gobber2:gobber2_ingot_nether',2), [
-        'ABC',
+    event.shaped(Item.of('gobber2:gobber2_ingot_nether',2),[
+        'FBC',
         'GEG',
-        'DBF'
+        'CBF'
     ], {
-        A: 'tinkerscalibration:witherium_ingot',
         B: 'gobber2:gobber2_ingot',
         C: '#minecraft:soul_fire_base_blocks',
-        D: 'minecraft:nether_star',
         E: 'gobber2:gobber2_glob_nether',
         F: 'minecraft:nether_brick',
         G: 'tconstruct:ichor_slime_ball'
     });
     event.shaped(Item.of('gobber2:gobber2_ingot_end',2), [
-        'ABC',
+        'ABD',
         'GEG',
-        'DBF'
+        'DBA'
     ], {
         A: 'thermal:enderium_ingot',
         B: 'gobber2:gobber2_ingot_nether',
-        C: 'minecraft:chorus_flower',
         D: 'minecraft:dragon_breath',
         E: 'gobber2:gobber2_glob_end',
-        F: 'tinkers_ingenuity:twilight_ingot',
         G: 'tconstruct:ender_slime_ball'
     });
     event.shaped(Item.of('minecraft:diamond_horse_armor', 1), [

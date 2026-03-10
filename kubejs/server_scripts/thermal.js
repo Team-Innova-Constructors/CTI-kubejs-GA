@@ -66,6 +66,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(72000000)
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:napalm', 1000)).energy(62500000)
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(7950000)
+  event.recipes.thermal.compression_fuel(Fluid.of('kubejs:ethyne', 100)).energy(95000000)
 //有机灌注器
   event.recipes.thermal.insolator(['thermal:rubberwood_log',Item.of('thermal:rubberwood_sapling').withChance(1.1)],'thermal:rubberwood_sapling').water(1000).energy(60000)
   event.recipes.thermal.insolator(['4x ars_nouveau:purple_archwood_log',Item.of('ars_nouveau:purple_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bastion_pod').withChance(0.25)],'ars_nouveau:purple_archwood_sapling').water(1000).energy(60000)
@@ -98,7 +99,7 @@ ServerEvents.recipes(event => {
   //离心机
   event.recipes.thermal.centrifuge(['thermal:sulfur_dust', '2x thermal:niter_dust', 'mekanism:dust_charcoal'], '4x minecraft:gunpowder').energy(10000)
   event.recipes.thermal.centrifuge([Item.of('kubejs:light_slag').withChance(1.8), Item.of('kubejs:crystal_slag').withChance(1.30), Item.of('kubejs:metal_slag').withChance(1.6), Item.of('kubejs:mineral_slag').withChance(1.2)], 'kubejs:enriched_slag').energy(12000)
-  event.recipes.thermal.centrifuge([Item.of('kubejs:powdered_slag').withChance(1.1), Item.of('minecraft:coal').withChance(2.5), Item.of('thermal:raw_nickel').withChance(1.4), Item.of('thermal:sulfur_dust').withChance(3.5)], 'kubejs:light_slag').energy(12000)
+  event.recipes.thermal.centrifuge([Item.of('kubejs:powdered_slag').withChance(1.1), Item.of('minecraft:coal').withChance(2.5), Item.of('thermal:raw_nickel').withChance(1.4), Item.of('immersiveengineering:dust_aluminum').withChance(1.5)], 'kubejs:light_slag').energy(12000)
   event.recipes.thermal.centrifuge([Item.of('thermal:gold_dust').withChance(2.15), Item.of('thermal:silver_dust').withChance(2.65), Item.of('mekanism:dust_osmium').withChance(2.75), Item.of('mekanism:dust_uranium').withChance(5.5)], 'kubejs:dense_slag').energy(12000)
   event.recipes.thermal.centrifuge([Item.of('minecraft:redstone').withChance(4.2), Item.of('minecraft:glowstone_dust').withChance(3.1), Item.of('thermal:quartz_dust').withChance(2.9), Item.of('2x minecraft:clay_ball').withChance(1.8)], 'kubejs:powdered_slag').energy(12000)
   //催化剂

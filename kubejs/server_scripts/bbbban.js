@@ -103,6 +103,7 @@ ServerEvents.recipes(event => {
 		'mekanism:module_energy_unit',
 		//机械动力和其附属
 		'create:sequenced_assembly/precision_mechanism',
+		'create:mixing/compat/ae2/fluix_crystal',
 		'createutilities:mixing/void_steel_ingot',
 		//沉浸
 		'immersiveengineering:crafting/blastbrick',

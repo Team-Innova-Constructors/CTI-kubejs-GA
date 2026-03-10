@@ -459,6 +459,7 @@
 
     "effect.cti.insatiable_boost":"贪婪增强",
 
-    "curios.identifier.slime_can": "加压黏液罐"
+    "curios.identifier.slime_can": "加压黏液罐",
+    "curios.identifier.oxygen_can": "热力贮液器供氧槽"
 
 }
