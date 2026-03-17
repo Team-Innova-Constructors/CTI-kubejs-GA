@@ -20,15 +20,6 @@ LootJS.modifiers(event => {
             { item: 'ae2:fluid_storage_cell_16k', count: 1, chance: 1 },
             { item: 'ae2:fluid_storage_cell_16k', count: 2, chance: 0.75 },
         ],
-        //月球村庄
-        moonVillage: [
-            { item: 'ae2:item_storage_cell_256k', count: 1, chance: 0.3 },
-            { item: 'ae2:fluid_storage_cell_256k', count: 1, chance: 0.3 },
-            { item: 'appmek:chemical_storage_cell_256k', count: 1, chance: 0.3 },
-            { item: 'ae2:fluix_smart_dense_cable', count: 26, chance: 0.8 },
-            { item: 'ae2:drive', count: 1, chance: 0.4 },
-            { item: 'ae2:energy_cell', count: 1, chance: 0.4 },
-        ],
         //月球地牢
         moonDungeon: [
             { item: 'megacells:cell_component_1m', count: 2, chance: 0.3 },
@@ -71,8 +62,6 @@ LootJS.modifiers(event => {
     addLootToStructure('#minecraft:village', StructurelootTables.village);
     addLootToStructure("undergarden:catacombs", StructurelootTables.catacombs);
     addLootToStructure("ad_astra:meteor", StructurelootTables.meteor);
-    addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
-    addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
     addLootToStructure('ad_astra:pygro_village',StructurelootTables.pygroVillage);
     addLootToStructure('ad_astra:pygro_tower',StructurelootTables.pygroVillage);
@@ -167,7 +156,17 @@ LootJS.modifiers(event => {
         ],
         simple_dungeon:[
         {item: 'pneumaticcraft:spawner_agitator', count: 1, chance: 1 },
-        ]
+        ],
+        //月球村庄箱子
+        moonVillage: [
+            { item: 'ae2:item_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'ae2:fluid_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'appmek:chemical_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'ae2:fluix_smart_dense_cable', count: 26, chance: 0.8 },
+            { item: 'ae2:drive', count: 1, chance: 0.4 },
+            { item: 'ae2:energy_cell', count: 1, chance: 0.4 },
+        ],
+
     }
     function addLootToTable(LootTableID, lootEntries) {
         lootEntries.forEach(entry => {
@@ -199,6 +198,8 @@ LootJS.modifiers(event => {
     addLootToTable("aether:entities/slider", LootToLootTables.slider);
     addLootToTable("aether:chests/dungeon/silver/silver_dungeon_reward", LootToLootTables.silver_dungeon_reward);
     addLootToTable("aether:chests/dungeon/gold/gold_dungeon_reward", LootToLootTables.golden_dungeon_reward);
+    addLootToTable("ad_astra:chests/village/moon/house", LootToLootTables.moonVillage);
+    addLootToTable("ad_astra:chests/village/moon/blacksmith", LootToLootTables.moonVillage);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)
@@ -246,8 +247,6 @@ LootJS.modifiers(event => {
         "sophisticatedbackpacks:inject/chests/desert_pyramid",
         "sophisticatedbackpacks:inject/chests/bastion_treasure",
         "sophisticatedbackpacks:inject/chests/abandoned_mineshaft",
-        "ad_astra:chests/village/moon/blacksmith",
-        "ad_astra:chests/village/moon/house"
     ];
     lootLocation.forEach(disableLootbyLocation);
 

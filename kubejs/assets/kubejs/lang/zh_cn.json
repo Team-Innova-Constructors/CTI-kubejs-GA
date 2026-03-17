@@ -164,7 +164,8 @@
     "item.kubejs.violium_core":"维奥能量核心",
     "item.kubejs.ancient_circuitboard":"始源之板",
     "item.kubejs.enriched_refined_glowstone":"富集强化萤石",
-    "item.kubejs.uncomplete_upgrade_augment_6":"待注入的活化彩钢组件",
+    "item.kubejs.uncomplete_upgrade_augment_7":"待注入的极寒组件",
+    "item.kubejs.uncomplete_upgrade_augment_8":"待注入的活化彩钢组件",
     "item.kubejs.empty_record":"空白唱片",
     "item.kubejs.aetheric_thermite":"神能铝热剂",
     "item.kubejs.phoenix_ingot":"凤凰锭",
@@ -375,7 +376,7 @@
     "material.kubejs.star_dragon.encyclopedia": "",
 
     "material.kubejs.endergobber": "末影戈伯",
-    "material.kubejs.endergobber.flavor": "末影戈伯",
+    "material.kubejs.endergobber.flavor": "结束了?",
     "material.kubejs.endergobber.encyclopedia": "戈伯的最终形态！",
 
     "item.kubejs.swet_bronze_ingot": "史维特青铜锭",

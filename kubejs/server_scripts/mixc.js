@@ -32,6 +32,7 @@ ServerEvents.recipes(event => {
     }
    event.shapeless('9x etshtinker:blitz_lumium', 'kubejs:blitz_luminium_block')
    event.shapeless('kubejs:blitz_luminium_block', '9x etshtinker:blitz_lumium')
+
    //星图
    event.shaped(Item.of('cti:astra_tablet_5', 1), [
       'AAA',
@@ -112,6 +113,11 @@ ServerEvents.recipes(event => {
       'avaritia:neutron_nugget',
    ]
    )
+   event.shapeless(Item.of('ae2:fluix_covered_cable', 1), [
+      'thermal:white_rockwool',
+      'ae2:fluix_glass_cable',
+   ]
+   )
    event.shapeless(Item.of('immersiveengineering:graphite_electrode').withNBT('{Unbreakable:1b}'), [
       'immersiveengineering:graphite_electrode',
       'l2complements:eternium_ingot'
@@ -121,6 +127,20 @@ ServerEvents.recipes(event => {
       'kubejs:crystal_ender',
       'minecraft:snowball'
    ]
+   )
+   event.shaped(Item.of('cti:feima_ingot', 2), [
+      'BAB',
+      'DED',
+      'CFC'
+   ],
+      {
+         A: 'minecraft:tropical_fish',
+         B: 'tinkers_reforged:duralumin_ingot',
+         C: 'minecraft:soul_sand',
+         D: 'etshtinker:hardlead_plate',
+         E: 'iceandfire:graveyard_soil',
+         F: 'etshtinker:basalz_signalum',
+      }
    )
    event.shapeless(Item.of('tconstruct:seared_brick',4), [
       'tconstruct:seared_bricks',
@@ -133,6 +153,14 @@ ServerEvents.recipes(event => {
    event.shapeless(Item.of('minecraft:music_disc_wait',1), [
       'kubejs:empty_record',
       'minecraft:blue_dye'
+   ]
+   )
+   event.shapeless(Item.of('waystones:waystone',1), [
+      'waystones:sharestone',
+   ]
+   )
+   event.shapeless(Item.of('waystones:sharestone',1), [
+      'waystones:waystone',
    ]
    )
 
@@ -659,7 +687,7 @@ event.shaped(Item.of('dimstorage:dimensional_chest', 1), [
 ],
    {
       A: 'tinkers_thinking:tinkers_bronze_ingot',
-      C: 'ae2:singularity',
+      C: 'minecraft:ender_eye',
    }
 )
 event.shaped(Item.of('dimstorage:dimensional_tank', 1), [
@@ -669,7 +697,7 @@ event.shaped(Item.of('dimstorage:dimensional_tank', 1), [
 ],
    {
       A: 'tinkers_thinking:tinkers_bronze_ingot',
-      C: 'ae2:singularity',
+      C: 'minecraft:ender_eye',
       B: '#forge:glass',
    }
 )
