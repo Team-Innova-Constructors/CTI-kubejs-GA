@@ -149,13 +149,13 @@ event.custom({
   "allow_crystal": true,
   "inputs": [
     {
-      "item": "aquamirae:oxygelium"
+      "item": "aquamirae:oxygen_tank"
     },
     {
       "item": "aquamirae:elodea"
     },
     {
-      "item": "kubejs:luminous_metal_plate"
+      "item": "l2complements:soul_flame"
     },
     {
       "item": "twilightforest:torchberries"

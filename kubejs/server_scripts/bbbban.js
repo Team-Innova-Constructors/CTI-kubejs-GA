@@ -43,7 +43,6 @@ ServerEvents.recipes(event => {
 	event.remove([{ mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
 	event.remove([{ mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
 	event.remove([{ mod: 'biomancy', output: 'biomancy:primordial_core' }])
-	event.remove([{ mod: 'biomancy', output: 'biomancy:maw_hopper' }])
 	event.remove([{ mod: 'botania', output: 'botania:loonium' }])
 	event.remove([{ mod: 'enigmaticlegacy', output: 'enigmaticlegacy:extradimensional_eye' }])
 

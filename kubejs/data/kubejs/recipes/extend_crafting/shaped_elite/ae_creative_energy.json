@@ -1,0 +1,35 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    " ABABABA ",
+    " BCCDCCB ",
+    " ACCDCCA ",
+    " BDDEDDB ",
+    " ACCDCCA ",
+    " BCCDCCB ",
+    " ABABABA ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:carbon_plate"
+    },
+    "B": {
+      "item": "cti:aluminium_glass"
+    },
+    "C": {
+      "item": "ae2:fluix_block"
+    },
+    "D": {
+      "item": "megacells:mega_energy_cell"
+    },
+    "E": {
+      "item": "ae2:creative_energy_cell"
+    }
+  },
+  "result": {
+    "item": "ae2:creative_energy_cell",
+    "count": 2
+  }
+}

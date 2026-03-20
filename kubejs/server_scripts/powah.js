@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
     event.recipes.powah.energizing(["minecraft:iron_ingot","minecraft:gold_ingot"],  Item.of("powah:steel_energized",2),100000)
     event.recipes.powah.energizing(["minecraft:iron_block","minecraft:gold_block"],  Item.of('powah:energized_steel_block',2),900000)
-    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',80000)
+    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',80000)
     event.recipes.powah.energizing(['tinkers_reforged:red_beryl_gem',"tinkers_reforged:hureaulite_gem","tinkerscalibration:vibrating_crystal","tinkers_reforged:epidote_gem","minecraft:diamond","ae2:fluix_crystal"], Item.of("etshtinker:earth_crystal",1),2500000)
     event.recipes.powah.energizing(["ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block"], Item.of("ae2:charged_certus_quartz_crystal",24),1024000)
     let level=[

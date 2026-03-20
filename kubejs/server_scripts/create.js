@@ -249,8 +249,8 @@ event.recipes.create.sequenced_assembly([
     Item.of('tconstruct:slimesteel_ingot',2)
 ]  ,Item.of("minecraft:iron_ingot"), [
     event.recipes.createDeploying('minecraft:iron_ingot', ['minecraft:iron_ingot', 'tconstruct:seared_brick']),
+    event.recipes.create.pressing('minecraft:iron_ingot','minecraft:iron_ingot'),
     event.recipes.create.filling( 'minecraft:iron_ingot', ['minecraft:iron_ingot', Fluid.of('tconstruct:sky_slime').withAmount(250)]),
     event.recipes.create.filling( 'minecraft:iron_ingot', ['minecraft:iron_ingot', Fluid.of('tconstruct:blazing_blood').withAmount(100)]),
-    event.recipes.create.pressing('minecraft:iron_ingot','minecraft:iron_ingot')
 ]).transitionalItem('minecraft:iron_ingot').loops(2)
 })
