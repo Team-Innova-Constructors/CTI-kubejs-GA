@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x create:powdered_obsidian']).superheated()
 
     event.recipes.create.mixing(Item.of('ae2:fluix_crystal',32), ['12x minecraft:quartz','12x ae2:charged_certus_quartz_crystal',Fluid.of('thermal:redstone').withAmount(1000)])
-    event.recipes.create.mixing(Fluid.of('thermal:redstone').withAmount(1000), ['4x minecraft:redstone']).heated()
+    event.recipes.create.mixing(Fluid.of('thermal:redstone').withAmount(900), ['9x minecraft:redstone']).heated()
     //烈光合金部件
     event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:chestplate_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:leggings_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:boots_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('etshtinker:ionizer', '{Material:"cti:xenoglarium"}').withChance(0.05),Item.of('etshtinker:plasma_generator', '{Material:"cti:xenoglarium"}').withChance(0.05)], ['etshtinker:stellaralloy', 'cti:xenoglarium_ingot'])
     event.recipes.create.deploying([Item.of('solidarytinker:mining_core', '{Material:"tconstruct:ancient_hide"}')],['mekanism:alloy_atomic', 'minecraft:netherite_scrap'])

@@ -266,6 +266,8 @@ ServerEvents.recipes(event => {
 		'immersiveengineering:mineral/cinnabar',
 		'immersiveengineering:mineral/auricupride',
 		'immersiveengineering:mineral/chalcopyrite',
+		'immersiveengineering:mineral/laterite',
+		'immersiveengineering:mineral/galena',
 		'createaddition:compat/immersiveengineering/sphalerite',
 		'immersivepetroleum:reservoirs/aquifer',
 		'immersivepetroleum:reservoirs/lava',

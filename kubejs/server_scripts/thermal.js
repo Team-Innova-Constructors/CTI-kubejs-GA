@@ -52,9 +52,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crystallizer('create:andesite_casing', ['#minecraft:logs', Fluid.of("tinkersinnovation:molten_andesite_alloy", 90)]).energy(2000)
   event.recipes.thermal.crystallizer('create:brass_casing', ['#minecraft:logs', Fluid.of("tconstruct:molten_brass", 90)]).energy(2000)
   //熔岩炉
-  event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(400000)
-  event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(400000)
-  event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_petrotheum', 250), 'kubejs:dust_petrotheum').energy(400000)
+  event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(200000)
+  event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(200000)
+  event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_petrotheum', 250), 'kubejs:dust_petrotheum').energy(200000)
   event.recipes.thermal.crucible(Fluid.of('thermal:redstone', 900), 'kubejs:crystal_redstone').energy(40000)
   event.recipes.thermal.crucible(Fluid.of('thermal:glowstone', 1000), 'kubejs:crystal_glowstone').energy(40000)
   event.recipes.thermal.crucible(Fluid.of('thermal:ender', 1000), 'kubejs:crystal_ender').energy(40000)
