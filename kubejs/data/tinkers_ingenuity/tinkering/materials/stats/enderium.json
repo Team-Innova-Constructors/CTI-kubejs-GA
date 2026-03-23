@@ -14,6 +14,8 @@
       "melee_attack": 7
     },
     "tconstruct:maille": {},
+    "tconstruct:grip": null,
+    "tconstruct:limb": null,
     "tconstruct:plating_helmet": {
       "armor": 9.0,
       "durability": 1100,

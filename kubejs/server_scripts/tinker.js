@@ -29,6 +29,17 @@ ServerEvents.recipes(event => {
             }
         )
     }
+    function addOverslime(item,amount){
+        event.custom(
+          {
+            "type": "tconstruct:overslime_modifier",
+            "ingredient": {
+              "item": item
+            },
+            "restore_amount": amount
+          }
+        )
+    }
 
     addSevering("aether:valkyrie","kubejs:broken_victory_medal",2)
 
@@ -435,4 +446,48 @@ event.custom({
   }
 })
 
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "ae2:annihilation_plane"
+    },
+    {
+      "item": "ae2:singularity",
+    },
+    {
+      "item":"thermal:enderium_ingot",
+      "amount_needed": 4
+    }
+  ],
+  "level": 1,
+  "result": "cti:distanced_overfill",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "cti:slime_can"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:distanced_overfill",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "cti:slime_can"
+  }
+})
+
+addOverslime("tconstruct:ender_slime_ball",80)
+addOverslime("tconstruct:ender_congealed_slime",360)
+addOverslime("tconstruct:ender_slime",972)
+
+addOverslime("aether:swet_ball",120)
+addOverslime("aether_redux:golden_swet_ball",120)
+addOverslime("aether_redux:vanilla_swet_ball",120)
+addOverslime("aether_redux:dark_swet_ball",120)
+addOverslime("industrialforegoing:pink_slime",480)
 })
