@@ -30,7 +30,7 @@
     "etshtinker:ionizer": {
       "cooldown": 20,
       "plasmarange": 16,
-      "damagemultiplier": 7
+      "damagemultiplier": 5
     },
     "etshtinker:plasma_generator": {
       "damagemultiplier": 1.2,

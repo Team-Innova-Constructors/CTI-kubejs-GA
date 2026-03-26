@@ -6,7 +6,7 @@
     "etshtinker:ionizer": {
       "cooldown": 16,
       "plasmarange": 35,
-      "damagemultiplier": 10.05
+      "damagemultiplier": 8.05
     },
     "etshtinker:plasma_generator": {
       "damagemultiplier": 2.07,
@@ -71,8 +71,8 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 80,
       "exert_times": 60,
-      "attack_frequency": 3,
-      "kill_threshold": 0.36
+      "attack_frequency": 5,
+      "kill_threshold": 0.18
     }
   }
 }

@@ -6,7 +6,7 @@
     "etshtinker:ionizer": {
       "cooldown": 16,
       "plasmarange": 60,
-      "damagemultiplier": 9.05
+      "damagemultiplier": 6.75
     },
     "tconstruct:binding": {},
     "tconstruct:handle": {
@@ -65,8 +65,8 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 45,
       "exert_times": 45,
-      "attack_frequency": 4,
-      "kill_threshold": 0.28
+      "attack_frequency": 14,
+      "kill_threshold": 0.14
     }
   }
 }
