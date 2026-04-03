@@ -51,6 +51,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crystallizer('etshtinker:knsu', ['thermal:niter_dust', Fluid.of('cofh_core:honey', 250)]).energy(10000)
   event.recipes.thermal.crystallizer('create:andesite_casing', ['#minecraft:logs', Fluid.of("tinkersinnovation:molten_andesite_alloy", 90)]).energy(2000)
   event.recipes.thermal.crystallizer('create:brass_casing', ['#minecraft:logs', Fluid.of("tconstruct:molten_brass", 90)]).energy(2000)
+  event.recipes.thermal.crystallizer('create:copper_casing', ['#minecraft:logs', Fluid.of("tconstruct:molten_copper", 90)]).energy(2000)
   //熔岩炉
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(200000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(200000)
@@ -61,14 +62,14 @@ ServerEvents.recipes(event => {
   //热解炉
   event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(1.5), Item.of('minecraft:netherite_scrap').withChance(0.8), Fluid.of('kubejs:zirconium_fluid', 90)], 'kubejs:stable_slag').energy(2000)
   //压缩能源炉
-  event.recipes.thermal.compression_fuel(Fluid.of('thermal:refined_fuel', 1000)).energy(16000000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(32000000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(5600000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:gasoline', 1000)).energy(49000000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(72000000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:napalm', 1000)).energy(62500000)
+  event.recipes.thermal.compression_fuel(Fluid.of('thermal:refined_fuel', 1000)).energy(5200000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(6400000)
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(7950000)
-  event.recipes.thermal.compression_fuel(Fluid.of('kubejs:ethyne', 100)).energy(95000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:gasoline', 1000)).energy(9800000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(10200000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(14400000)
+  event.recipes.thermal.compression_fuel(Fluid.of('kubejs:ethyne', 100)).energy(9500000)
+
 //有机灌注器
   event.recipes.thermal.insolator(['thermal:rubberwood_log',Item.of('thermal:rubberwood_sapling').withChance(1.1)],'thermal:rubberwood_sapling').water(1000).energy(60000)
   event.recipes.thermal.insolator(['4x ars_nouveau:purple_archwood_log',Item.of('ars_nouveau:purple_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bastion_pod').withChance(0.25)],'ars_nouveau:purple_archwood_sapling').water(1000).energy(60000)
@@ -79,12 +80,10 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.insolator(['tofucraft:seeds_soybeans',Item.of('tofucraft:seeds_soybeans').withChance(1.1)],'tofucraft:seeds_soybeans').water(1000).energy(60000)
   event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_nether',Item.of('tofucraft:seeds_soybeans_nether').withChance(0.5)],'tofucraft:seeds_soybeans_nether').water(10000).energy(120000)
   event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_soul',Item.of('tofucraft:seeds_soybeans_soul').withChance(0.1)],'tofucraft:seeds_soybeans_soul').water(10000).energy(120000)
-  event.recipes.thermal.insolator(['farmersrespite:coffee_berries',Item.of('farmersrespite:coffee_berries').withChance(1.31)],'farmersrespite:coffee_berries').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['nethersdelight:propelpearl',Item.of('nethersdelight:propelpearl').withChance(1.31)],'nethersdelight:propelpearl').water(1000).energy(60000)
   event.recipes.thermal.insolator(['twilightforest:torchberries',Item.of('twilightforest:torchberries').withChance(1.31)],'twilightforest:torchberries').water(1000).energy(60000)
   event.recipes.thermal.insolator(['ends_delight:chorus_succulent',Item.of('ends_delight:chorus_succulent').withChance(1.31)],'ends_delight:chorus_succulent').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['minecraft:warped_fungus',Item.of('minecraft:warped_fungus').withChance(1.31)],'minecraft:warped_fungus').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['minecraft:crimson_fungus',Item.of('minecraft:crimson_fungus').withChance(1.31)],'minecraft:crimson_fungus').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['minecraft:warped_fungus',Item.of('minecraft:warped_fungus').withChance(1.31),'6x minecraft:warped_stem','9x minecraft:warped_wart_block'],'minecraft:warped_fungus').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['minecraft:crimson_fungus',Item.of('minecraft:crimson_fungus').withChance(1.31),'6x minecraft:crimson_stem','9x minecraft:nether_wart_block'],'minecraft:crimson_fungus').water(1000).energy(60000)
   event.recipes.thermal.insolator(['twilightforest:mushgloom',Item.of('twilightforest:mushgloom').withChance(1.31)],'twilightforest:mushgloom').water(1000).energy(60000)
   //冷冻机
   event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(2000)

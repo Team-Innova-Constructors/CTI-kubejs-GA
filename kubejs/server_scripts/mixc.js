@@ -164,6 +164,7 @@ ServerEvents.recipes(event => {
    ]
    )
 
+
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [
       'BAB',

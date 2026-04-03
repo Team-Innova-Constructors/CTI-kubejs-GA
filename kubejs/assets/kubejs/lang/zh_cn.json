@@ -37,13 +37,21 @@
     "fluid.kubejs.phenol": "苯酚",
     "fluid.kubejs.benzoic_acid": "苯甲酸",
 
+    "fluid.kubejs.vinegar": "流体醋",
+
     "fluid.kubejs.molten_blue_sky": "熔融碧空",
     "fluid.kubejs.molten_azure_swet": "天蓝史维特粘浆",
     "fluid.kubejs.molten_gold_swet": "金黄史维特粘浆",
     "fluid.kubejs.molten_dark_swet": "暗黑史维特粘浆",
     "fluid.kubejs.molten_swet_bronze": "熔融史维特青铜",
 
-    
+    "item.kubejs.sausage":"肉肠",
+    "item.kubejs.cooked_sausage":"熟肉肠",
+    "item.kubejs.liver":"肝",
+    "item.kubejs.oxtail":"牛尾",
+    "item.kubejs.heart":"心脏",
+    "item.kubejs.brain":"脑子",
+    "item.kubejs.ribs":"排骨",
     "item.kubejs.molten_veridium_bucket":"熔融实金桶",
     "item.kubejs.molten_gravitite_bucket":"熔融重力晶桶",
     "item.kubejs.molten_sentrite_bucket":"熔融哨石桶",
