@@ -2,68 +2,68 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 1.31,
-      "mining_speed": -0.75,
-      "melee_speed": 4.75,
-      "melee_damage": 1.14
+      "durability": -0.8,
+      "mining_speed": 0.15,
+      "melee_speed": 0.1,
+      "melee_damage": -0.2
     },
     "tconstruct:head": {
-      "durability": 2018,
-      "mining_speed": 2.5,
-      "mining_tier": "solidarytinker:momo",
-      "melee_attack": 9
+      "durability": 325,
+      "mining_speed": 3.5,
+      "mining_tier": "minecraft:iron",
+      "melee_attack": 2
     },
     "tconstruct:limb": {
-      "durability": 2018,
-      "draw_speed": 0.3,
-      "velocity": 2.3,
-      "accuracy": 1.5
+      "durability": 310,
+      "draw_speed": 0.1,
+      "velocity": 1.1,
+      "accuracy": 0.8
     },
     "tconstruct:grip": {
-      "durability": 1.9,
-      "accuracy": 2.0,
-      "melee_damage": 5.0
+      "durability": 0.8,
+      "accuracy": 1.0,
+      "melee_damage": 2.0
     },
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 4.0,
-      "durability": 750,
+      "armor": 2,
+      "durability": 235,
       "knockback_resistance": 0.2,
       "toughness": 3.0
     },
     "tconstruct:plating_chestplate": {
-      "armor": 9.0,
-      "durability": 1130,
+      "armor": 4.0,
+      "durability": 265,
       "knockback_resistance": 0.2,
-      "toughness": 6.0
+      "toughness": 2.0
     },
     "tconstruct:plating_leggings": {
-      "armor": 7.0,
-      "durability": 910,
+      "armor": 3.0,
+      "durability": 244,
       "knockback_resistance": 0.2,
-      "toughness": 4.0
+      "toughness": 2.0
     },
     "tconstruct:plating_boots": {
-      "armor": 4.0,
-      "durability": 890,
+      "armor": 1.0,
+      "durability": 221,
       "knockback_resistance": 0.2,
       "toughness": 3.0
     },
     "tconstruct:plating_shield": {
-      "durability": 1360,
+      "durability": 450,
       "knockback_resistance": 0.4,
-      "toughness": 5
+      "toughness": 2
     },
     "tinkersinnovation:shield_plate": {
-      "durability": 1780,
-      "armor": 5.0,
+      "durability": 520,
+      "armor": 3.0,
       "toughness": 4,
       "knockback_resistance": 0.4,
       "block_amount": 0.3,
-      "shield_amount": 5
+      "shield_amount": 2
     },
     "etshtinker:fluid_chamber": {
-      "fluid_capacity": 30000
+      "fluid_capacity": 20000
     },
     "etshtinker:ionizer": {
       "cooldown": 100,

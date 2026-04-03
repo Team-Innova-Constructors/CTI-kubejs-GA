@@ -41,6 +41,17 @@
         "durability": 4330,
         "knockback_resistance": 0.5,
         "toughness": 15
+      },
+      "etshtinker:ionizer": {
+        "cooldown": 60,
+        "plasmarange": 24,
+        "damagemultiplier": 6
+      },
+      "etshtinker:plasma_generator": {
+        "damagemultiplier": 1.75,
+        "criticalrate": 0.4,
+        "fluidefficiency": 4,
+        "slash_color": 6
       }
     }
   }

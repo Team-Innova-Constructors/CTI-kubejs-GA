@@ -2,52 +2,52 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": -0.25,
+      "durability": -0.35,
       "mining_speed": -0.05,
       "melee_speed": 0.75,
-      "melee_damage": 0.14
+      "melee_damage": 0
     },
     "tconstruct:head": {
-      "durability": 666,
-      "mining_speed": 1.6,
-      "mining_tier": "minecraft:diamond",
-      "melee_attack": 3
+      "durability": 278,
+      "mining_speed": 1.1,
+      "mining_tier": "minecraft:iron",
+      "melee_attack": 2
     },
     "tconstruct:limb": {
-      "durability": 333,
-      "draw_speed": 0.3,
-      "velocity": 1.1,
+      "durability": 241,
+      "draw_speed": 0.5,
+      "velocity": 1.0,
       "accuracy": 1.5
     },
     "tconstruct:grip": {
-      "durability": 1.3,
+      "durability": 0.6,
       "accuracy": 1.0,
       "melee_damage": 3.0
     },
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 3.0,
-      "durability": 333,
+      "armor": 2.0,
+      "durability": 165,
       "knockback_resistance": 0.1,
-      "toughness": 5.0
+      "toughness": 2.0
     },
     "tconstruct:plating_chestplate": {
-      "armor": 7.0,
-      "durability": 633,
+      "armor": 4.0,
+      "durability": 352,
       "knockback_resistance": 0.1,
-      "toughness": 5.0
+      "toughness": 3.0
     },
     "tconstruct:plating_leggings": {
-      "armor": 6.0,
-      "durability": 433,
+      "armor": 3.0,
+      "durability": 253,
       "knockback_resistance": 0.1,
-      "toughness": 5.0
+      "toughness": 3.0
     },
     "tconstruct:plating_boots": {
-      "armor": 3.0,
-      "durability": 533,
+      "armor": 2.0,
+      "durability": 178,
       "knockback_resistance": 0.1,
-      "toughness": 5.0
+      "toughness": 2.0
     },
     "tconstruct:plating_shield": {
       "durability": 233,
@@ -63,39 +63,39 @@
       "shield_amount": 2
     },
     "etshtinker:fluid_chamber": {
-      "fluid_capacity": 3000
+      "fluid_capacity": 5000
     },
     "etshtinker:ionizer": {
-      "cooldown": 60,
+      "cooldown": 40,
       "plasmarange": 50,
-      "damagemultiplier": 2.5
+      "damagemultiplier": 6.5
     },
     "tinkers_ingenuity:battery": {
-      "energy_capacity": 56000,
-      "durability": 0.4
+      "energy_capacity": 60000,
+      "durability": 0.1
     },
     "tinkers_ingenuity:laser_medium": {
-      "laser_range": 35,
-      "cooldown": 0.2
+      "laser_range": 10,
+      "cooldown": 0.4
     },
     "tinkers_ingenuity:curio_extra": {},
     "tinkers_ingenuity:curio_main": {
-      "movement_speed": 0.4,
-      "armor": 1.5,
-      "toughness": 1.3,
-      "attack": 0.0,
-      "arrow_damage": 0.1
+      "movement_speed": 0.1,
+      "armor": 0.2,
+      "toughness": 0.1,
+      "attack": 0.15,
+      "arrow_damage": 0.2
     },
     "solidarytinker:soulge_heart": {
-      "detection_range": 20,
-      "exert_times": 8,
-      "attack_frequency": 6,
-      "kill_threshold": 0.08
+      "detection_range": 10,
+      "exert_times": 18,
+      "attack_frequency": 8,
+      "kill_threshold": 0.09
     },
     "solidarytinker:core_battery": {
-      "attack_range": 15,
-      "target_amount": 9,
-      "energy_capability": 576540
+      "attack_range": 20,
+      "target_amount": 3,
+      "energy_capability": 100000
     }
   }
 }

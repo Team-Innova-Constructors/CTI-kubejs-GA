@@ -20,9 +20,9 @@
       "fluid_capacity": 240000
     },
     "etshtinker:ionizer": {
-      "cooldown": 48,
+      "cooldown": 58,
       "plasmarange": 36,
-      "damagemultiplier": 25
+      "damagemultiplier": 9.5
     },
     "etshtinker:plasma_generator": {
       "damagemultiplier": 5.5,

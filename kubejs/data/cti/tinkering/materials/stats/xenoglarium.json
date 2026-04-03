@@ -10,9 +10,9 @@
       "slash_color": 6
     },
     "etshtinker:ionizer": {
-      "cooldown": 30,
+      "cooldown": 40,
       "plasmarange": 26,
-      "damagemultiplier": 8.3
+      "damagemultiplier": 6.3
     },
     "tconstruct:binding": {},
     "tconstruct:handle": {
