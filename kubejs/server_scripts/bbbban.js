@@ -213,6 +213,12 @@ ServerEvents.recipes(event => {
 		'extradelight:sextuple_meat_treat_bc',
 		'extradelight:oven/haggis_block_item',
 		'extradelight:pot/bhutan_bc',
+		//按照匠魂的比例定义
+		'etshtinker:thermal/crystalizer/soul_fluix',
+		'thermal:machines/crucible/crucible_glowstone_block',
+		'thermal:machines/crucible/crucible_glowstone_dust',
+		'tconstruct:smeltery/alloys/molten_lumium',
+		'tconstruct:smeltery/alloys/molten_enderium',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 

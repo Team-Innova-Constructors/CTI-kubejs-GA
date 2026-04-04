@@ -2,7 +2,7 @@ ServerEvents.recipes(event =>
 {
 //机械动力：矿石开掘配方,drilling后面的括号是需要输出的物品,矿脉名称,生成权重,以 32 RPM 为单位的提取时间。
 //石英矿
-event.recipes.createoreexcavation.drilling([Item.of('minecraft:quartz'),Item.of('minecraft:ancient_debris').withChance(0.3)],'{"text": "石英矿"}', 25, 60)
+event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_redstone').withChance(0.95),Item.of('createoreexcavation:raw_diamond').withChance(0.7),Item.of('createoreexcavation:raw_emerald').withChance(0.6),Item.of('minecraft:ancient_debris').withChance(0.5)],'{"text": "下界稀有矿"}', 25, 60)
 //钻头等级
 .drill('createoreexcavation:netherite_drill')
 //生物群落白名单
@@ -14,9 +14,20 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:quartz'),Item.of(
 
 
 //重金属高温熔岩
-event.recipes.createoreexcavation.extracting('kubejs:hot_heavymetal_lava 1000','{"text": "重金属高温熔岩"}', 30, 40)
+event.recipes.createoreexcavation.extracting('kubejs:hot_heavymetal_lava 1000','{"text": "重金属高温熔岩"}', 30, 30)
 //钻头等级
-.drill('#createoreexcavation:second_createore_drill')
+.drill('createoreexcavation:netherite_drill')
+//应力值
+.stress(384)
+//生物群落白名单
+.biomeWhitelist('minecraft:is_overworld')
+//配方id
+.id("hot_heavymetal_lava");
+
+//金属熔岩
+event.recipes.createoreexcavation.extracting('kubejs:hot_metal_lava 1000','{"text": "金属高温熔岩"}', 30, 30)
+//钻头等级
+.drill('createoreexcavation:netherite_drill')
 //应力值
 .stress(384)
 //生物群落白名单
@@ -35,9 +46,9 @@ event.recipes.createoreexcavation.extracting('kubejs:royal_jelly 1000','{"text":
 .id("royal_jelly");
 
 //晶体高温熔岩
-event.recipes.createoreexcavation.extracting('kubejs:hot_heavycrystal_lava 1000','{"text": "晶体高温熔岩"}', 30, 40)
+event.recipes.createoreexcavation.extracting('kubejs:hot_heavycrystal_lava 1000','{"text": "晶体高温熔岩"}', 30, 30)
 //钻头等级
-.drill('#createoreexcavation:second_createore_drill')
+.drill('createoreexcavation:netherite_drill')
 //应力值
 .stress(384)
 //生物群落白名单
@@ -79,7 +90,7 @@ event.recipes.createoreexcavation.extracting('tconstruct:ender_slime 2000','{"te
 .id("end_slime");
 
 //富油
-event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "富油"}', 15, 40)
+event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 2000','{"text": "富油"}', 15, 20)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //无限量
@@ -92,7 +103,7 @@ event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000',
 .id("rich_oil");
 
 //贫油
-event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "贫油"}', 40, 40)
+event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "贫油"}', 40, 20)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //应力值
@@ -110,15 +121,6 @@ event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), It
 .biomeWhitelist('minecraft:is_nether')
 .stress(512)
 .id("cobalt_ardite_complex");
-
-
-//朱砂矿
-event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of('thermal:sulfur')],'{"text": "朱砂矿"}', 10, 80)
-.drill('#createoreexcavation:drills')
-.biomeWhitelist('minecraft:is_overworld')
-.stress(128)
-.id("cinnabar");
-
 
 //硫化铁矿
 event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.of('etshtinker:bismuthinite').withChance(0.5)], '{"text": "硫化铁矿"}', 35, 80)
@@ -154,12 +156,12 @@ event.recipes.createoreexcavation.drilling([Item.of('3x gobber2:gobber2_globette
 .id("gobber_ball_end");
 
 
-//高压晶体宝石矿
-event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_diamond'), Item.of('createoreexcavation:raw_emerald'),Item.of('minecraft:amethyst_cluster'),Item.of('minecraft:lapis_lazuli')], '{"text": "高压晶体矿"}', 40, 80)
+//晶体宝石矿
+event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of('thermal:apatite'),Item.of('thermal:niter'),Item.of('minecraft:lapis_lazuli')], '{"text": "硫质晶体矿"}', 40, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
 .biomeWhitelist('minecraft:is_overworld')
-.stress(512)
+.stress(256)
 .id("high_pressure_crystals");
 
 

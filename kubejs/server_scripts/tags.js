@@ -293,6 +293,10 @@ ServerEvents.tags('block', event => {
 
   event.add('forge:budding', 'cti:fracture_silicon_budding')
   event.add('forge:budding', 'cti:rasterite_budding')
+  event.add('forge:budding', 'tconstruct:budding_earth_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_sky_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_ichor_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_ender_slime_crystal')
 
   event.add('forge:completely_new_tag', 'forge:ores/zirconium')
   event.add('forge:completely_new_tag', 'forge:storage_blocks/raw_zirconium')
@@ -372,8 +376,20 @@ ServerEvents.tags('fluid', event => {
     'kubejs:molten_valkyrie',
     'kubejs:molten_refined_sentrite'
   ]
+  let gemSmallToolTip = [
+    'thermal:glowstone',
+  ]
+  let gemLargeToolTip = [
+    'thermal:redstone',
+  ]
   for (let i of metalToolTip) {
     event.add('tconstruct:tooltips/metal', `${i}`)
+  }
+  for (let i of gemSmallToolTip) {
+    event.add('tconstruct:tooltips/gem_small', `${i}`)
+  }
+  for (let i of gemLargeToolTip) {
+    event.add('tconstruct:tooltips/gem_large', `${i}`)
   }
   let slimeToolTip = [
     'kubejs:molten_azure_swet',

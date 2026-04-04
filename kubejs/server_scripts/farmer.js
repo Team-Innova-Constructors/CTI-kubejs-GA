@@ -223,7 +223,7 @@ ServerEvents.recipes(event => {
    event.recipes.thermal.insolator(['extradelight:mint',Item.of('extradelight:mint').withChance(4.1)],'extradelight:mint').water(2000).energy(8000)
    event.recipes.thermal.insolator(['culturaldelights:eggplant',Item.of('culturaldelights:white_eggplant').withChance(0.25),Item.of('culturaldelights:eggplant_seeds').withChance(1.1)],'culturaldelights:eggplant_seeds').water(2000).energy(8000)
    event.recipes.thermal.insolator([Item.of('thermal:tea').withChance(2.5),Item.of('thermal:tea_seeds').withChance(1.1)],'thermal:tea_seeds').water(1000).energy(20000)
-     event.recipes.thermal.insolator([Item.of('farmersrespite:coffee_berries').withChance(1.31),'farmersrespite:coffee_beans'],'farmersrespite:coffee_beans').water(1000).energy(100000)
+   event.recipes.thermal.insolator([Item.of('farmersrespite:coffee_berries').withChance(1.31),'farmersrespite:coffee_beans'],'farmersrespite:coffee_beans').water(1000).energy(100000)
 
    event.recipes.thermal.insolator(['undergarden:gloomgourd',Item.of('undergarden:gloomgourd_seeds').withChance(1.1)],'undergarden:gloomgourd_seeds').water(1000).energy(20000)
    event.recipes.thermal.insolator(['culturaldelights:cucumber',Item.of('culturaldelights:cucumber_seeds').withChance(1.1)],'culturaldelights:cucumber_seeds').water(1000).energy(20000)

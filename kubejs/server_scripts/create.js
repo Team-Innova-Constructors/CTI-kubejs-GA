@@ -30,8 +30,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.deploying('ae2:printed_logic_processor',['minecraft:gold_ingot', 'ae2:logic_processor_press']).keepHeldItem()
     event.recipes.create.deploying('kubejs:universal_press',['minecraft:iron_block', 'kubejs:universal_press']).keepHeldItem()
 
-
-
+    event.recipes.create.haunting('thermal:rich_slag','thermal:slag')
 
 event.recipes.create.sequenced_assembly([
     Item.of('ae2:calculation_processor')
