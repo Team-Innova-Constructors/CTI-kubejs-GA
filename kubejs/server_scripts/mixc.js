@@ -128,6 +128,10 @@ ServerEvents.recipes(event => {
       'minecraft:snowball'
    ]
    )
+   event.shapeless(Item.of('cti:test_tool',1), [
+      'ae2:certus_quartz_wrench',
+   ]
+   )
    event.shaped(Item.of('cti:feima_ingot', 2), [
       'BAB',
       'DED',
@@ -140,6 +144,44 @@ ServerEvents.recipes(event => {
          D: 'etshtinker:hardlead_plate',
          E: 'iceandfire:graveyard_soil',
          F: 'etshtinker:basalz_signalum',
+      }
+   )
+   event.shaped(Item.of('extradelight:pestle_amethyst',1), [
+      'A  ',
+      ' B ',
+      '   '
+   ],
+      {
+         A: 'minecraft:amethyst_shard',
+         B: 'minecraft:stick',
+      }
+   )
+   event.shaped(Item.of('extradelight:pestle_gilded_blackstone',1), [
+      'A  ',
+      ' B ',
+      '   '
+   ],
+      {
+         A: 'minecraft:gilded_blackstone',
+         B: 'minecraft:stick',
+      }
+   )
+   event.shaped(Item.of('extradelight:mortar_gilded_blackstone',1), [
+      'A A',
+      ' A ',
+      '   '
+   ],
+      {
+         A: 'minecraft:gilded_blackstone',
+      }
+   )
+   event.shaped(Item.of('extradelight:mortar_amethyst',1), [
+      'A A',
+      ' A ',
+      '   '
+   ],
+      {
+         A: 'minecraft:amethyst_shard',
       }
    )
    event.shapeless(Item.of('tconstruct:seared_brick',4), [
@@ -163,6 +205,7 @@ ServerEvents.recipes(event => {
       'waystones:waystone',
    ]
    )
+
 
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [

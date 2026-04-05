@@ -61,6 +61,30 @@ ServerEvents.tags('item', event => {
   event.add('curios:ring', 'cti:astra_tablet_5')
   event.add('curios:charm', 'cti:astra_tablet_5')
 
+  event.add('forge:sausage', 'kubejs:sausage')
+  event.add('forge:sausage/cooked', 'kubejs:cooked_sausage')
+  event.add('forge:chicken/scrap', 'farmersdelight:chicken_cuts')
+  event.add('forge:beef/scrap', 'farmersdelight:minced_beef')
+  event.add('forge:meat/roast/raw', 'farmersdelight:minced_beef')
+  event.add('forge:beef/roast', 'minecraft:beef')
+  event.add('forge:ground_meat/cooked', 'minecraft:cooked_beef')
+  event.add('forge:liver', 'kubejs:liver')
+  event.add('forge:heart', 'kubejs:heart')
+  event.add('forge:brain', 'kubejs:brain')
+  event.add('forge:beef/oxtail', 'kubejs:oxtail')
+  event.add('forge:meat/ribs/raw', 'kubejs:ribs')
+  event.add('forge:mutton/ribs', 'kubejs:ribs')
+  event.add('forge:chicken/ground/raw', 'minecraft:chicken')
+  event.add('forge:chicken/cubed', 'minecraft:chicken')
+  event.add('forge:chicken/cubed/cooked', 'minecraft:cooked_chicken')
+  event.add('forge:chicken/raw', 'minecraft:chicken')
+  event.add('forge:goat/stew','minecraft:mutton')
+  event.add('forge:rabbit/ground/raw','minecraft:rabbit')
+  event.add('forge:rabbit/saddle/raw','minecraft:rabbit')
+  event.add('forge:rabbit/leg/raw','minecraft:rabbit')
+  event.add('forge:rabbit/thigh/raw','minecraft:rabbit')
+  event.add('forge:rabbit/cooked','minecraft:cooked_rabbit')
+
   event.add('kubejs:cell_1m', 'megacells:cell_component_1m')
   event.add('kubejs:cell_1m', 'ae2additions:cell_component_1024')
   event.add('kubejs:cell_4m', 'megacells:cell_component_4m')
@@ -273,6 +297,10 @@ ServerEvents.tags('block', event => {
 
   event.add('forge:budding', 'cti:fracture_silicon_budding')
   event.add('forge:budding', 'cti:rasterite_budding')
+  event.add('forge:budding', 'tconstruct:budding_earth_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_sky_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_ichor_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_ender_slime_crystal')
 
   event.add('forge:completely_new_tag', 'forge:ores/zirconium')
   event.add('forge:completely_new_tag', 'forge:storage_blocks/raw_zirconium')
@@ -371,8 +399,20 @@ ServerEvents.tags('fluid', event => {
     'kubejs:molten_valkyrie',
     'kubejs:molten_refined_sentrite'
   ]
+  let gemSmallToolTip = [
+    'thermal:glowstone',
+  ]
+  let gemLargeToolTip = [
+    'thermal:redstone',
+  ]
   for (let i of metalToolTip) {
     event.add('tconstruct:tooltips/metal', `${i}`)
+  }
+  for (let i of gemSmallToolTip) {
+    event.add('tconstruct:tooltips/gem_small', `${i}`)
+  }
+  for (let i of gemLargeToolTip) {
+    event.add('tconstruct:tooltips/gem_large', `${i}`)
   }
   let slimeToolTip = [
     'kubejs:molten_azure_swet',

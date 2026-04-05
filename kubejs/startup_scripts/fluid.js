@@ -137,6 +137,7 @@ StartupEvents.registry("fluid",event=>{
     createFluid(["molten_sentrite",0x454545,1500])
     createFluid(["molten_phoenix",0xFFA313,2500])
     createFluid(["molten_valkyrie",0xFFF99C,2500])
+    createFluid(["hot_metal_lava",0xFFAACF,4500])
     createFluid(["molten_refined_sentrite",0x353545,1500])
 
     createThinFluid(["redstone_additive",0x5D0021,1000])
@@ -152,4 +153,5 @@ StartupEvents.registry("fluid",event=>{
     createThinFluid(["molten_gold_swet",0xFFE671,1750])
     createThinFluid(["molten_dark_swet",0x3B1552,1750])
     createFluid(["molten_swet_bronze",0xFFF47D,1880])
+    createThinFluid(["vinegar",0xa56c32,25])
 })

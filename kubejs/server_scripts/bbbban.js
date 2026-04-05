@@ -210,6 +210,16 @@ ServerEvents.recipes(event => {
 		//维度箱子
 		'dimstorage:dimensional_tank',
 		'dimstorage:dimensional_chest',
+
+		'extradelight:sextuple_meat_treat_bc',
+		'extradelight:oven/haggis_block_item',
+		'extradelight:pot/bhutan_bc',
+		//按照匠魂的比例定义
+		'etshtinker:thermal/crystalizer/soul_fluix',
+		'thermal:machines/crucible/crucible_glowstone_block',
+		'thermal:machines/crucible/crucible_glowstone_dust',
+		'tconstruct:smeltery/alloys/molten_lumium',
+		'tconstruct:smeltery/alloys/molten_enderium',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -227,6 +237,9 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
 	event.remove({ id: 'drinkbeer:trade_box_normal' })
+	event.remove({ id: 'create:mixing/whippedcream_bottle_create' })
+	event.remove({ id: 'create:mixing/whippedcream_bucket_create' })
+	event.remove({ id: 'mythicbotany:mana_collector'})
 	//powah能耗增加
 	let powah = [
 		'powah:energizing/dry_ice',

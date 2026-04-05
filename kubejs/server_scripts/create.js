@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(Fluid.of('cti:lava_atomic').withAmount(1000), [Fluid.of('cti:lava_plasmatic').withAmount(1000),'tinkers_ingenuity:bedrock_alloy_ingot','aether_redux:gravitite_ingot'])
     event.recipes.create.mixing(Item.of('create:brass_ingot',2), [Fluid.of('tconstruct:molten_copper').withAmount(90),'create:zinc_ingot'])
     event.recipes.create.mixing(Item.of('createutilities:void_steel_ingot',2), ['2x create:brass_ingot','2x minecraft:ender_pearl'])
+
     event.recipes.create.mixing(Fluid.of('kubejs:redstone_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x minecraft:redstone']).superheated()
     event.recipes.create.mixing(Fluid.of('kubejs:diamond_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x thermal:diamond_dust']).superheated()
     event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x create:powdered_obsidian']).superheated()
@@ -27,6 +28,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.deploying('ae2:printed_logic_processor',['minecraft:gold_ingot', 'kubejs:universal_press']).keepHeldItem()
     event.recipes.create.deploying('ae2:printed_logic_processor',['minecraft:gold_ingot', 'ae2:logic_processor_press']).keepHeldItem()
     event.recipes.create.deploying('kubejs:universal_press',['minecraft:iron_block', 'kubejs:universal_press']).keepHeldItem()
+
+    event.recipes.create.haunting('thermal:rich_slag','thermal:slag')
 
 event.recipes.create.sequenced_assembly([
     Item.of('ae2:calculation_processor')

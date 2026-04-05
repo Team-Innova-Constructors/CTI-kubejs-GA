@@ -1,15 +1,13 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "         ",
-    " ABABABA ",
-    " BCCDCCB ",
-    " ACCDCCA ",
-    " BDDEDDB ",
-    " ACCDCCA ",
-    " BCCDCCB ",
-    " ABABABA ",
-    "         "
+    "ABABABA",
+    "BCCDCCB",
+    "ACCECCA",
+    "BDEFEDB",
+    "ACCECCA",
+    "BCCDCCB",
+    "ABABABA"
   ],
   "key": {
     "A": {
@@ -25,6 +23,9 @@
       "item": "megacells:mega_energy_cell"
     },
     "E": {
+      "item": "etshtinker:sculk_energycore"
+    },
+    "F": {
       "item": "ae2:creative_energy_cell"
     }
   },
