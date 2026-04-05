@@ -75,6 +75,10 @@ ServerEvents.tags('item', event => {
   event.add('biomancy:cannot_be_eaten_by_cradle', '#tconstruct:modifiable')
   //原版装备
   event.add('forge:completely_new_tag', 'kubejs:vanilla_equipment')
+
+  event.add('l2hostility:no_seal', 'ae2wtlib:wireless_universal_terminal')
+  event.add('l2hostility:no_seal', 'cti:slime_can')
+
   let vanillaEquipment = [
     'minecraft:leather_helmet',
     'minecraft:leather_chestplate',
@@ -312,6 +316,25 @@ ServerEvents.tags('block', event => {
   ]
   for (let i of ores) {
     event.add('forge:ores', `${i}`)
+  }
+
+  let silicated = [
+    'cti:zirconium_alloy_faucet',
+    'cti:zirconium_alloy_casting_table',
+    'cti:zirconium_alloy_casting_basin',
+    'cti:refinery_controller',
+    'cti:silicated_bricks',
+    'cti:silicated_glass',
+    'cti:silicated_drain',
+    'cti:silicated_duct',
+    'cti:silicated_valve',
+    'cti:silicated_ingot_gauge',
+    'cti:silicated_fuel_gauge',
+    'cti:silicated_chute'
+  ]
+  for (let i of silicated) {
+    event.add('minecraft:needs_diamond_tool', `${i}`)
+    event.add('minecraft:mineable/pickaxe', `${i}`)
   }
 })
 ServerEvents.tags('fluid', event => {

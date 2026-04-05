@@ -10,12 +10,11 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(Fluid.of('cti:lava_atomic').withAmount(1000), [Fluid.of('cti:lava_plasmatic').withAmount(1000),'tinkers_ingenuity:bedrock_alloy_ingot','aether_redux:gravitite_ingot'])
     event.recipes.create.mixing(Item.of('create:brass_ingot',2), [Fluid.of('tconstruct:molten_copper').withAmount(90),'create:zinc_ingot'])
     event.recipes.create.mixing(Item.of('createutilities:void_steel_ingot',2), ['2x create:brass_ingot','2x minecraft:ender_pearl'])
-    event.recipes.create.mixing(Fluid.of('kubejs:redstone_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x minecraft:redstone']).superheated()
-    event.recipes.create.mixing(Fluid.of('kubejs:diamond_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x thermal:diamond_dust']).superheated()
-    event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x create:powdered_obsidian']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:redstone_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x minecraft:redstone']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:diamond_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x thermal:diamond_dust']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x create:powdered_obsidian']).superheated()
 
     event.recipes.create.mixing(Item.of('ae2:fluix_crystal',32), ['12x minecraft:quartz','12x ae2:charged_certus_quartz_crystal',Fluid.of('thermal:redstone').withAmount(1000)])
-    event.recipes.create.mixing(Fluid.of('thermal:redstone').withAmount(900), ['9x minecraft:redstone']).heated()
     //烈光合金部件
     event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:chestplate_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:leggings_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:boots_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('etshtinker:ionizer', '{Material:"cti:xenoglarium"}').withChance(0.05),Item.of('etshtinker:plasma_generator', '{Material:"cti:xenoglarium"}').withChance(0.05)], ['etshtinker:stellaralloy', 'cti:xenoglarium_ingot'])
     event.recipes.create.deploying([Item.of('solidarytinker:mining_core', '{Material:"tconstruct:ancient_hide"}')],['mekanism:alloy_atomic', 'minecraft:netherite_scrap'])

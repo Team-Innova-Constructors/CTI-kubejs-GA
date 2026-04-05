@@ -481,6 +481,105 @@ event.custom({
   }
 })
 
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "biomancy:creator_mix"
+    },
+    {
+      "item":"tinkers_ingenuity:blood_binding_ingot",
+      "amount_needed": 2
+    },
+    {
+      "item": "tinkers_things:hematite",
+      "amount_needed": 4
+    }
+  ],
+  "level": 1,
+  "result": "cti:break_through",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "solidarytinker:soulge"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:break_through",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "solidarytinker:soulge"
+  }
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "solidarytinker:bloodmeat_ingot"
+    },
+    {
+      "item":"enigmaticlegacy:berserk_charm",
+    }
+  ],
+  "level": 1,
+  "result": "cti:blood_letting",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "solidarytinker:soulge"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:blood_letting",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "solidarytinker:soulge"
+  }
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "tinkerscalibration:oraclium_ingot",
+      "amount_needed": 4
+    },
+    {
+      "item":"enigmaticlegacy:cursed_stone",
+    }
+  ],
+  "level": 1,
+  "result": "cti:blasphemy",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "solidarytinker:soulge"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:blasphemy",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "solidarytinker:soulge"
+  }
+})
+
 addOverslime("tconstruct:ender_slime_ball",80)
 addOverslime("tconstruct:ender_congealed_slime",360)
 addOverslime("tconstruct:ender_slime",972)
