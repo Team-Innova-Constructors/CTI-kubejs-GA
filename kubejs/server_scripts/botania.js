@@ -65,4 +65,16 @@ ServerEvents.recipes(event => {
     },
     "toColor": 16729871
   })
+  event.shaped(Item.of('cti:mana_interface', 1), [
+    'ABA',
+    'BCB',
+    'ADA'
+  ],
+    {
+      A: 'botania:life_essence',
+      B: 'botania:gaia_ingot',
+      C: 'ae2:interface',
+      D: 'mythicbotany:mana_collector'
+   }
+   )
 })

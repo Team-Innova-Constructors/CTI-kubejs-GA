@@ -246,6 +246,7 @@ ServerEvents.recipes(event => {
     metalMaterial("kubejs:star_dragon","cti:molten_star_dragon","cti:star_dragon_ingot",9273)
     metalMaterialNoIngotMelt("kubejs:endergobber","tinkerscalibration:moltenendgobber","gobber2:gobber2_ingot_end",1750)
     metalMaterial("tinkers_ingenuity:blue_sky","kubejs:molten_blue_sky","tinkers_ingenuity:blue_sky_ingot",3900)
+    craftableMaterial("cti:unipolar_magnet","kubejs:unipolar_magnet_shard")
 event.custom({
   "type": "tconstruct:alloy",
   "inputs": [

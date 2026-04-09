@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(1.05), Item.of('thermal:cinnabar').withChance(2.65), Item.of('thermal:niter').withChance(2.3), Item.of('thermal:apatite').withChance(3.48)], 'kubejs:mineral_slag').energy(8000)
   event.recipes.thermal.pulverizer('ae2:fluix_dust', 'ae2:fluix_crystal').energy(800)
   event.recipes.thermal.pulverizer('ae2:certus_quartz_dust', 'ae2:certus_quartz_crystal').energy(800)
+  event.recipes.thermal.pulverizer('immersiveengineering:dust_coke', 'thermal:coal_coke')
   //冲压机
   event.recipes.thermal.press('8x ae2:printed_silicon', ['8x #forge:silicon', 'kubejs:universal_press']).energy(2000)
   event.recipes.thermal.press('kubejs:universal_press', ['#forge:storage_blocks/iron', 'kubejs:universal_press']).energy(2000)
@@ -35,6 +36,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.bottler('cti:advanced_speed_augment', ['kubejs:unfinished_advanced_speed_augment', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler('cti:upgrade_augment_8', ['kubejs:uncomplete_upgrade_augment_8', Fluid.of('kubejs:ethyne', 1000)]).energy(8000)
   event.recipes.thermal.bottler('cti:upgrade_augment_7', ['kubejs:uncomplete_upgrade_augment_7', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(8000)
+  event.recipes.thermal.bottler(Item.of('ae2:annihilation_plane').enchant('minecraft:fortune', 3), ['ae2:annihilation_plane', Fluid.of('kubejs:fluid_petrotheum', 50)]).energy(10000)
+  event.recipes.thermal.bottler(Item.of('ae2:annihilation_plane').enchant('minecraft:silk_touch', 1), ['ae2:annihilation_plane', Fluid.of('kubejs:fluid_cryotheum', 50)]).energy(10000)
   //精炼机
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)], Fluid.of('etshtinker:overchargedneutronium', 100))
   event.recipes.thermal.refinery([Item.of('immersiveengineering:dust_sulfur').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:light_oil', 100))
