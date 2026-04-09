@@ -346,7 +346,7 @@ ServerEvents.tags('block', event => {
     event.add('forge:ores', `${i}`)
   }
 
-  let silicated = [
+  let req_dmnd_pickaxe = [
     'cti:zirconium_alloy_faucet',
     'cti:zirconium_alloy_casting_table',
     'cti:zirconium_alloy_casting_basin',
@@ -358,9 +358,10 @@ ServerEvents.tags('block', event => {
     'cti:silicated_valve',
     'cti:silicated_ingot_gauge',
     'cti:silicated_fuel_gauge',
-    'cti:silicated_chute'
+    'cti:silicated_chute',
+    'cti:mana_interface'
   ]
-  for (let i of silicated) {
+  for (let i of req_dmnd_pickaxe) {
     event.add('minecraft:needs_diamond_tool', `${i}`)
     event.add('minecraft:mineable/pickaxe', `${i}`)
   }
