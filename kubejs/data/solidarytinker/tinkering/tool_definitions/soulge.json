@@ -48,15 +48,15 @@
       "type": "tconstruct:base_stats",
       "stats": {
         "tconstruct:attack_damage": 2,
-        "tconstruct:attack_speed": 0.5
+        "tconstruct:attack_speed": 1.25
       }
     },
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:attack_speed": 0.75,
-        "tconstruct:attack_damage": 0.75,
-        "tconstruct:durability": 1.5
+        "tconstruct:attack_speed": 1.25,
+        "tconstruct:attack_damage": 1.25,
+        "tconstruct:durability": 0.5
       }
     },
     {

@@ -85,6 +85,15 @@ ServerEvents.recipes(event => {
          C: 'l2complements:life_essence',
       }
    )
+   event.shaped(Item.of('tconstruct:clear_glass', 4), [
+      'AA ',
+      'AA ',
+      '   '
+   ],
+      {
+         A: 'cyclic:glass_connected',
+      }
+   )
    //末影珍珠
    event.shaped(Item.of('cyclic:eye_teleport', 1), [
       ' B ',
@@ -683,7 +692,7 @@ event.custom({
       }
    )
 
-   event.recipes.industrialforegoing.fluid_extractor('thermal:rubberwood_log','thermal:stripped_rubberwood_log',0.5,Fluid.of('industrialforegoing:latex',50))
+
    event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [

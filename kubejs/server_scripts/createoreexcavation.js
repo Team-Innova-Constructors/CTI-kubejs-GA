@@ -33,7 +33,7 @@ event.recipes.createoreexcavation.extracting('kubejs:hot_metal_lava 1000','{"tex
 //生物群落白名单
 .biomeWhitelist('minecraft:is_overworld')
 //配方id
-.id("hot_heavymetal_lava");
+.id("hot_metal_lava");
 
 event.recipes.createoreexcavation.extracting('kubejs:royal_jelly 1000','{"text": "蜂王浆"}', 30, 40)
 //钻头等级
@@ -168,7 +168,7 @@ event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of
 event.recipes.createoreexcavation.drilling([Item.of('ae2:silicon').withChance(0.7),Item.of('ae2:certus_quartz_crystal').withChance(0.8),Item.of('ae2:certus_quartz_dust').withChance(0.8),Item.of('ae2:fluix_crystal').withChance(0.4),Item.of('ae2:fluix_dust').withChance(0.4),Item.of('ae2:sky_stone_block')],'{"text": "侵入化远古陨石矿脉"}', 15, 40)
 .drill('#createoreexcavation:second_createore_drill')
 .biomeWhitelist('minecraft:is_overworld')
-.stress(768)
+.stress(512)
 .id("al");
 
 

@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')
   event.recipes.mekanismCrushing('4x ae2:certus_quartz_dust', 'ae2:quartz_block')
   event.recipes.mekanismCrushing('9x minecraft:sand', 'cyclic:compressed_cobblestone')
-  event.recipes.mekanismSmelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
+  event.smelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
   //富集仓
   event.recipes.mekanismEnriching("cti:enriched_mana", "cti:magic_crystal")
   event.recipes.mekanismEnriching("kubejs:enriched_refined_glowstone", 'mekanism:ingot_refined_glowstone')

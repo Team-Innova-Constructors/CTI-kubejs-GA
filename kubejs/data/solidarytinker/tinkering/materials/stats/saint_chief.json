@@ -4,7 +4,7 @@
     "tconstruct:handle": {
       "durability": 0.7,
       "mining_speed": 2.7,
-      "melee_speed": 1.2,
+      "melee_speed": 0.5,
       "melee_damage": 0.2
     },
     "tconstruct:head": {

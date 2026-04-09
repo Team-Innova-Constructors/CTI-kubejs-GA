@@ -19,6 +19,10 @@ ServerEvents.recipes(event => {
     //烈光合金部件
     event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:chestplate_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:leggings_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:boots_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('etshtinker:ionizer', '{Material:"cti:xenoglarium"}').withChance(0.05),Item.of('etshtinker:plasma_generator', '{Material:"cti:xenoglarium"}').withChance(0.05)], ['etshtinker:stellaralloy', 'cti:xenoglarium_ingot'])
     event.recipes.create.deploying([Item.of('solidarytinker:mining_core', '{Material:"tconstruct:ancient_hide"}')],['mekanism:alloy_atomic', 'minecraft:netherite_scrap'])
+    event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:helmet_plating_dummy', 'create:sturdy_sheet'])
+    event.recipes.create.deploying([Item.of('tconstruct:chestplate_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:chestplate_plating_dummy', 'create:sturdy_sheet'])
+    event.recipes.create.deploying([Item.of('tconstruct:leggings_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:leggings_plating_dummy', 'create:sturdy_sheet'])
+    event.recipes.create.deploying([Item.of('tconstruct:boots_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:boots_plating_dummy', 'create:sturdy_sheet'])
     event.recipes.create.deploying('ae2:printed_silicon',['ae2:silicon', 'kubejs:universal_press']).keepHeldItem()
     event.recipes.create.deploying('ae2:printed_silicon',['ae2:silicon', 'ae2:silicon_press']).keepHeldItem()
     event.recipes.create.deploying('ae2:printed_calculation_processor',['ae2:certus_quartz_crystal', 'kubejs:universal_press']).keepHeldItem()
@@ -54,6 +58,15 @@ event.recipes.create.sequenced_assembly([
     event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
     event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('thermal:redstone').withAmount(250)]),
 ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
+
+  event.recipes.create.sequenced_assembly([
+    Item.of('create:sturdy_sheet')
+  ], Item.of('#forge:dusts/obsidian'), [
+    event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of("tconstruct:blazing_blood").withAmount(250)]),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+  ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(2)
 
 
     event.recipes.create.sequenced_assembly([

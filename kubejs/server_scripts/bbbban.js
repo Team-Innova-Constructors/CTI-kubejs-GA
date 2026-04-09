@@ -102,6 +102,7 @@ ServerEvents.recipes(event => {
 		'mekanism:module_energy_unit',
 		//机械动力和其附属
 		'create:sequenced_assembly/precision_mechanism',
+		'create:sequenced_assembly/sturdy_sheet',
 		'create:mixing/compat/ae2/fluix_crystal',
 		'createutilities:mixing/void_steel_ingot',
 		//沉浸
@@ -220,6 +221,7 @@ ServerEvents.recipes(event => {
 		'thermal:machines/crucible/crucible_glowstone_dust',
 		'tconstruct:smeltery/alloys/molten_lumium',
 		'tconstruct:smeltery/alloys/molten_enderium',
+		'enigmaticlegacy:cursed_scroll'
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 

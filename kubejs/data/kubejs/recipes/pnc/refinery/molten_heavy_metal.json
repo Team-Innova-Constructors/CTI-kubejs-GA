@@ -8,19 +8,19 @@
   "results": [
     {
       "amount": 180,
-      "fluid": "tconstruct:molten_zinc"
+      "fluid": "etshtinker:molten_bismuth"
     },
     {
       "amount": 270,
-      "fluid": "tconstruct:molten_nickel"
+      "fluid": "tconstruct:molten_silver"
     },
     {
       "amount": 360,
-      "fluid": "tconstruct:molten_tin"
+      "fluid": "tconstruct:molten_osmium"
     },
     {
-      "amount": 450,
-      "fluid": "tconstruct:molten_copper"
+      "amount": 360,
+      "fluid": "tconstruct:molten_lead"
     }
   ],
   "temperature": {

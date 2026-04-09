@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.bottler('cti:upgrade_augment_7', ['kubejs:uncomplete_upgrade_augment_7', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(8000)
   //精炼机
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)], Fluid.of('etshtinker:overchargedneutronium', 100))
-  event.recipes.thermal.refinery([Item.of('thermal:sulfur_dust').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:light_oil', 100))
+  event.recipes.thermal.refinery([Item.of('immersiveengineering:dust_sulfur').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:light_oil', 100))
   event.recipes.thermal.refinery([Item.of('thermal:tar').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:heavy_oil', 100))
   event.recipes.thermal.refinery([Item.of('minecraft:honeycomb').withChance(0.75), Fluid.of('cofh_core:honey', 500)], Fluid.of('kubejs:royal_jelly', 250))
   event.recipes.thermal.refinery([Item.of('kubejs:stable_slag').withChance(1.15), Fluid.of('tinkerscalibration:moltentitanium', 180)], Fluid.of('kubejs:used_lava', 200)).energy(25000)
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('kubejs:ethyne', 100)).energy(9500000)
 
 //有机灌注器
-  event.recipes.thermal.insolator(['thermal:rubberwood_log',Item.of('thermal:rubberwood_sapling').withChance(1.1)],'thermal:rubberwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x thermal:rubberwood_log',Item.of('thermal:rubberwood_sapling').withChance(1.1)],'thermal:rubberwood_sapling').water(1000).energy(60000)
   event.recipes.thermal.insolator(['4x ars_nouveau:purple_archwood_log',Item.of('ars_nouveau:purple_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bastion_pod').withChance(0.25)],'ars_nouveau:purple_archwood_sapling').water(1000).energy(60000)
   event.recipes.thermal.insolator(['4x ars_nouveau:green_archwood_log',Item.of('ars_nouveau:green_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:mendosteen_pod').withChance(0.25)],'ars_nouveau:green_archwood_sapling').water(1000).energy(60000)
   event.recipes.thermal.insolator(['4x ars_nouveau:blue_archwood_log',Item.of('ars_nouveau:blue_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:frostaya_pod').withChance(0.25)],'ars_nouveau:blue_archwood_sapling').water(1000).energy(60000)
@@ -95,7 +95,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.insolator(['minecraft:crimson_fungus',Item.of('minecraft:crimson_fungus').withChance(1.31),'6x minecraft:crimson_stem','9x minecraft:nether_wart_block'],'minecraft:crimson_fungus').water(1000).energy(60000)
   event.recipes.thermal.insolator(['twilightforest:mushgloom',Item.of('twilightforest:mushgloom').withChance(1.31)],'twilightforest:mushgloom').water(1000).energy(60000)
   //冷冻机
-  event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(2000)
+  event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of("industrialforegoing:latex", 500)).energy(2000)
+  event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of("thermal:latex", 100)).energy(2000)
   event.recipes.thermal.chiller(Item.of('pneumaticcraft:plastic'), Fluid.of('pneumaticcraft:plastic', 1000)).energy(2000)
   event.recipes.thermal.chiller(Item.of('tconstruct:sky_congealed_slime'), Fluid.of('tconstruct:sky_slime', 1000)).energy(4000)
   event.recipes.thermal.chiller(Item.of('tconstruct:ender_congealed_slime'), Fluid.of('tconstruct:ender_slime', 1000)).energy(4000)
