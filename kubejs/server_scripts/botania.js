@@ -17,6 +17,9 @@ ServerEvents.recipes(event => {
   event.recipes.botania.terra_plate('projecte:dm_chestplate', ['botania:terrasteel_chestplate', 'tconstruct:hepatizon_block', 'mythicbotany:midgard_rune', 'mythicbotany:helheim_rune','mythicbotany:alfheim_rune','projecte:dark_matter_block'], 1000000)
   event.recipes.botania.terra_plate('projecte:dm_leggings', ['botania:terrasteel_leggings', 'tconstruct:hepatizon_block', 'mythicbotany:muspelheim_rune', 'mythicbotany:helheim_rune','mythicbotany:joetunheim_rune','projecte:dark_matter_block'], 1000000)
   event.recipes.botania.terra_plate('projecte:dm_boots', ['botania:terrasteel_boots','tconstruct:hepatizon_block', 'mythicbotany:helheim_rune', 'mythicbotany:nidavellir_rune','mythicbotany:vanaheim_rune','projecte:dark_matter_block'], 1000000)
+
+  event.recipes.botania.petal_apothecary('cti:reactive_flower',['botania:red_petal','botania:yellow_petal','botania:light_blue_petal','botania:brown_petal','minecraft:blaze_powder','thermal:blitz_powder','thermal:blizz_powder','thermal:basalz_powder'])
+
   event.shaped(Item.of('kubejs:philosophers_catalyst', 1), [
     'ABA',
     'BCB',

@@ -302,6 +302,13 @@ ServerEvents.recipes(event => {
     'minecraft:redstone',
   ]
   )
+    event.shapeless(Item.of('kubejs:dust_aerotheum', 1), [
+    'powah:charged_snowball',
+    'thermal:blitz_powder',
+    'aether:aerogel',
+    'minecraft:redstone',
+  ]
+  )
   event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of('kubejs:zirconium_fluid',90),'thermal:chiller_ingot_cast'])
   event.recipes.thermal.crystallizer('16x mekanism:alloy_infused',[Fluid.of('kubejs:redstone_additive',50),'16x minecraft:iron_ingot']).energy(200)
   event.recipes.thermal.crystallizer('16x mekanism:alloy_reinforced',[Fluid.of('kubejs:diamond_additive',50),'16x mekanism:alloy_infused']).energy(200)

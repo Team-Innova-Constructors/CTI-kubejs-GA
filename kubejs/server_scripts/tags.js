@@ -312,6 +312,10 @@ ServerEvents.tags('block', event => {
   event.remove('forge:storage_blocks/raw_titanium', 'tinkers_reforged:raw_titanium_block')
   event.add('forge:storage_blocks/zirconium', 'tinkers_reforged:titanium_block')
   event.remove('forge:storage_blocks/titanium', 'tinkers_reforged:titanium_block')
+
+  event.add('create:non_movable','botania:cell_block')
+
+  event.add('botania:floating_flowers','cti:floating_reactive_flower')
   //防凋零
   let tconstructblock = [
     'tconstruct:seared_stone',
