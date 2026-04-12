@@ -390,7 +390,11 @@ ServerEvents.tags('fluid', event => {
   event.add('forge:ethylene', 'mekanism:ethene')
   //给沉浸用的
   let needTags = [
-    'kubejs:methane'
+    'kubejs:methane',
+    'kubejs:hot_metal_lava',
+    'kubejs:hot_heavymetal_lava',
+    'kubejs:hot_heavycrystal_lava',
+    'kubejs:tar_mix',
   ]
   for (let i of needTags) {
     event.add(`${i}`, `${i}`)

@@ -143,7 +143,7 @@ ServerEvents.recipes(event => {
   addMelting('minecraft:glowstone_dust', "thermal:glowstone", 100, 1500, 200)
 
   addMelting('kubejs:crystal_redstone', "thermal:redstone", 900, 1950, 400)
-  addMelting('kubejs:crystal_ender', "thermal:redstone", 1000, 1950, 400)
+  addMelting('kubejs:crystal_ender', "thermal:ender", 1000, 1950, 400)
   addMelting('kubejs:crystal_glowstone', "thermal:glowstone", 400, 1950, 400)
 
   addMelting("aether:gravitite_sword", "kubejs:molten_gravitite", 180, 2500, 100)

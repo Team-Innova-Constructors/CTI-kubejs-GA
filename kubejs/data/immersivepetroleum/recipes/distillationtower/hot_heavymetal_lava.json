@@ -2,8 +2,8 @@
   "type": "immersivepetroleum:distillation",
   "byproducts": [
     {
-      "chance": 1,
-      "item": "thermal:nickel_dust"
+      "chance": 0.1,
+      "item": "mekanism:dust_netherite"
     }
   ],
   "energy": 2048,
@@ -14,23 +14,19 @@
   "results": [
     {
       "amount": 180,
-      "fluid": "tconstruct:molten_gold"
+      "fluid": "etshtinker:molten_bismuth"
     },
     {
       "amount": 270,
-      "fluid": "tconstruct:molten_tin"
+      "fluid": "tconstruct:molten_silver"
     },
     {
-      "amount": 180,
+      "amount": 360,
+      "fluid": "tconstruct:molten_osmium"
+    },
+    {
+      "amount": 360,
       "fluid": "tconstruct:molten_lead"
-    },
-    {
-      "amount": 90,
-      "fluid": "tconstruct:molten_silver"
-    },
-    {
-      "amount": 90,
-      "fluid": "tconstruct:molten_silver"
     }
   ],
   "time": 2

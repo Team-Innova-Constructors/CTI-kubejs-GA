@@ -309,8 +309,9 @@
     "kubejs.jei.moonsteel_ingot": "这个虽然是匠魂校准联动蔚蓝浩空的材料，但是你别真加蔚蓝浩空啊，看锭的灌注机配方",
     "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick",
     "kubejs.jei.royal_jelly": "蜂王浆需要在主世界用机械动力的钻井开采,容量略大",
-    "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉,可以在热力精炼机或者分馏塔精炼出来其中产物",
-    "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种流体矿脉,可以在热力精炼机或者分馏塔精炼出来其中产物",
+    "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉,可以在精炼厂或者分馏塔精炼出来其中产物",
+    "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种含晶体的流体矿脉,可以在精炼厂或者分馏塔精炼出来其中产物",
+    "kubejs.jei.hot_metal_lava": "主世界和下界刷新的一种含金属的流体矿脉,可以在精炼厂或者分馏塔精炼出来其中产物",
     "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。",
     "kubejs.jei.accelerator": "由于潜在的崩档问题，Bigger AE2的并行单元已被禁用。",
     "kubejs.jei.compression_card": "压缩卡出了一些问题，功能异常，在查明问题前暂时先禁用了。",
@@ -372,6 +373,10 @@
     "material.kubejs.forgotten_metal": "遗忆金属",
     "material.kubejs.forgotten_metal.flavor": "残存的记忆",
     "material.kubejs.forgotten_metal.encyclopedia": "是谁创造了这种金属？让我们来读读它的内存...",
+
+    "material.kubejs.sturdy_sheet": "坚固板",
+    "material.kubejs.sturdy_sheet.flavor": "千锤万击和烈焰血的力量蕴含其中",
+    "material.kubejs.sturdy_sheet.encyclopedia": "虽然烈焰血和锻打强化了他,但是他本质上还是很脆，小心扎到手",
     
     "material.kubejs.refined_sentrite": "精炼哨石",
     "material.kubejs.refined_sentrite.flavor": "哨石中的精华组分",
