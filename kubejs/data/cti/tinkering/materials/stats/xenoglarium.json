@@ -25,7 +25,7 @@
       "durability": 1950,
       "mining_speed": 7,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 8
+      "melee_attack": 26.5
     },
     "tconstruct:plating_helmet": {
       "armor": 7.5,

@@ -11,7 +11,7 @@
       "durability": 2560,
       "mining_speed": 9,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 7
+      "melee_attack": 14
     },
     "tconstruct:maille": {},
     "tconstruct:grip": null,

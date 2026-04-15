@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     },
     "toColor": 16729871
   })
-  event.shaped(Item.of('cti:mana_interface', 1), [
+  event.shaped(Item.of('cti:mana_interface',1), [
     'ABA',
     'BCB',
     'ADA'

@@ -11,7 +11,7 @@
       "durability": 333,
       "mining_speed": 1.3,
       "mining_tier": "minecraft:iron",
-      "melee_attack": 3
+      "melee_attack": 9
     },
     "tconstruct:limb": {
       "durability": 333,

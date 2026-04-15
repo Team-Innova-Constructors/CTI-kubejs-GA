@@ -61,7 +61,7 @@ event.recipes.create.sequenced_assembly([
 
   event.recipes.create.sequenced_assembly([
     Item.of('create:sturdy_sheet')
-  ], Item.of('#forge:dusts/obsidian'), [
+  ], Item.of('create:powdered_obsidian'), [
     event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of("tconstruct:blazing_blood").withAmount(250)]),
     event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
     event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),

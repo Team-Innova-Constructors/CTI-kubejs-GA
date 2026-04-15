@@ -7,7 +7,7 @@ StartupEvents.registry("item",event=>{
     event.create("dusts_titanium","basic")
     event.create("tungsten_ingot","basic")
     event.create("halfdone_exoalloy","basic")
-    event.create("pyrocrystal","basic")
+    event.create("pyrocrystal","basic").fireResistant(true)
     event.create("electrocrystal","basic")
     event.create("violium_alloy","basic")
     event.create("activated_matter_dust","basic")

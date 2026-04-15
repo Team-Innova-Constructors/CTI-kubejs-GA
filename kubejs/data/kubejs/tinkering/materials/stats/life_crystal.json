@@ -11,7 +11,7 @@
     },
     "tconstruct:head": {
       "durability": 2240,
-      "melee_attack": 14.0,
+      "melee_attack": 36.0,
       "mining_speed": 9.5,
       "mining_tier": "minecraft:netherite"
     }

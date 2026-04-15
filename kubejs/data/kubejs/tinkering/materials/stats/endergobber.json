@@ -11,7 +11,7 @@
       "durability": 3840,
       "mining_speed": 10,
       "mining_tier": "gobber2:end_gobber",
-      "melee_attack": 9.5
+      "melee_attack": 18
     },
     "tconstruct:limb": {
       "durability": 2560,
