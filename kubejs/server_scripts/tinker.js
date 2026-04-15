@@ -676,6 +676,203 @@ event.custom({
   }
 })
 
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "immersiveengineering:connector_hv_relay",
+      "amount_needed": 16
+    },
+    {
+      "item":"etshtinker:sculk_energycore",
+    },
+    {
+      "item":"immersiveengineering:tesla_coil",
+    }
+  ],
+  "level": 1,
+  "result": "etshtinker:plasma_blade",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "etshtinker:constrained_plasma_saber"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "etshtinker:plasma_blade",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "etshtinker:constrained_plasma_saber"
+  }
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "tinkers_thinking:echo_bronze_ingot",
+      "amount_needed": 4
+    },
+    {
+      "item":"etshtinker:sculk_energycore",
+    },
+    {
+      "item":"immersivepetroleum:napalm_bucket",
+    }
+  ],
+  "level": 1,
+  "result": "etshtinker:echo_slash",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "etshtinker:constrained_plasma_saber"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": false,
+  "inputs": [
+    {
+      "item": "aether:lightning_knife",
+    },
+    {
+      "item":"botania:thunder_sword",
+    },
+    {
+      "item":"aether:valkyrie_lance",
+    },
+    {
+      "item":"aether_redux:sentry_chip",
+    },
+    {
+      "item":"aether_redux:sentry_chip",
+    }
+    
+  ],
+  "level": 2,
+  "result": "etshtinker:echo_slash",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "etshtinker:constrained_plasma_saber"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "etshtinker:echo_slash",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "etshtinker:constrained_plasma_saber"
+  }
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "pneumaticcraft:pneumatic_wrench",
+    },
+    {
+      "item":"mekanism:configurator",
+    },
+    {
+      "item":"thermal:wrench",
+    },
+    {
+      "item":"immersiveengineering:hammer",
+    },
+    {
+      "item":"pneumaticcraft:printed_circuit_board",
+    }
+  ],
+  "level": 1,
+  "result": "etshtinker:modular_modification",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "etshtinker:ionized_cannon"
+  }
+})
+event.custom({
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "etshtinker:modular_modification",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "etshtinker:ionized_cannon"
+  }
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": false,
+  "inputs": [
+    {
+      "item": "mekanism:ultimate_control_circuit",
+    },
+    {
+      "item":"extendedcrafting:flux_star",
+    },
+    {
+      "item":"mekanism:ultimate_control_circuit",
+    },
+    {
+      "item":"mekanism:electrolytic_core",
+    },
+    {
+      "item":"mekanism:electrolytic_core",
+    }
+  ],
+  "level": 2,
+  "result": "etshtinker:multishotplasma",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "etshtinker:ionized_cannon"
+  }
+})
+
+event.custom({
+  "type": "tconstruct:modifier",
+  "allow_crystal": false,
+  "inputs": [
+    {
+      "item": "etshtinker:electronium",
+      "amount_needed": 4
+    },
+    {
+      "item":"extendedcrafting:flux_star",
+      "amount_needed": 2
+    },
+    {
+      "item":"etshtinker:protonium",
+      "amount_needed": 4
+    }
+  ],
+  "level": 3,
+  "result": "etshtinker:multishotplasma",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "item": "etshtinker:ionized_cannon"
+  }
+})
+
 
   addOverslime("aether:swet_ball", 120)
   addOverslime("aether_redux:golden_swet_ball", 120)

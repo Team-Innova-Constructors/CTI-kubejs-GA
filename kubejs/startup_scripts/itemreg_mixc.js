@@ -55,6 +55,7 @@ StartupEvents.registry("item",event=>{
     event.create("dust_cryotheum","basic")
     event.create("dust_pyrotheum","basic")
     event.create("dust_petrotheum","basic")
+    event.create("dust_aerotheum","basic")
 
     event.create("crystal_ender","basic")
     event.create("crystal_glowstone","basic")
