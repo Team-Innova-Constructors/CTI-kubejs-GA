@@ -487,7 +487,7 @@ ServerEvents.recipes(event => {
 
 })
 PowahEvents.registerHeatSource(event => {
-    event.add('twilightforest:fiery_block', 2750);
+  event.add('twilightforest:fiery_block', 2750);
 	event.add('etshtinker:meteoralloy_block', 3500);
 	event.add('kubejs:stellaralloy_block', 5000);
 	event.add('iceandfire:dragonsteel_fire_block', 8000);

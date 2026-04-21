@@ -269,6 +269,33 @@ ServerEvents.recipes(event => {
 		'createoreexcavation:drilling/zinc',
 	]
 	for (let i of coe) { event.remove({ id: `${i}` }) }
+	//移除融合机矿
+	let metals = ['osmium', 'iron', 'gold', 'tin', 'copper', 'lead', 'uranium'];
+	let gems = ['fluorite', 'coal', 'redstone', 'diamond', 'emerald', 'lapis_lazuli', 'quartz'];
+	metals.forEach(metal => {
+		event.remove({ id: `mekanism:processing/${metal}/ore/from_raw` });
+		event.remove({ id: `mekanism:processing/${metal}/ore/deepslate_from_raw` });
+		if (metal === 'gold') {
+			event.remove({ id: `mekanism:processing/gold/ore/nether_from_raw` });
+		}
+	});
+	gems.forEach(min => {
+		event.remove({ id: `mekanism:processing/${min}/to_ore` });
+		event.remove({ id: `mekanism:processing/${min}/to_deepslate_ore` });
+	});
+	event.remove({ id: 'mekanism:processing/netherite/dust_to_ancient_debris' });
+
+	let type = [
+		'smelting','enriching','crushing','compressing','combining','purifying','injecting','infusing','sawing',
+	]
+	let level=[
+		'basic','advanced','elite','ultimate'
+	]
+	for (let i of type) { 
+		for(let j of level){
+			event.remove({ id:`mekanism:factory/${j}/${i}`});
+		}
+	}
 	let immersiveengineeringore = [
 		'immersiveengineering:mineral/amethyst_crevasse',
 		'immersiveengineering:mineral/ancient_seabed',
