@@ -85,6 +85,8 @@ ServerEvents.tags('item', event => {
   event.add('forge:rabbit/thigh/raw','minecraft:rabbit')
   event.add('forge:rabbit/cooked','minecraft:cooked_rabbit')
 
+  event.add('forge:ores/diamond', 'kubejs:stellar_stone_diamond_ore')
+
   event.add('kubejs:cell_1m', 'megacells:cell_component_1m')
   event.add('kubejs:cell_1m', 'ae2additions:cell_component_1024')
   event.add('kubejs:cell_4m', 'megacells:cell_component_4m')
@@ -305,6 +307,7 @@ ServerEvents.tags('block', event => {
   event.add('forge:budding', 'tconstruct:budding_ichor_slime_crystal')
   event.add('forge:budding', 'tconstruct:budding_ender_slime_crystal')
 
+
   event.add('forge:completely_new_tag', 'forge:ores/zirconium')
   event.add('forge:completely_new_tag', 'forge:storage_blocks/raw_zirconium')
   event.add('forge:completely_new_tag', 'forge:storage_blocks/zirconium')
@@ -409,7 +412,8 @@ ServerEvents.tags('fluid', event => {
     'kubejs:molten_sentrite',
     'kubejs:molten_phoenix',
     'kubejs:molten_valkyrie',
-    'kubejs:molten_refined_sentrite'
+    'kubejs:molten_refined_sentrite',
+    'kubejs:zirconium_fluid'
   ]
   let gemSmallToolTip = [
     'thermal:glowstone',

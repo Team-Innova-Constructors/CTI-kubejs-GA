@@ -141,6 +141,18 @@ ServerEvents.recipes(event => {
       'ae2:certus_quartz_wrench',
    ]
    )
+   event.shapeless(Item.of('tinkers_reforged:raw_titanium_block', 1), [
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+   ]
+   )
    event.shaped(Item.of('cti:feima_ingot', 2), [
       'BAB',
       'DED',
