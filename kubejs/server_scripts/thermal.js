@@ -7,9 +7,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(3.5), 'createoreexcavation:raw_emerald').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:amethyst_shard').withChance(6.5), 'minecraft:amethyst_cluster').energy(1000)
   event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(2.1), Item.of('create:experience_nugget').withChance(0.6)], 'etshtinker:bismuthinite_ore_deepslate').energy(8000)
-  event.recipes.thermal.pulverizer([Item.of('minecraft:diamond').withChance(1.2), Item.of('powah:uraninite_raw').withChance(1.7), Item.of('minecraft:lapis_lazuli').withChance(2.5), Item.of('minecraft:emerald').withChance(1.4)], 'kubejs:crystal_slag').energy(8000)
-  event.recipes.thermal.pulverizer([Item.of('thermal:raw_tin').withChance(2.45), Item.of('thermal:raw_lead').withChance(2.55), Item.of('minecraft:raw_iron').withChance(2.75), Item.of('minecraft:raw_copper').withChance(2.85)], 'kubejs:metal_slag').energy(8000)
-  event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(1.05), Item.of('thermal:cinnabar').withChance(2.65), Item.of('thermal:niter').withChance(2.3), Item.of('thermal:apatite').withChance(3.48)], 'kubejs:mineral_slag').energy(8000)
+  event.recipes.thermal.pulverizer([Item.of('minecraft:diamond').withChance(0.1), Item.of('powah:uraninite_raw').withChance(0.15), Item.of('minecraft:lapis_lazuli').withChance(0.17), Item.of('minecraft:emerald').withChance(0.05)], 'kubejs:crystal_slag').energy(30000)
+  event.recipes.thermal.pulverizer([Item.of('thermal:raw_tin').withChance(0.12), Item.of('thermal:raw_lead').withChance(0.1), Item.of('minecraft:raw_iron').withChance(0.08), Item.of('minecraft:raw_copper').withChance(0.1)], 'kubejs:metal_slag').energy(30000)
+  event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(0.15), Item.of('thermal:cinnabar').withChance(0.12), Item.of('thermal:niter').withChance(0.1), Item.of('thermal:apatite').withChance(0.23)], 'kubejs:mineral_slag').energy(30000)
   event.recipes.thermal.pulverizer('ae2:fluix_dust', 'ae2:fluix_crystal').energy(800)
   event.recipes.thermal.pulverizer('ae2:certus_quartz_dust', 'ae2:certus_quartz_crystal').energy(800)
   event.recipes.thermal.pulverizer('immersiveengineering:dust_coke', 'thermal:coal_coke')
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.bottler(Item.of('ae2:annihilation_plane').enchant('minecraft:fortune', 3), ['ae2:annihilation_plane', Fluid.of('kubejs:fluid_petrotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler(Item.of('ae2:annihilation_plane').enchant('minecraft:silk_touch', 1), ['ae2:annihilation_plane', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler(Item.of('minecraft:netherite_pickaxe').enchant('minecraft:fortune',3), ['minecraft:netherite_pickaxe',Fluid.of("pneumaticcraft:memory_essence", 8000)]).energy(10000)
-  event.recipes.thermal.bottler(Item.of('minecraft:netherite_pickaxe').enchant('minecraft:fortune',5), [Fluid.of('kubejs:fluid_petrotheum', 1000)]).energy(10000)
+  event.recipes.thermal.bottler(Item.of('minecraft:netherite_pickaxe').enchant('minecraft:fortune',5), ['minecraft:netherite_pickaxe',Fluid.of('kubejs:fluid_petrotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler(Item.of('ae2:annihilation_plane').enchant('minecraft:silk_touch', 1), ['ae2:annihilation_plane', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(10000)
   //精炼机
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)], Fluid.of('etshtinker:overchargedneutronium', 100))
@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crucible(Fluid.of('thermal:glowstone', 100), 'minecraft:glowstone_dust').energy(3000)
 
   //热解炉
-  event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(1.5), Item.of('minecraft:netherite_scrap').withChance(0.8), Fluid.of('kubejs:zirconium_fluid', 90)], 'kubejs:stable_slag').energy(2000)
+  event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(0.12), Item.of('minecraft:netherite_scrap').withChance(0.05), Fluid.of("tinkers_reforged:titanium", 90)], 'kubejs:stable_slag').energy(20000)
   //压缩能源炉
   event.recipes.thermal.compression_fuel(Fluid.of('thermal:refined_fuel', 1000)).energy(5200000)
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(6400000)
@@ -116,10 +116,10 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.chiller(Item.of('minecraft:quartz'), [Fluid.of('tconstruct:molten_quartz', 100),'tconstruct:gem_cast']).energy(1000)
   //离心机
   event.recipes.thermal.centrifuge(['thermal:sulfur_dust', '2x thermal:niter_dust', 'mekanism:dust_charcoal'], '4x minecraft:gunpowder').energy(10000)
-  event.recipes.thermal.centrifuge([Item.of('kubejs:light_slag').withChance(1.8), Item.of('kubejs:crystal_slag').withChance(1.30), Item.of('kubejs:metal_slag').withChance(1.6), Item.of('kubejs:mineral_slag').withChance(1.2)], 'kubejs:enriched_slag').energy(12000)
-  event.recipes.thermal.centrifuge([Item.of('kubejs:powdered_slag').withChance(1.1), Item.of('minecraft:coal').withChance(2.5), Item.of('thermal:raw_nickel').withChance(1.4), Item.of('immersiveengineering:dust_aluminum').withChance(1.5)], 'kubejs:light_slag').energy(12000)
-  event.recipes.thermal.centrifuge([Item.of('thermal:gold_dust').withChance(2.15), Item.of('thermal:silver_dust').withChance(2.65), Item.of('mekanism:dust_osmium').withChance(2.75), Item.of('mekanism:dust_uranium').withChance(5.5)], 'kubejs:dense_slag').energy(12000)
-  event.recipes.thermal.centrifuge([Item.of('minecraft:redstone').withChance(4.2), Item.of('minecraft:glowstone_dust').withChance(3.1), Item.of('thermal:quartz_dust').withChance(2.9), Item.of('2x minecraft:clay_ball').withChance(1.8)], 'kubejs:powdered_slag').energy(12000)
+  event.recipes.thermal.centrifuge([Item.of('kubejs:light_slag').withChance(0.1), Item.of('kubejs:crystal_slag').withChance(0.15), Item.of('kubejs:metal_slag').withChance(0.1), Item.of('kubejs:mineral_slag').withChance(0.15)], 'kubejs:enriched_slag').energy(12000)
+  event.recipes.thermal.centrifuge([Item.of('kubejs:powdered_slag').withChance(0.1), Item.of('minecraft:coal').withChance(0.25), Item.of('thermal:raw_nickel').withChance(0.12), Item.of('immersiveengineering:dust_aluminum').withChance(0.15)], 'kubejs:light_slag').energy(12000)
+  event.recipes.thermal.centrifuge([Item.of('thermal:gold_dust').withChance(2.15), Item.of('thermal:silver_dust').withChance(0.08), Item.of('mekanism:dust_osmium').withChance(0.1), Item.of('mekanism:dust_uranium').withChance(0.45)], 'kubejs:dense_slag').energy(12000)
+  event.recipes.thermal.centrifuge([Item.of('minecraft:redstone').withChance(0.4), Item.of('minecraft:glowstone_dust').withChance(0.1), Item.of('thermal:quartz_dust').withChance(0.15), Item.of('2x minecraft:clay_ball').withChance(0.3)], 'kubejs:powdered_slag').energy(12000)
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.5).secondaryMod(2.0).energyMod(0.9).minChance(0.05).useChance(0.25)
@@ -314,7 +314,7 @@ ServerEvents.recipes(event => {
     'minecraft:redstone',
   ]
   )
-  event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of('kubejs:zirconium_fluid',90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of("tinkers_reforged:titanium",90),'thermal:chiller_ingot_cast'])
   event.recipes.thermal.crystallizer('16x mekanism:alloy_infused',[Fluid.of('kubejs:redstone_additive',50),'16x minecraft:iron_ingot']).energy(200)
   event.recipes.thermal.crystallizer('16x mekanism:alloy_reinforced',[Fluid.of('kubejs:diamond_additive',50),'16x mekanism:alloy_infused']).energy(200)
   event.recipes.thermal.crystallizer('16x mekanism:alloy_atomic',[Fluid.of('kubejs:obsidian_additive',50),'16x mekanism:alloy_reinforced']).energy(200)

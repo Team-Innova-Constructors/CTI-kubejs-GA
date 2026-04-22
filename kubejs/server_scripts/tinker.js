@@ -126,6 +126,10 @@ ServerEvents.recipes(event => {
 
   addSevering("aether:valkyrie", "kubejs:broken_victory_medal", 2)
 
+  addMelting('tinkers_reforged:titanium_ingot', "tinkers_reforged:titanium", 90, 2000, 100)
+  addMelting('tinkers_reforged:titanium_dust', "tinkers_reforged:titanium", 90, 2000, 100)
+  addMelting('tinkers_reforged:titanium_nugget', "tinkers_reforged:titanium", 10, 2000, 20)
+
   addMelting("aether:valkyrie_boots", "kubejs:molten_valkyrie", 3600, 3250, 100)
   addMelting("aether:valkyrie_helmet", "kubejs:molten_valkyrie", 4500, 3250, 125)
   addMelting("aether:valkyrie_chestplate", "kubejs:molten_valkyrie", 7200, 3250, 200)
@@ -141,10 +145,6 @@ ServerEvents.recipes(event => {
   addMelting('minecraft:redstone', "thermal:redstone", 100, 1500, 200)
   addMelting('minecraft:glowstone', "thermal:glowstone", 400, 1500, 200)
   addMelting('minecraft:glowstone_dust', "thermal:glowstone", 100, 1500, 200)
-
-  addMelting('kubejs:crystal_redstone', "thermal:redstone", 900, 1950, 400)
-  addMelting('kubejs:crystal_ender', "thermal:ender", 1000, 1950, 400)
-  addMelting('kubejs:crystal_glowstone', "thermal:glowstone", 400, 1950, 400)
 
   addMelting("aether:gravitite_sword", "kubejs:molten_gravitite", 180, 2500, 100)
   addMelting("aether:gravitite_boots", "kubejs:molten_gravitite", 360, 2500, 100)

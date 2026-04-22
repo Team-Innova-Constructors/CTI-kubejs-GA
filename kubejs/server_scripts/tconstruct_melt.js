@@ -36,6 +36,8 @@ ServerEvents.recipes(event => {
     });
 
     event.remove({ id: 'tinker_thinking:common/chlorophyte/ore_melting' });
+    event.remove({ id: 'tinkers_reforged:smeltery/melting/titanium/ingot' });
+    event.remove({ id: 'tinkers_reforged:smeltery/melting/titanium/nugget' });
 
     function addOreMelting(inputItem, result, byproducts, temp, time, rate) {
         let ingredient = inputItem.startsWith('#')
@@ -107,14 +109,14 @@ ServerEvents.recipes(event => {
     addOreMelting('#forge:ores/magiga', { fluid: "tinkerscalibration:moltenmagiga", amount: 270 }, { fluid: "tinkerscalibration:moltensteamium", amount: 90, rate: "gem" }, 1500, 140, "metal")
     addOreMelting('#forge:ores/tonium', { fluid: "tinkerscalibration:moltentonium", amount: 270 }, { fluid: "tinkerscalibration:moltenhalleium", amount: 90, rate: "gem" }, 1500, 140, "metal")
     //工匠再锻的
-    addOreMelting('#forge:ores/kepu', { fluid: "tinkers_reforged:kepu", amount: 270 }, { fluid: 'kubejs:zirconium_fluid', amount: 90, rate: "gem" }, 2000, 140, "metal")
-    addOreMelting('#forge:raw_materials/kepu', { fluid: "tinkers_reforged:kepu", amount: 90 }, { fluid: 'kubejs:zirconium_fluid', amount: 30, rate: "gem" }, 2000, 140, "metal")
-    addOreMelting('#forge:storage_blocks/raw_kepu', { fluid: "tinkers_reforged:kepu", amount: 810 }, { fluid: 'kubejs:zirconium_fluid', amount: 270, rate: "gem" }, 2000, 400, "metal")
-    addOreMelting('#forge:ores/zirconium', { fluid: 'kubejs:zirconium_fluid', amount: 270 }, { fluid: "tinkers_reforged:kepu", amount: 90, rate: "gem" }, 2500, 140, "metal")
-    addOreMelting('#forge:raw_materials/zirconium', { fluid: 'kubejs:zirconium_fluid', amount: 90 }, { fluid: "tinkers_reforged:kepu", amount: 30, rate: "gem" }, 2500, 140, "metal")
-    addOreMelting('#forge:storage_blocks/raw_zirconium', { fluid: 'kubejs:zirconium_fluid', amount: 810 }, { fluid: "tinkers_reforged:kepu", amount: 270, rate: "gem" }, 2500, 400, "metal")
+    addOreMelting('#forge:ores/kepu', { fluid: "tinkers_reforged:kepu", amount: 270 }, { fluid: "tinkers_reforged:titanium", amount: 90, rate: "gem" }, 2000, 140, "metal")
+    addOreMelting('#forge:raw_materials/kepu', { fluid: "tinkers_reforged:kepu", amount: 90 }, { fluid: "tinkers_reforged:titanium", amount: 30, rate: "gem" }, 2000, 140, "metal")
+    addOreMelting('#forge:storage_blocks/raw_kepu', { fluid: "tinkers_reforged:kepu", amount: 810 }, { fluid: "tinkers_reforged:titanium", amount: 270, rate: "gem" }, 2000, 400, "metal")
+    addOreMelting('#forge:ores/zirconium', { fluid: "tinkers_reforged:titanium", amount: 270 }, { fluid: "tinkers_reforged:kepu", amount: 90, rate: "gem" }, 2500, 140, "metal")
+    addOreMelting('#forge:raw_materials/zirconium', { fluid: "tinkers_reforged:titanium", amount: 90 }, { fluid: "tinkers_reforged:kepu", amount: 30, rate: "gem" }, 2500, 140, "metal")
+    addOreMelting('#forge:storage_blocks/raw_zirconium', { fluid: "tinkers_reforged:titanium", amount: 810 }, { fluid: "tinkers_reforged:kepu", amount: 270, rate: "gem" }, 2500, 400, "metal")
     //匠魂本体的
-    addOreMelting('#forge:ores/cobalt', { fluid: "tconstruct:molten_cobalt", amount: 540, rate: "metal" }, { fluid: "tconstruct:molten_iron", amount: 90, rate: "gem" }, 1000, 140, "metal")
+    addOreMelting('#forge:ores/cobalt', { fluid: "tconstruct:molten_cobalt", amount: 540}, { fluid: "tconstruct:molten_iron", amount: 90, rate: "gem" }, 1000, 140, "metal")
     //机械动力的碎矿石
     addOreMelting('create:crushed_raw_iron', { fluid: "tconstruct:molten_iron", amount: 180 }, { fluid: "tconstruct:molten_nickel", amount: 90, rate: "gem" }, 800, 200, "metal")
     addOreMelting('create:crushed_raw_gold', { fluid: "tconstruct:molten_gold", amount: 180 }, { fluid: "tconstruct:molten_copper", amount: 90, rate: "gem" }, 800, 200, "metal")
@@ -127,4 +129,10 @@ ServerEvents.recipes(event => {
     addOreMelting('create:crushed_raw_aluminum', { fluid: "tconstruct:molten_aluminum", amount: 180 }, { fluid: "tconstruct:molten_zinc", amount: 90, rate: "gem" }, 800, 200, "metal")
     addOreMelting('create:crushed_raw_nickel', { fluid: "tconstruct:molten_nickel", amount: 180 }, { fluid: "tconstruct:molten_iron", amount: 90, rate: "gem" }, 800, 200, "metal")
     addOreMelting('create:crushed_raw_uranium', { fluid: "tconstruct:molten_uranium", amount: 180 }, { fluid: "tconstruct:molten_lead", amount: 90, rate: "gem" }, 800, 200, "metal")
+    //三态络合物
+    addOreMelting('kubejs:crystal_redstone',{fluid:"thermal:redstone",amount:900},{fluid:"tconstruct:molten_quartz",amount:100,rate:"gem"}, 1800, 400, "gem")
+    addOreMelting('kubejs:crystal_ender',{fluid: "thermal:ender",amount:1000},{fluid:"tconstruct:molten_quartz",amount:100,rate:"gem"}, 1800, 400, "gem")
+    addOreMelting('kubejs:crystal_glowstone',{fluid: "thermal:glowstone",amount:400},{fluid:"tconstruct:molten_quartz",amount:100,rate:"gem"}, 1800, 400, "gem")
+    //coe的矿物
+    addOreMelting('createoreexcavation:raw_redstone',{fluid:"thermal:redstone",amount:900},{fluid:"tconstruct:molten_quartz",amount:100,rate:"gem"}, 1800, 400, "gem")
 })

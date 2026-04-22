@@ -413,7 +413,7 @@ ServerEvents.tags('fluid', event => {
     'kubejs:molten_phoenix',
     'kubejs:molten_valkyrie',
     'kubejs:molten_refined_sentrite',
-    'kubejs:zirconium_fluid'
+    "tinkers_reforged:titanium"
   ]
   let gemSmallToolTip = [
     'thermal:glowstone',

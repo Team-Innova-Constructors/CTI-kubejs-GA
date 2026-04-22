@@ -242,6 +242,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create:mixing/whippedcream_bottle_create' })
 	event.remove({ id: 'create:mixing/whippedcream_bucket_create' })
 	event.remove({ id: 'mythicbotany:mana_collector'})
+	event.remove({ id: 'industrialforegoing:enchantment_applicator'})
 	//powah能耗增加
 	let powah = [
 		'powah:energizing/dry_ice',
