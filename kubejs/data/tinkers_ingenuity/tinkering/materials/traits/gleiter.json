@@ -4,19 +4,31 @@
       {
       "name": "cti:nonstop_insatiable",
       "level": 1
-    }
+    },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
     ],
     "tconstruct:ranged": [
       {
       "name": "cti:nonstop_insatiable",
       "level": 1
-    }
+    },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
     ],
     "tinkers_ingenuity:laser_gun": [
       {
       "name": "cti:nonstop_insatiable",
       "level": 1
-    }
+    },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
     ]
   }
 }

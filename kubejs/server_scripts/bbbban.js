@@ -221,7 +221,8 @@ ServerEvents.recipes(event => {
 		'thermal:machines/crucible/crucible_glowstone_dust',
 		'tconstruct:smeltery/alloys/molten_lumium',
 		'tconstruct:smeltery/alloys/molten_enderium',
-		'enigmaticlegacy:cursed_scroll'
+		'enigmaticlegacy:cursed_scroll',
+		'enigmaticlegacy:cosmic_heart'
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -328,6 +329,7 @@ ServerEvents.recipes(event => {
 		'l2complements:enchantments/magic_reject',
 		'l2complements:enchantments/invincible',
 		'l2complements:enchantments/void_touch',
+		'l2complements:craft/guardian_rune',
 		'l2hostility:naga_boss_spawner',
 		'l2hostility:lich_boss_spawner',
 		'l2hostility:minoshroom_boss_spawner',

@@ -1,0 +1,152 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "solidarytinker:neverend",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:reliable",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:sandstrom",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "solidarytinker:neverend",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:reliable",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:sandstrom",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "solidarytinker:sandbless",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:absolutejustice",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:tacticsprotect",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "solidarytinker:sandstrom",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:absolutejustice",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:tacticsprotect",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "solidarytinker:neverend",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:reliable",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:sandstrom",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "etshtinker:plasma_generator": [
+      {
+        "name": "solidarytinker:neverend",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:reliable",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:sandstrom",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "solidarytinker:bha",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:natived",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:watery",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "solidarytinker:core_battery": [
+      {
+        "name": "solidarytinker:neverend",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:reliable",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:sandstrom",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:deadlyrhythm",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ]
+  }
+}

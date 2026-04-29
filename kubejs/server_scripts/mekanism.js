@@ -520,23 +520,24 @@ event.custom({
   event.custom({
   "type": "mekanism:reaction",
   "duration": 100,
-  "energyRequired": 100000,
+  "energyRequired": 1000,
   "fluidInput": {
-    "amount": 10,
+    "amount": 100,
     "fluid": "kubejs:radical_initiator"
   },
   "gasInput": {
-    "amount": 1000,
+    "amount": 500,
     "gas": "mekanism:ethene"
   },
   "itemInput": {
     "ingredient": {
-      "item": "mekanism:substrate"
+      "item": "mekanism:substrate",
+      "count":4
     }
   },
   "itemOutput": {
     "item": "mekanism:hdpe_pellet",
-    "count":32
+    "count":16
   }
 })
   rotary("kubejs:phenol","cti:phenol")

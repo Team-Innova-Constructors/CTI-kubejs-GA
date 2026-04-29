@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     let has_crushed_raw = [
         'iron', 'gold', 'copper', 'zinc', 'aluminum', 'lead', 'uranium', 'silver', 'nickel', 'tin', 'osmium'
     ]
-    event.remove({ id: "create:crushing/moon_cheess_ore" })
+    event.remove({ id: "create:crushing/moon_cheese_ore" })
     event.remove({ id: "create:crushing/moon_desh_ore" })
     event.remove({ id: "create:crushing/deepslate_desh_ore" })
     event.remove({ id: "create:crushing/mars_ostrum_ore" })

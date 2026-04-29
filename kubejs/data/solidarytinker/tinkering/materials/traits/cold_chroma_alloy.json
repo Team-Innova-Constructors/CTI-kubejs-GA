@@ -2,12 +2,12 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
-        "name": "cti:timetojudge",
+        "name": "solidarytinker:fluxweapon",
         "level": 1
       },
       {
-        "name": "cti:netherfire",
-        "level": 1
+        "name": "solidarytinker:energyadd",
+        "level": 2
       },
       {
         "name": "cti:the_relic",
@@ -16,12 +16,12 @@
     ],
     "tconstruct:ranged": [
       {
-        "name": "cti:timetojudge",
+        "name": "solidarytinker:fluxweapon",
         "level": 1
       },
       {
-        "name": "cti:netherfire",
-        "level": 1
+        "name": "solidarytinker:energyadd",
+        "level": 2
       },
       {
         "name": "cti:the_relic",
@@ -30,11 +30,11 @@
     ],
     "tconstruct:armor": [
       {
-        "name": "cti:celestiallight",
+        "name": "solidarytinker:fluxarmor",
         "level": 1
       },
       {
-        "name": "cti:archangelwings",
+        "name": "solidarytinker:energymultiple",
         "level": 1
       },
       {
@@ -44,11 +44,7 @@
     ],
     "tinkersinnovation:shield": [
       {
-        "name": "cti:timetojudge",
-        "level": 1
-      },
-      {
-        "name": "cti:netherfire",
+        "name": "solidarytinker:elasticity",
         "level": 1
       },
       {
@@ -58,11 +54,11 @@
     ],
     "tinkers_ingenuity:laser_gun": [
       {
-        "name": "cti:timetojudge",
+        "name": "solidarytinker:corrode",
         "level": 1
       },
       {
-        "name": "cti:netherfire",
+        "name": "solidarytinker:swell",
         "level": 1
       },
       {

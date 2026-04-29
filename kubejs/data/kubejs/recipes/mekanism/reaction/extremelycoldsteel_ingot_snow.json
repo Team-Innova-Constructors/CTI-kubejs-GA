@@ -1,13 +1,13 @@
 {
   "type": "mekanism:reaction",
-  "duration": 140,
-  "energyRequired": 2800,
+  "duration": 300,
+  "energyRequired": 5800,
   "fluidInput": {
-    "amount": 1000,
-    "fluid": "ad_astra:cryo_fuel"
+    "amount": 8000,
+    "fluid": "tconstruct:powdered_snow"
   },
   "gasInput": {
-    "amount": 1000,
+    "amount": 2000,
     "gas": "mekanism:oxygen"
   },
   "itemInput": {
@@ -19,5 +19,9 @@
   "itemOutput": {
     "count": 1,
     "item": "solidarytinker:extremelycoldsteel_ingot"
+  },
+  "gasOutput": {
+    "amount": 5000,
+    "gas": "mekanism:hydrogen"
   }
 }

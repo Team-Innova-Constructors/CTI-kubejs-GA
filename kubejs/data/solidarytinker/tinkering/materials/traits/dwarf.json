@@ -2,11 +2,11 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
-        "name": "cti:timetojudge",
+        "name": "solidarytinker:darkstar",
         "level": 1
       },
       {
-        "name": "cti:netherfire",
+        "name": "solidarytinker:superblazing",
         "level": 1
       },
       {
@@ -16,11 +16,11 @@
     ],
     "tconstruct:ranged": [
       {
-        "name": "cti:timetojudge",
+        "name": "solidarytinker:darkstar",
         "level": 1
       },
       {
-        "name": "cti:netherfire",
+        "name": "solidarytinker:superblazing",
         "level": 1
       },
       {
@@ -30,11 +30,7 @@
     ],
     "tconstruct:armor": [
       {
-        "name": "cti:celestiallight",
-        "level": 1
-      },
-      {
-        "name": "cti:archangelwings",
+        "name": "solidarytinker:collapse",
         "level": 1
       },
       {
@@ -44,11 +40,7 @@
     ],
     "tinkersinnovation:shield": [
       {
-        "name": "cti:timetojudge",
-        "level": 1
-      },
-      {
-        "name": "cti:netherfire",
+        "name": "solidarytinker:collapse",
         "level": 1
       },
       {
@@ -58,11 +50,25 @@
     ],
     "tinkers_ingenuity:laser_gun": [
       {
-        "name": "cti:timetojudge",
+        "name": "solidarytinker:darkstar",
         "level": 1
       },
       {
-        "name": "cti:netherfire",
+        "name": "solidarytinker:superblazing",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
+    ],
+    "etshtinker:plasma_generator": [
+      {
+        "name": "solidarytinker:darkstar",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:superblazing",
         "level": 1
       },
       {
