@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
 		'cherrytinker:tables/enchantedgold_block',
 		'cherrytinker:tables/enchantedgold_ingot',
 		'solidarytinker:table/icefantasy_ingot',
-		'solidarytinker:casting/starfall_ingot',
+		'solidarytinker:casting/hoshino_ingot',
 		'solidarytinker:table/experience_steel_ingot',
 		'solidarytinker:casting/extremelycoldsteel_ingot',
 		'solidarytinker:smeltery/alloy/super_dt',

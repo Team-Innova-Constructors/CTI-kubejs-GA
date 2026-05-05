@@ -14,7 +14,7 @@
       "amount": 2000
     },
     {
-      "name": "cti:lava_plasmatic",
+      "name": "cti:lava_atomic_bucket",
       "amount": 2000
     }
   ],
@@ -22,5 +22,5 @@
     "fluid": "solidarytinker:super_dt",
     "amount": 1000
   },
-  "temperature": 6300
+  "temperature": 7950
 }
