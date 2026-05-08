@@ -688,8 +688,9 @@ event.custom({
       "item":"etshtinker:sculk_energycore",
     },
     {
-      "item":"immersiveengineering:tesla_coil",
+      "item":"immersivepetroleum:napalm_bucket",
     }
+    
   ],
   "level": 1,
   "result": "etshtinker:plasma_blade",
@@ -723,7 +724,7 @@ event.custom({
       "item":"etshtinker:sculk_energycore",
     },
     {
-      "item":"immersivepetroleum:napalm_bucket",
+      "item":"immersiveengineering:tesla_coil",
     }
   ],
   "level": 1,
