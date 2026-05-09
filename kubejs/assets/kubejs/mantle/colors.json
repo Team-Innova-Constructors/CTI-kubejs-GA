@@ -3,7 +3,8 @@
   },
   "modifier.cti": {
     "refined": "#A48DFF",
-    "zanite": "#A984D1"
+    "zanite": "#A984D1",
+    "weight_unstable": "#948B8B"
   },
   "material.cti": {
     "violium": "#A48DFF",

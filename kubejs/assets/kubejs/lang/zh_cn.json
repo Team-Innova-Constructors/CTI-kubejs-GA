@@ -298,6 +298,10 @@
     "modifier.cti.zanite.flavor": "蕴含天镜能量的宝石",
     "modifier.cti.zanite.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。移除天镜对你工具的削弱。",
 
+    "modifier.tinkers_reforged.weight_exchange": "重量交换",
+    "modifier.tinkers_reforged.weight_exchange.description": "将工具50%的挖掘速度添加到攻击伤害上。",
+    "modifier.tinkers_reforged.weight_exchange.flavor": "重量交换",
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
 
