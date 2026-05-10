@@ -2,7 +2,7 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
-        "name": "tinkers_ingenuity:territoral_sky",
+        "name": "cti:territoral_sky",
         "level": 1
       },
       {
@@ -32,13 +32,13 @@
         "level": 1
       },
       {
-        "name": "tinkers_ingenuity:celestial",
+        "name": "cti:fixed_celestial",
         "level": 1
       }
     ],
     "tinkers_ingenuity:laser_gun": [
       {
-        "name": "tinkers_ingenuity:territoral_sky",
+        "name": "cti:territoral_sky",
         "level": 1
       },
       {
