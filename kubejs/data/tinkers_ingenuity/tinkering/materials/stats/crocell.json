@@ -17,6 +17,10 @@
     "tconstruct:grip": null,
     "tconstruct:maille": {},
     "tconstruct:shield_core": {},
+    "tconstruct:plating_helmet": null,
+    "tconstruct:plating_chestplate": null,
+    "tconstruct:plating_leggings": null,
+    "tconstruct:plating_boots": null,
     "tinkers_ingenuity:battery": {
       "energy_capacity": 61000,
       "durability": 0.15
