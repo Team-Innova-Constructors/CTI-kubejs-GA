@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
             //给铜单独拉高一点
             event.recipes.create.crushing([Item.of('create:crushed_raw_copper', 8), Item.of('create:crushed_raw_copper', 4).withChance(0.6), 'create:experience_nugget'], '#forge:ores/copper').processingTime(200);
         } else {
-            event.recipes.create.crushing([Item.of(`create:crushed_raw_${m}`, 2), Item.of(`create:crushed_raw_${m}`, 1).withChance(0.75), 'create:experience_nugget'], `#forge:ores/${m}`).processingTime(200);
+            event.recipes.create.crushing([Item.of(`create:crushed_raw_${m}`, 3), Item.of(`create:crushed_raw_${m}`, 1).withChance(0.75), 'create:experience_nugget'], `#forge:ores/${m}`).processingTime(200);
         }
         event.remove({ id: `create:crushing/raw_${m}_block` })
         event.remove({ id: `create:crushing/raw_${m}` })
@@ -46,9 +46,9 @@ ServerEvents.recipes(event => {
    event.recipes.create.crushing([Item.of('minecraft:emerald',4),Item.of('minecraft:emerald',2).withChance(0.75),'create:experience_nugget'],'createoreexcavation:raw_emerald').processingTime(50);
    event.recipes.create.crushing([Item.of('minecraft:redstone',14),Item.of('minecraft:redstone',5).withChance(0.8),'create:experience_nugget'],'createoreexcavation:raw_redstone').processingTime(50);
 
-   event.recipes.create.crushing([Item.of('ad_astra:raw_desh',2),Item.of('ad_astra:raw_desh',1).withChance(0.8),'create:experience_nugget'],'#forge:ores/desh').processingTime(100);
-   event.recipes.create.crushing([Item.of('ad_astra:raw_ostrum',2),Item.of('ad_astra:raw_ostrum',1).withChance(0.8),'create:experience_nugget'],'#forge:ores/ostrum').processingTime(100);
-   event.recipes.create.crushing([Item.of('ad_astra:raw_calorite',2),Item.of('ad_astra:raw_calorite',1).withChance(0.8),'create:experience_nugget'],'#forge:ores/calorite').processingTime(100);
+   event.recipes.create.crushing([Item.of('ad_astra:raw_desh',3),Item.of('ad_astra:raw_desh',1).withChance(0.8),'create:experience_nugget'],'#forge:ores/desh').processingTime(100);
+   event.recipes.create.crushing([Item.of('ad_astra:raw_ostrum',3),Item.of('ad_astra:raw_ostrum',1).withChance(0.8),'create:experience_nugget'],'#forge:ores/ostrum').processingTime(100);
+   event.recipes.create.crushing([Item.of('ad_astra:raw_calorite',3),Item.of('ad_astra:raw_calorite',1).withChance(0.8),'create:experience_nugget'],'#forge:ores/calorite').processingTime(100);
    event.recipes.create.crushing([Item.of('ad_astra:cheese',5),Item.of('ad_astra:cheese',2).withChance(0.8),'create:experience_nugget'],'#forge:ores/cheese').processingTime(100);
    event.recipes.create.crushing([Item.of('ad_astra:ice_shard',6),Item.of('ad_astra:ice_shard',3).withChance(0.8),'create:experience_nugget'],'#forge:ores/ice_shard').processingTime(100);
 

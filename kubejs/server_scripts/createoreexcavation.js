@@ -56,15 +56,14 @@ ServerEvents.recipes(event => {
             .id("hot_heavycrystal_lava");
 
 //富油
-        event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 2000', '{"text": "富油"}', 15, 20)
+        event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 2000', '{"text": "富油"}', 0, 20)
             //钻头等级
             .drill('#createoreexcavation:second_createore_drill')
             //无限量
             .alwaysInfinite()
             //应力值
             .stress(640)
-            //生物群落白名单
-            .biomeWhitelist('forge:is_dry/overworld')
+            .biomeWhitelist('kubejs:null')
             //配方id
             .id("rich_oil");
 
@@ -185,9 +184,8 @@ ServerEvents.recipes(event => {
         event.recipes.createoreexcavation.drilling([Item.of('create:sweet_roll').withChance(0.4), Item.of('create:chocolate_glazed_berries').withChance(0.3), Item.of('create:honeyed_apple').withChance(0.2), Item.of('create:bar_of_chocolate').withChance(0.2), Item.of('tconstruct:cheese_ingot').withChance(0.2), Item.of('create:builders_tea').withChance(0.2)], '{"text": "工匠早餐矿"}', 0, 160)
             .drill('#createoreexcavation:second_createore_drill')
             .fluid('minecraft:milk')
-            .biomeWhitelist('minecraft:is_overworld')
+            .biomeWhitelist('kubejs:null')
             .stress(32)
             .id("create_food");
     },
-
 );

@@ -407,6 +407,7 @@ ServerEvents.recipes(event => {
          A: 'kubejs:meteorium_scrap',
       }
    )
+
    event.smithing('cti:meteorium_plane','ae2:annihilation_plane','kubejs:meteorium_ingot')
    
 
@@ -426,7 +427,7 @@ ServerEvents.recipes(event => {
     ], {
         B: 'tconstruct:sky_slime_ball',
         C: 'tconstruct:seared_brick',
-        D: 'tconstruct:slimesteel_ingot',
+        D: 'tconstruct:seared_brick',
         E: 'gobber2:gobber2_glob',
         F: '#forge:ingots/bronze'
     });

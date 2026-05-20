@@ -64,6 +64,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crystallizer('create:andesite_casing', ['#minecraft:logs', Fluid.of("tinkersinnovation:molten_andesite_alloy", 90)]).energy(2000)
   event.recipes.thermal.crystallizer('create:brass_casing', ['#minecraft:logs', Fluid.of("tconstruct:molten_brass", 90)]).energy(2000)
   event.recipes.thermal.crystallizer('create:copper_casing', ['#minecraft:logs', Fluid.of("tconstruct:molten_copper", 90)]).energy(2000)
+  event.recipes.thermal.crystallizer('create:andesite_casing', ['thermal:stripped_rubberwood_log', Fluid.of("tinkersinnovation:molten_andesite_alloy", 90)]).energy(2000)
+  event.recipes.thermal.crystallizer('create:brass_casing', ['thermal:stripped_rubberwood_log', Fluid.of("tconstruct:molten_brass", 90)]).energy(2000)
+  event.recipes.thermal.crystallizer('create:copper_casing', ['thermal:stripped_rubberwood_log', Fluid.of("tconstruct:molten_copper", 90)]).energy(2000)
   event.recipes.thermal.crystallizer('etshtinker:soul_fluix', ['ae2:charged_certus_quartz_crystal','ae2:fluix_crystal', Fluid.of("thermal:glowstone", 100)]).energy(2000)
   //熔岩炉
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(100000)
@@ -114,6 +117,14 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.chiller(Item.of('minecraft:diamond'), [Fluid.of('tconstruct:molten_diamond', 100),'tconstruct:gem_cast']).energy(1000)
   event.recipes.thermal.chiller(Item.of('minecraft:emerald'), [Fluid.of('tconstruct:molten_emerald', 100),'tconstruct:gem_cast']).energy(1000)
   event.recipes.thermal.chiller(Item.of('minecraft:quartz'), [Fluid.of('tconstruct:molten_quartz', 100),'tconstruct:gem_cast']).energy(1000)
+  event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of("tinkers_reforged:titanium",90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.chiller('mekanism:ingot_osmium',[Fluid.of("tconstruct:molten_osmium",90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.chiller('undergarden:cloggrum_ingot',[Fluid.of("tcintegrations:cloggrum",90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.chiller('undergarden:froststeel_ingot',[Fluid.of("tcintegrations:froststeel",90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.chiller('ad_astra:desh_ingot',[Fluid.of("tcintegrations:desh",90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.chiller('ad_astra:ostrum_ingot',[Fluid.of("tcintegrations:ostrum",90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.chiller('ad_astra:calorite_ingot',[Fluid.of("tcintegrations:calorite",90),'thermal:chiller_ingot_cast'])
+
   //离心机
   event.recipes.thermal.centrifuge(['thermal:sulfur_dust', '2x thermal:niter_dust', 'mekanism:dust_charcoal'], '4x minecraft:gunpowder').energy(10000)
   event.recipes.thermal.centrifuge([Item.of('kubejs:light_slag').withChance(0.1), Item.of('kubejs:crystal_slag').withChance(0.15), Item.of('kubejs:metal_slag').withChance(0.1), Item.of('kubejs:mineral_slag').withChance(0.15)], 'kubejs:enriched_slag').energy(12000)
@@ -286,6 +297,19 @@ ServerEvents.recipes(event => {
       D: 'kubejs:uncomplete_upgrade_augment_7',
     }
   )
+  event.shaped(Item.of('cti:upgrade_augment_8', 1),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'kubejs:overchargedultradense',
+      B: 'kubejs:compressed_activated_chroma_plate',
+      C: 'thermal:netherite_gear',
+      D: 'cti:upgrade_augment_7',
+    }
+  )
   event.shapeless(Item.of('kubejs:dust_petrotheum', 1), [
     '#forge:dusts/obsidian',
     'thermal:basalz_powder',
@@ -314,7 +338,7 @@ ServerEvents.recipes(event => {
     'minecraft:redstone',
   ]
   )
-  event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of("tinkers_reforged:titanium",90),'thermal:chiller_ingot_cast'])
+
   event.recipes.thermal.crystallizer('16x mekanism:alloy_infused',[Fluid.of('kubejs:redstone_additive',50),'16x minecraft:iron_ingot']).energy(200)
   event.recipes.thermal.crystallizer('16x mekanism:alloy_reinforced',[Fluid.of('kubejs:diamond_additive',50),'16x mekanism:alloy_infused']).energy(200)
   event.recipes.thermal.crystallizer('16x mekanism:alloy_atomic',[Fluid.of('kubejs:obsidian_additive',50),'16x mekanism:alloy_reinforced']).energy(200)

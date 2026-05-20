@@ -114,6 +114,11 @@ ServerEvents.recipes(event => {
     { tag: "forge:ender", amount: 500 },
   ], 1850, null, "tconstruct:molten_enderium", 360)
 
+  addAlloy([
+    { fluid: "tconstruct:liquid_soul", amount: 250 },
+    { fluid: "tconstruct:venom", amount: 1000 },
+  ], 1250, null, "undergarden:virulent_mix", 1000)
+
 
 
   addCastingBlock("thermal:redstone", 900, 200, 'minecraft:redstone_block')
@@ -134,6 +139,9 @@ ServerEvents.recipes(event => {
   addMelting("aether:valkyrie_helmet", "kubejs:molten_valkyrie", 4500, 3250, 125)
   addMelting("aether:valkyrie_chestplate", "kubejs:molten_valkyrie", 7200, 3250, 200)
   addMelting("aether:valkyrie_leggings", "kubejs:molten_valkyrie", 1800, 3250, 175)
+
+  addMelting('biomancy:toxin_extract', "tconstruct:venom", 250, 400, 200)
+  addMelting('biomancy:withering_ooze', "tinkerscalibration:molteninertwitherium", 90, 1650, 200)
 
   addMelting("aether:phoenix_boots", "kubejs:molten_phoenix", 360, 3475, 100)
   addMelting("aether:phoenix_helmet", "kubejs:molten_phoenix", 450, 3475, 125)

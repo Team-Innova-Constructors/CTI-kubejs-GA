@@ -70,6 +70,10 @@
       "attack_range": 12,
       "target_amount": 8,
       "energy_capability": 4000000
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 23,
+      "perception_count": 1000
     }
   }
 }
