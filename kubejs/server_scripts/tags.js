@@ -104,7 +104,6 @@ ServerEvents.tags('item', event => {
 
   event.add('l2hostility:no_seal', 'ae2wtlib:wireless_universal_terminal')
   event.add('l2hostility:no_seal', 'cti:slime_can')
-  event.add('create:blaze_burner_fuel/special', 'gobber2:gobber2_foo_end')
   event.add('create:blaze_burner_fuel/special', 'immersivepetroleum:paraffin_wax')
   event.add('create:blaze_burner_fuel/special', 'immersivepetroleum:petcoke_dust')
 

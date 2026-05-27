@@ -224,7 +224,12 @@ ServerEvents.recipes(event => {
 		'tconstruct:smeltery/alloys/molten_lumium',
 		'tconstruct:smeltery/alloys/molten_enderium',
 		'enigmaticlegacy:cursed_scroll',
-		'enigmaticlegacy:cosmic_heart'
+		'enigmaticlegacy:cosmic_heart',
+		'tinkerscalibration:tools/materials/casting/fiberglass/fiberglass_cast',
+		'tinkerscalibration:tools/materials/casting/fiberglass/part',
+		'tinkerscalibration:tools/materials/melting/fiberglass/fiberglass',
+		'tinkerscalibration:tools/materials/melting/fiberglass/part',
+		'tinkerscalibration:glass_pane_to_fiber',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
