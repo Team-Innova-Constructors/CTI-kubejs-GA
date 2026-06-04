@@ -3,7 +3,8 @@
   "list": [
     {
       "blacklist": [
-        "l2hostility:adaptive"
+        "l2hostility:cursed",
+        "l2hostility:speedy"
       ],
       "difficulty": {
         "apply_chance": 1.0,
@@ -19,14 +20,29 @@
       "items": [],
       "traits": [
         {
-          "free": 1,
-          "min": 1,
-          "trait": "l2hostility:soul_burner"
+          "free": 2,
+          "min": 5,
+          "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 3,
+          "min": 5,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 2,
+          "min": 4,
+          "trait": "l2hostility:protection"
+        },
+        {
+          "free": 2,
+          "min": 5,
+          "trait": "l2hostility:purify"
         },
         {
           "free": 1,
           "min": 1,
-          "trait": "l2hostility:cursed"
+          "trait": "l2hostility:dementor"
         }
       ]
     }

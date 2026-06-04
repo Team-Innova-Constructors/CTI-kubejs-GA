@@ -1,8 +1,8 @@
 {
-  "perStat": {
+    "perStat": {
     "tconstruct:melee_harvest": [
       {
-        "name": "cti:arrogance_insatiable",
+        "name": "tinkersinnovation:miracle",
         "level": 1
       },
       {
@@ -12,7 +12,7 @@
     ],
     "tconstruct:ranged": [
       {
-        "name": "cti:arrogance_insatiable",
+        "name": "tinkersinnovation:miracle",
         "level": 1
       },
       {
@@ -22,7 +22,7 @@
     ],
     "tconstruct:armor": [
       {
-        "name": "tinkersinnovation:arrogance_armor",
+        "name": "tinkersinnovation:miracle",
         "level": 1
       },
       {
