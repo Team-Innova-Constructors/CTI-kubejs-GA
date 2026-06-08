@@ -230,6 +230,17 @@ ServerEvents.recipes(event => {
 		'tinkerscalibration:tools/materials/melting/fiberglass/fiberglass',
 		'tinkerscalibration:tools/materials/melting/fiberglass/part',
 		'tinkerscalibration:glass_pane_to_fiber',
+		'thermal:tools/satchel',
+		'mekanism:transmitter/logistical_transporter/basic',
+		'mekanism:transmitter/logistical_transporter/advanced',
+		'mekanism:transmitter/logistical_transporter/elite',
+		'mekanism:transmitter/logistical_transporter/ultimate',
+		'mekaevolution:absolute_logistical_transporter',
+		'mekaevolution:supreme_logistical_transporter',
+		'mekaevolution:cosmic_logistical_transporter',
+		'mekaevolution:infinite_logistical_transporter',
+		'meetyourfight:slicers_dice',
+		'meetyourfight:wilted_ideals',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -382,7 +393,8 @@ ServerEvents.recipes(event => {
 		'cyclic:crusher/rail',
 		'cyclic:crusher/activator_rail',
 		'cyclic:crusher/powered_rail',
-		'cyclic:crusher/detector_rail'
+		'cyclic:crusher/detector_rail',
+		'cyclic:antigravity',
 	]
 	for (let i of cyclics) { event.remove({ id: `${i}` }) }
 	//堆

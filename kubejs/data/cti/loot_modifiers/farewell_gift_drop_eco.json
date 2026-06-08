@@ -1,6 +1,6 @@
 {
   "type": "l2hostility:trait_scaled",
-  "chance": 0.15,
+  "chance": 0.1,
   "conditions": [
     {
       "condition": "minecraft:killed_by_player"
@@ -16,10 +16,10 @@
       "item": "l2hostility:charm_of_looting_2"
     }
   ],
-  "rankBonus": 0.3,
+  "rankBonus": 0.18,
   "result": {
     "Count": 1,
-    "id": "minecraft:eco_shard"
+    "id": "minecraft:echo_shard"
   },
   "trait":"l2hostility:farewell_gift"
 }

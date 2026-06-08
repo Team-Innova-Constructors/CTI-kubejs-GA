@@ -63,4 +63,7 @@ ServerEvents.recipes(event => {
 
    event.recipes.create.crushing([Item.of('tconstruct:raw_cobalt',3),Item.of('create:crushed_raw_iron',1).withChance(0.6),'create:experience_nugget'],'tconstruct:cobalt_ore').processingTime(100);
    event.recipes.create.crushing([Item.of('tinkers_thinking:raw_ardite',3),Item.of('create:crushed_raw_gold',1).withChance(0.6),'create:experience_nugget'],'tinkers_thinking:ardite_ore').processingTime(100);
+   event.recipes.create.crushing([Item.of('kubejs:meteorium_scrap',6),Item.of('create:crushed_raw_gold',3),Item.of('create:crushed_raw_iron',3),Item.of('create:crushed_raw_copper',3),Item.of('create:crushed_raw_uranium',5),Item.of('ae2:certus_quartz_crystal',7).withChance(0.8)],'cti:meteorite_ore').processingTime(300);
+   event.recipes.create.crushing([Item.of('kubejs:meteorium_scrap',2),Item.of('create:crushed_raw_nickel',3),Item.of('create:crushed_raw_aluminum',3),Item.of('create:crushed_raw_uranium',5),Item.of('createoreexcavation:raw_diamond',4),Item.of('minecraft:glowstone_dust',6),Item.of('aether_redux:raw_gravitite',5),Item.of('ae2:fluix_crystal',3),Item.of('aether:ambrosium_shard',6)],'kubejs:aetheric_meteorite_ore').processingTime(300);
+
 })

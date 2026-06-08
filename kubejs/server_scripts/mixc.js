@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
    )
    event.shapeless(Item.of('immersiveengineering:graphite_electrode').withNBT('{Unbreakable:1b}'), [
       'immersiveengineering:graphite_electrode',
-      'l2complements:eternium_ingot'
+      'etshtinker:energized_sculk_alloy'
    ]
    )
    event.shapeless(Item.of('minecraft:ender_pearl',3), [

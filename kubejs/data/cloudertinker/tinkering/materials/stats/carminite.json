@@ -2,56 +2,57 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 0.45,
-      "mining_speed": 0,
-      "melee_speed": 0.25,
-      "melee_damage": 0.95
+      "durability": -0.15,
+      "mining_speed": 0.2,
+      "melee_speed": 0.45,
+      "melee_damage": -0.05
     },
     "tconstruct:head": {
-      "durability": 1450,
-      "mining_speed": 6.5,
+      "durability": 852,
+      "mining_speed": 6,
       "mining_tier": "minecraft:diamond",
-      "melee_attack": 4.75
+      "melee_attack": 7
     },
     "tconstruct:limb": {
-      "durability": 1120,
-      "draw_speed": 0.4,
+      "durability": 650,
+      "draw_speed": 0.2,
       "velocity": 0.2,
-      "accuracy": 1
+      "accuracy": 0.5
     },
     "tconstruct:grip": {
-      "durability": 0.15,
+      "durability": -0.1,
       "accuracy": 0.1,
-      "melee_damage": 3
+      "melee_damage": 3.5
     },
     "tconstruct:curio_extra": {},
+    "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 6,
-      "durability": 275,
+      "armor": 3.0,
+      "durability": 274,
       "knockback_resistance": 0.2,
-      "toughness": 1.5
+      "toughness": 2.5
     },
     "tconstruct:plating_chestplate": {
-      "armor": 9.0,
-      "durability": 400,
+      "armor": 5.0,
+      "durability": 368,
       "knockback_resistance": 0.2,
-      "toughness": 1.5
+      "toughness": 2.5
     },
     "tconstruct:plating_leggings": {
-      "armor": 7.0,
-      "durability": 375,
+      "armor": 4.0,
+      "durability": 300,
       "knockback_resistance": 0.2,
-      "toughness": 1.5
+      "toughness": 2.5
     },
     "tconstruct:plating_boots": {
-      "armor": 5,
-      "durability": 325,
+      "armor": 2.0,
+      "durability": 275,
       "knockback_resistance": 0.2,
-      "toughness": 1.5
+      "toughness": 2.5
     },
     "tconstruct:plating_shield": {
-      "armor": 4,
-      "durability": 700,
+      "armor": 1.0,
+      "durability": 670,
       "knockback_resistance": 0.4,
       "toughness": 2
     }
