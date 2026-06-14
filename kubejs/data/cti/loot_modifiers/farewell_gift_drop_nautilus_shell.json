@@ -16,7 +16,7 @@
       "item": "l2hostility:charm_of_looting_1"
     }
   ],
-  "rankBonus": 0.2,
+  "rankBonus": 0.15,
   "result": {
     "Count": 2,
     "id": "minecraft:nautilus_shell"

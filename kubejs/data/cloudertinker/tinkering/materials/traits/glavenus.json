@@ -1,0 +1,58 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:heatsword",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:highspirits",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "cti:infernal",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:heatsword",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:highspirits",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "cti:infernal",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:heatsword",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:highspirits",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "cti:infernal",
+        "level": 1
+      }
+    ]
+  }
+}

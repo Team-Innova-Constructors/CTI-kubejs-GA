@@ -4,7 +4,10 @@
     {
       "blacklist": [
         "l2hostility:regenerate",
-        "l2hostility:tank"
+        "l2hostility:tank",
+        "l2hostility:invisible",
+        "l2hostility:adaptive",
+        "l2hostility:undying"
       ],
       "difficulty": {
         "apply_chance": 1.0,
@@ -28,6 +31,16 @@
           "free": 1,
           "min": 1,
           "trait": "l2hostility:cursed"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:corrosion"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:erosion"
         }
       ]
     }

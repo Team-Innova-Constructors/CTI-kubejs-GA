@@ -4,7 +4,8 @@
     {
       "blacklist": [
         "l2hostility:adaptive",
-        "l2hostility:speedy"
+        "l2hostility:speedy",
+        "l2hostility:invisible"
       ],
       "difficulty": {
         "apply_chance": 1.0,
@@ -26,7 +27,7 @@
         },
         {
           "free": 1,
-          "min": 3,
+          "min": 2,
           "trait": "l2hostility:tank"
         }
       ]

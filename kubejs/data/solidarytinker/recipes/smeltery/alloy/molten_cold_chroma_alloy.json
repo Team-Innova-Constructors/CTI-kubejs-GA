@@ -26,6 +26,10 @@
     {
       "name": "kubejs:fluid_cryotheum",
       "amount": 1000
+    },
+    {
+      "name": "solidarytinker:super_dt",
+      "amount": 1000
     }
   ],
   "result": {

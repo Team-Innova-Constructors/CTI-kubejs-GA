@@ -3,11 +3,15 @@
   "list": [
     {
       "blacklist": [
+        "l2hostility:speedy",
+        "l2hostility:teleport",
+        "l2hostility:dispell",
+        "l2hostility:invisible"
       ],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 150,
-        "min": 650,
+        "min": 1200,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0

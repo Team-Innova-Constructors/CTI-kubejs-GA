@@ -164,12 +164,12 @@ ServerEvents.recipes(event => {
     addMelting('minecraft:glowstone', "thermal:glowstone", 400, 1500, 100)
     addMelting('minecraft:glowstone_dust', "thermal:glowstone", 100, 1500, 50)
 
-    addMelting("aether:gravitite_sword", "kubejs:molten_gravitite", 180, 2500, 100)
-    addMelting("aether:gravitite_boots", "kubejs:molten_gravitite", 360, 2500, 100)
-    addMelting("aether:gravitite_helmet", "kubejs:molten_gravitite", 450, 2500, 100)
-    addMelting("aether:gravitite_chestplate", "kubejs:molten_gravitite", 720, 2500, 100)
-    addMelting("aether:gravitite_leggings", "kubejs:molten_gravitite", 630, 2500, 100)
-    addMelting("aether:gravitite_gloves", "kubejs:molten_gravitite", 180, 2500, 100)
+    addMelting("aether:gravitite_sword", "kubejs:molten_gravitite", 180, 4950, 100)
+    addMelting("aether:gravitite_boots", "kubejs:molten_gravitite", 360, 4950, 100)
+    addMelting("aether:gravitite_helmet", "kubejs:molten_gravitite", 450, 4950, 100)
+    addMelting("aether:gravitite_chestplate", "kubejs:molten_gravitite", 720, 4950, 100)
+    addMelting("aether:gravitite_leggings", "kubejs:molten_gravitite", 630, 4950, 100)
+    addMelting("aether:gravitite_gloves", "kubejs:molten_gravitite", 180, 4950, 100)
 
     addMelting("aether:valkyrie_hoe", "kubejs:molten_valkyrie", 1800, 3250, 100)
     addMelting("aether:valkyrie_axe", "kubejs:molten_valkyrie", 2700, 3250, 100)
@@ -302,7 +302,7 @@ ServerEvents.recipes(event => {
             "amount": 180,
             "fluid": "kubejs:molten_veridium"
         },
-        "temperature": 2000,
+        "temperature": 2200,
         "time": 120
     })
     event.custom({
@@ -315,7 +315,7 @@ ServerEvents.recipes(event => {
             "amount": 90,
             "fluid": "kubejs:molten_veridium"
         },
-        "temperature": 200,
+        "temperature": 2200,
         "time": 60
     })
     event.shaped(Item.of('cti:silicated_bricks'), [

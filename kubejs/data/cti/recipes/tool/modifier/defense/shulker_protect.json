@@ -1,0 +1,36 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": false,
+  "inputs": [
+    {
+      "item": "l2complements:shulkerate_ingot",
+      "amount_needed": 3
+    },
+    {
+      "item": "l2hostility:protection"
+    },
+    {
+      "item": "l2complements:shulkerate_ingot",
+      "amount_needed": 3
+    },
+    {
+      "item":"tconstruct:cobalt_reinforcement",
+      "amount_needed": 6
+    },
+    {
+      "item": "tconstruct:cobalt_reinforcement",
+      "amount_needed": 6
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "result": "cti:shulker_protect",
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}

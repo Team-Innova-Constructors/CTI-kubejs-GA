@@ -3,7 +3,9 @@
   "list": [
     {
       "blacklist": [
-        "l2hostility:adaptive"
+        "l2hostility:adaptive",
+        "l2hostility:invisible",
+        "l2hostility:teleport"
       ],
       "difficulty": {
         "apply_chance": 1.0,

@@ -61,19 +61,19 @@
     "tinkers_ingenuity:curio": [
       {
         "name": "solidarytinker:bha",
-        "level": 100
+        "level": 1110
       },
       {
         "name": "solidarytinker:natived",
-        "level": 100
+        "level": 1110
       },
       {
         "name": "solidarytinker:watery",
-        "level": 100
+        "level": 1110
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 100
+        "level": 1110
       }
     ]
   }

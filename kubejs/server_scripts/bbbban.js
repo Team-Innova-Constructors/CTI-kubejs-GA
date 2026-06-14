@@ -241,6 +241,13 @@ ServerEvents.recipes(event => {
 		'mekaevolution:infinite_logistical_transporter',
 		'meetyourfight:slicers_dice',
 		'meetyourfight:wilted_ideals',
+		'meetyourfight:ace_of_iron',
+		'meetyourfight:caged_heart',
+		'l2complements:craft/shulkerate_ingot',
+		'tcintegrations:tools/modifiers/compat/terrestrial_helmets',
+		'tcintegrations:tools/modifiers/compat/terrestrial_chestplates',
+		'tcintegrations:tools/modifiers/compat/terrestrial_leggings',
+		'tcintegrations:tools/modifiers/compat/terrestrial_boots',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 

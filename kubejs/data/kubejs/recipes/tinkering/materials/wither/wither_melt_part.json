@@ -3,7 +3,7 @@
   "input":"tinkerscalibration:wither",
   "result": {
     "fluid": "tinkerscalibration:moltenwitherium",
-    "amount": 250
+    "amount": 90
   },
-  "temperature": 1450
+  "temperature": 1850
 }
