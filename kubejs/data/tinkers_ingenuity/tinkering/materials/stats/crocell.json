@@ -28,6 +28,8 @@
     "tinkers_ingenuity:laser_medium": {
       "laser_range": 24,
       "cooldown": 0.35
-    }
+    },
+    "tinkers_ingenuity:curio_extra": null,
+    "tinkers_ingenuity:curio_main": null
   }
 }

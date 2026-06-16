@@ -42,6 +42,7 @@
     }
   },
   "result": {
-    "item": "tinkers_ingenuity:sea_dream_ingot"
+    "item": "tinkers_ingenuity:sea_dream_ingot",
+    "count": 3
   }
 }

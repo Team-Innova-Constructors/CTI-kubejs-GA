@@ -110,6 +110,8 @@ ServerEvents.recipes(event => {
 		'immersiveengineering:blastfurnace/steel_block',
 		'immersiveengineering:blastfurnace/steel',
 		'immersiveengineering:smelting/slag_glass',
+		'immersiveengineering:crafting/gunpowder_from_dusts',
+		'constructionwand:core_destruction',
 		//植物魔法
 		'botania:lens_weight',
 		//神秘遗物

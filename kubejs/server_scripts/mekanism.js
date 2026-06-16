@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismEnriching("cti:enriched_mana", "cti:magic_crystal")
   event.recipes.mekanismEnriching("kubejs:enriched_refined_glowstone", 'mekanism:ingot_refined_glowstone')
   event.recipes.mekanismEnriching("aether_redux:refined_sentrite", 'kubejs:sentrite')
+  event.recipes.mekanismEnriching('createutilities:polished_amethyst', 'minecraft:amethyst_shard')
   //其他
   event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
   event.recipes.mekanismSmelting('immersiveengineering:ingot_aluminum', '#forge:dusts/aluminum')

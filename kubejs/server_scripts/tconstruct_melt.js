@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         });
     });
     //匠魂校准的
-    let james = ['titanium', 'inertwitherium', 'immersedsilver', 'hothium', 'stellarium'];
+    let james = ['titanium', 'inertwitherium', 'immersedsilver', 'hothium', 'stellarium',"tonium",'magina'];
     james.forEach(m => {
         event.remove({ id: `tinkerscalibration:tools/materials/melting/${m}/ore_singular` });
         event.remove({ id: `tinkerscalibration:tools/materials/melting/${m}/raw` });
