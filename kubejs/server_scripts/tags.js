@@ -438,5 +438,16 @@ ServerEvents.tags('fluid', event => {
   for (let i of slimeToolTip) {
     event.add('tconstruct:tooltips/slime', `${i}`)
   }
-  
+
+  //合金离心机黑名单
+  let centrifugeBlacklist = [
+    "cti:lava_heated",
+    "cti:lava_overheated",
+    "cti:lava_gaseous",
+    "cti:lava_plasmatic",
+    "cti:lava_atomic"
+  ]
+  for (let i of centrifugeBlacklist) {
+    event.add('cti:centrifuge_blacklist', `${i}`)
+  }
 })

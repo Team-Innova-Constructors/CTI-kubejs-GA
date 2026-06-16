@@ -1282,4 +1282,26 @@ event.custom({
   electrolysis("mekanism:heavy_water",10,"mekanismgenerators:deuterium",10,"mekanism:oxygen",5)
 
   event.recipes.mekanism.combining('kubejs:particle_container','16x kubejs:unipolar_magnet_shard','#forge:ingots')
+
+  event.custom({
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 90,
+    "fluid": "tconstruct:molten_uranium"
+  },
+  "fluidOutput": {
+    "amount": 90,
+    "fluid": "tconstruct:molten_uranium"
+  },
+  "gasInput": {
+    "amount": 512,
+    "gas": "cti:gaseous_uranium"
+  },
+  "gasOutput": {
+    "amount": 512,
+    "gas": "cti:gaseous_uranium"
+  }
+  })
+
+  chemicalInfuse("cti:gaseous_uranium",1,"mekanism:oxygen",1,"mekanism:uranium_oxide",2)
 })

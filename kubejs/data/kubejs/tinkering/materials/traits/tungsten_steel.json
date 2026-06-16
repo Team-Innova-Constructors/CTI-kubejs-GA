@@ -10,7 +10,7 @@
       },
       {
         "name": "cti:industrial",
-        "level": 1
+        "level": 3
       },
       {
         "level": 1,
@@ -29,7 +29,7 @@
         },
         {
           "name": "cti:industrial_armor",
-          "level": 1
+          "level": 2
         },
         {
             "name": "tinkers_ingenuity:second_wind",

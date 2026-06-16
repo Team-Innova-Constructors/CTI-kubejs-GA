@@ -20,6 +20,116 @@ ServerEvents.recipes(event => {
 
   event.recipes.botania.petal_apothecary('cti:reactive_flower',['botania:red_petal','botania:yellow_petal','botania:light_blue_petal','botania:brown_petal','minecraft:blaze_powder','thermal:blitz_powder','thermal:blizz_powder','thermal:basalz_powder'])
 
+  event.remove({id:'botania:runic_altar/fire'})
+  event.remove({id:'botania:runic_altar/earth'})
+  event.remove({id:'botania:runic_altar/water'})
+  event.remove({id:'botania:runic_altar/air'})
+
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_fire",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_pyrotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:fire_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_water",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_cryotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "etshtinker:blizz_enderium"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:water_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_earth",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_petrotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "etshtinker:basalz_signalum"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:earth_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_air",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_aerotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "etshtinker:blitz_lumium"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:air_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+
   event.shaped(Item.of('kubejs:philosophers_catalyst', 1), [
     'ABA',
     'BCB',

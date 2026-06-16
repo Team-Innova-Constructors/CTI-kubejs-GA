@@ -73,24 +73,28 @@ LootJS.modifiers(event => {
         //下界堡垒
         fortress: [
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 0.85 },//山铜碎块
-            { item: 'etshtinker:basalz_signalum', count: 1, chance: 1 },//地岩信素
-            { item: 'etshtinker:basalz_signalum', count: 3, chance: 0.8 },
+            { item: 'thermal:basalz_rod', count: 1, chance: 1 },//地岩信素
+            { item: 'thermal:basalz_rod', count: 2, chance: 0.8 },
+            { item: 'thermal:basalz_rod', count: 3, chance: 0.6 },
         ],
         //末地城
         end_city: [
-            { item: "tinkers_ingenuity:orichalcum_fragment", count: 3, chance: 0.7 },//山铜碎块
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 3, chance: 0.6 },//山铜碎块
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 2, chance: 0.8 },
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 1 },
             { item: "tinkers_ingenuity:ender_residual_interest", count: 1, chance: 1 },//末影残息
         ],
         //悚陵
         mausoleum: [
-            { item: 'etshtinker:blizz_enderium', count: 5, chance: 0.6 },//霜覆末影
-            { item: 'etshtinker:blizz_enderium', count: 2, chance: 1 },
+            { item: 'thermal:blizz_rod', count: 6, chance: 0.6 },//霜覆末影
+            { item: 'thermal:blizz_rod', count: 4, chance: 0.8 },
+            { item: 'thermal:blizz_rod', count: 2, chance: 1 },
         ],
         //沙漠神殿
         desertPyramid: [
-            { item: 'etshtinker:blitz_lumium', count: 1, chance: 1 },//震荡流明
-            { item: 'etshtinker:blitz_lumium', count: 3, chance: 0.85 },
+            { item: 'thermal:blitz_rod', count: 2, chance: 1 },//震荡流明
+            { item: 'thermal:blitz_rod', count: 4, chance: 0.8 },
+            { item: 'thermal:blitz_rod', count: 6, chance: 0.6 },
         ],
         //迷阵冰封箱子
         frozenChest: [
