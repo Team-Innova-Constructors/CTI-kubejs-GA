@@ -53,6 +53,11 @@
       "durability": 700,
       "knockback_resistance": 0.04,
       "toughness": 3
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 20,
+      "perception_count": 12,
+      "perception_cooldown": 20
     }
   }
 }

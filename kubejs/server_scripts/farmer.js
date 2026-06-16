@@ -29,9 +29,12 @@ ServerEvents.recipes(event => {
       'botania:yellow_petal',
    ]
    )
-   event.shapeless(Item.of('create_central_kitchen:pumpkin_cake_slice',4), [
-      '4x farmersdelight:cake_slice',
-      'farmersdelight:pumpkin_slice',
+   event.shapeless(Item.of('extradelight:goat_stew_feast',1), [
+      'extradelight:lamb_stew_feast',
+   ]
+   )
+   event.shapeless(Item.of('extradelight:lamb_stew_feast',1), [
+      'extradelight:goat_stew_feast',
    ]
    )
    event.shapeless(Item.of('create_central_kitchen:sweet_berry_cake_slice',4), [

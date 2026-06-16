@@ -5,19 +5,19 @@
       "parts": [
         {
           "item": "tconstruct:broad_blade",
+          "scale": 1.5
+        },
+        {
+          "item": "tconstruct:tough_handle",
           "scale": 0.75
         },
         {
           "item": "tconstruct:tough_handle",
-          "scale": 0.5
-        },
-        {
-          "item": "tconstruct:tough_handle",
-          "scale": 0.5
+          "scale": 0.75
         },
         {
           "item": "tconstruct:large_plate",
-          "scale": 0.25
+          "scale": 0.75
         }
       ]
     },
@@ -67,6 +67,10 @@
     {
       "type": "tconstruct:traits",
       "traits": [
+        {
+          "level": 1,
+          "name": "cti:supercrithit"
+        },
         {
           "level": 5,
           "name": "tconstruct:severing"

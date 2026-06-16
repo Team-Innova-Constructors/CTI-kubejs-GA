@@ -6,7 +6,7 @@
         "level": 2
       },
       {
-        "name": "solidarytinker:crushing",
+        "name": "solidarytinker:hunterplay",
         "level": 1
       }
     ],
@@ -16,13 +16,13 @@
         "level": 2
       },
       {
-        "name": "solidarytinker:crushing",
+        "name": "solidarytinker:headshot",
         "level": 1
       }
     ],
     "tconstruct:armor": [
       {
-        "name": "cti:industrial",
+        "name": "cti:industrial_armor",
         "level": 2
       },
       {
@@ -46,7 +46,7 @@
         "level": 2
       },
       {
-        "name": "solidarytinker:crushing",
+        "name": "solidarytinker:hunterplay",
         "level": 1
       }
     ]

@@ -110,6 +110,8 @@ ServerEvents.recipes(event => {
 		'immersiveengineering:blastfurnace/steel_block',
 		'immersiveengineering:blastfurnace/steel',
 		'immersiveengineering:smelting/slag_glass',
+		'immersiveengineering:crafting/gunpowder_from_dusts',
+		'constructionwand:core_destruction',
 		//植物魔法
 		'botania:lens_weight',
 		//神秘遗物
@@ -150,6 +152,7 @@ ServerEvents.recipes(event => {
 		'tinkerscalibration:tools/materials/moonsteel',
 		'tinkers_ingenuity:tables/materials/sea_dream',
 		'tinkers_ingenuity:alloys/shine_alloy',
+		'tinkers_ingenuity:modifiers/enigmaticlegacy/born_with_evil',
 		'tinkersinnovation:alloy/sunsoul_alloy',
 		'tinkersinnovation:alloy/farseeing_alloy',
 		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_block',
@@ -180,6 +183,7 @@ ServerEvents.recipes(event => {
 		'tinkersinnovation:modifier/corrosion',
 		'tinkersinnovation:modifier/blind',
 		'tinkersinnovation:modifier/stone_cage',
+		'tinkersinnovation:modifier/tanky',
 		'tinkerscalibration:tools/materials/oraclium',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti_upgrade_1',
@@ -222,7 +226,30 @@ ServerEvents.recipes(event => {
 		'tconstruct:smeltery/alloys/molten_lumium',
 		'tconstruct:smeltery/alloys/molten_enderium',
 		'enigmaticlegacy:cursed_scroll',
-		'enigmaticlegacy:cosmic_heart'
+		'enigmaticlegacy:cosmic_heart',
+		'tinkerscalibration:tools/materials/casting/fiberglass/fiberglass_cast',
+		'tinkerscalibration:tools/materials/casting/fiberglass/part',
+		'tinkerscalibration:tools/materials/melting/fiberglass/fiberglass',
+		'tinkerscalibration:tools/materials/melting/fiberglass/part',
+		'tinkerscalibration:glass_pane_to_fiber',
+		'thermal:tools/satchel',
+		'mekanism:transmitter/logistical_transporter/basic',
+		'mekanism:transmitter/logistical_transporter/advanced',
+		'mekanism:transmitter/logistical_transporter/elite',
+		'mekanism:transmitter/logistical_transporter/ultimate',
+		'mekaevolution:absolute_logistical_transporter',
+		'mekaevolution:supreme_logistical_transporter',
+		'mekaevolution:cosmic_logistical_transporter',
+		'mekaevolution:infinite_logistical_transporter',
+		'meetyourfight:slicers_dice',
+		'meetyourfight:wilted_ideals',
+		'meetyourfight:ace_of_iron',
+		'meetyourfight:caged_heart',
+		'l2complements:craft/shulkerate_ingot',
+		'tcintegrations:tools/modifiers/compat/terrestrial_helmets',
+		'tcintegrations:tools/modifiers/compat/terrestrial_chestplates',
+		'tcintegrations:tools/modifiers/compat/terrestrial_leggings',
+		'tcintegrations:tools/modifiers/compat/terrestrial_boots',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -369,10 +396,14 @@ ServerEvents.recipes(event => {
 		'cyclic:charm_crit',
 		'cyclic:crafting_stick',
 		'cyclic:crafting_bag',
+		'cyclic:fluid_pipe',
+		'cyclic:item_pipe',
+		'cyclic:energy_pipe',
 		'cyclic:crusher/rail',
 		'cyclic:crusher/activator_rail',
 		'cyclic:crusher/powered_rail',
-		'cyclic:crusher/detector_rail'
+		'cyclic:crusher/detector_rail',
+		'cyclic:antigravity',
 	]
 	for (let i of cyclics) { event.remove({ id: `${i}` }) }
 	//堆

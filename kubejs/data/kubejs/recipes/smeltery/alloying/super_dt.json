@@ -3,7 +3,7 @@
   "inputs": [
     {
       "name": "manaliquidizer:mana_fluid",
-      "amount": 8000
+      "amount": 16000
     },
     {
       "name": "thermal:refined_fuel",
@@ -14,13 +14,13 @@
       "amount": 2000
     },
     {
-      "name": "cti:lava_atomic_bucket",
+      "name": "cti:lava_atomic",
       "amount": 2000
     }
   ],
   "result": {
     "fluid": "solidarytinker:super_dt",
-    "amount": 1000
+    "amount": 2000
   },
   "temperature": 7950
 }

@@ -26,6 +26,8 @@ ServerEvents.tags('item', event => {
   event.add('forge:completely_new_tag', 'forge:ores/zirconium')
   event.add('forge:completely_new_tag', 'forge:storage_blocks/raw_zirconium')
   event.add('forge:completely_new_tag', 'forge:storage_blocks/zirconium')
+  event.add('forge:completely_new_tag', 'forge:classic_wood')
+  event.add('forge:completely_new_tag', 'forge:classic_plank')
 
   event.add('forge:ores/zirconium', 'tinkers_reforged:titanium_ore')
   event.remove('forge:ores/titanium', 'tinkers_reforged:titanium_ore')
@@ -33,6 +35,21 @@ ServerEvents.tags('item', event => {
   event.remove('forge:storage_blocks/raw_titanium', 'tinkers_reforged:raw_titanium_block')
   event.add('forge:storage_blocks/zirconium', 'tinkers_reforged:titanium_block')
   event.remove('forge:storage_blocks/titanium', 'tinkers_reforged:titanium_block')
+      let classic_wood=[
+          'minecraft:oak_',
+          'minecraft:spruce_',
+          'minecraft:birch_',
+          'minecraft:jungle_',
+          'minecraft:acacia_',
+          'minecraft:dark_oak_',
+          'minecraft:mangrove_',
+      ]
+  for(let c of classic_wood){
+    event.add('forge:classic_wood',`${c}log`)
+    event.add('forge:classic_wood',`${c}planks`)
+  }
+
+  event.add('forge:classic_wood','minecraft:oak_log')
 
   //添加超致密标签
   event.add('forge:ingots/ultra_dense', 'etshtinker:ultra_dense')
@@ -104,7 +121,6 @@ ServerEvents.tags('item', event => {
 
   event.add('l2hostility:no_seal', 'ae2wtlib:wireless_universal_terminal')
   event.add('l2hostility:no_seal', 'cti:slime_can')
-  event.add('create:blaze_burner_fuel/special', 'gobber2:gobber2_foo_end')
   event.add('create:blaze_burner_fuel/special', 'immersivepetroleum:paraffin_wax')
   event.add('create:blaze_burner_fuel/special', 'immersivepetroleum:petcoke_dust')
 

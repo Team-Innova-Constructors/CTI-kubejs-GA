@@ -1,0 +1,35 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "create:sturdy_sheet",
+      "amount_needed": 5
+    },
+    {
+      "item": "aether:zanite_pickaxe",
+      "amount_needed": 1
+    },
+    {
+      "item": "aether:golden_amber",
+      "amount_needed": 5
+    },
+    {
+      "item": "meetyourfight:mossy_tooth"
+    },
+    {
+      "item": "kubejs:compressed_hardlead",
+      "amount_needed": 7
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "allow_crystal": true,
+  "result":"cti:breakstone",
+  "level": {
+    "max": 1
+  },
+  "slots": {
+    "upgrades": 1
+  }
+}
