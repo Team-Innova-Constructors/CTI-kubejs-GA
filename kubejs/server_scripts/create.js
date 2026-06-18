@@ -38,35 +38,11 @@ ServerEvents.recipes(event => {
     event.recipes.create.deploying('kubejs:universal_press', ['minecraft:iron_block', 'kubejs:universal_press']).keepHeldItem()
 
     event.recipes.create.haunting('thermal:rich_slag', 'thermal:slag')
+    event.recipes.create.splashing('cti:feima_ingot', 'lightmanscurrency:coin_netherite')
 
     event.recipes.create.compacting([Item.of('ae2:calculation_processor', 16)], ['16x ae2:printed_calculation_processor', '16x ae2:printed_silicon', Fluid.of('thermal:redstone').withAmount(250)])
     event.recipes.create.compacting([Item.of('ae2:engineering_processor', 16)], ['16x ae2:printed_engineering_processor', '16x ae2:printed_silicon', Fluid.of('thermal:redstone').withAmount(250)])
     event.recipes.create.compacting([Item.of('ae2:logic_processor', 16)], ['16x ae2:printed_logic_processor', '16x ae2:printed_silicon', Fluid.of('thermal:redstone').withAmount(250)])
-
-    // event.recipes.create.sequenced_assembly([
-    //     Item.of('ae2:calculation_processor')
-    // ], Item.of('ae2:printed_silicon'), [
-    //     event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'ae2:printed_calculation_processor']),
-    //     event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
-    //     event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('thermal:redstone').withAmount(250)]),
-    // ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
-    //
-    // event.recipes.create.sequenced_assembly([
-    //     Item.of('ae2:engineering_processor')
-    // ], Item.of('ae2:printed_silicon'), [
-    //     event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'ae2:printed_engineering_processor']),
-    //     event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
-    //     event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('thermal:redstone').withAmount(250)]),
-    // ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
-    //
-    // event.recipes.create.sequenced_assembly([
-    //     Item.of('ae2:logic_processor')
-    // ], Item.of('ae2:printed_silicon'), [
-    //     event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'ae2:printed_logic_processor']),
-    //     event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
-    //     event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('thermal:redstone').withAmount(250)]),
-    // ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
-
     event.recipes.create.sequenced_assembly([
         Item.of('create:sturdy_sheet')
     ], Item.of('create:powdered_obsidian'), [

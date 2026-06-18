@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:ender_dragon",
     "cataclysm:ender_guardian",
     "cataclysm:netherite_monstrosity",
     "cataclysm:ignis",
@@ -9,10 +10,11 @@
     "cataclysm:the_baby_leviathan",
     "cataclysm:ancient_remnant",
     "cataclysm:ignited_revenant",
-    "botania:doppleganger",
+    "cataclysm:maledictus",
     "aether:slider",
     "aether:valkyrie_queen",
     "aether:sun_spirit",
+    "botania:doppleganger",
     "twilightforest:alpha_yeti",
     "twilightforest:hydra",
     "twilightforest:lich",
@@ -22,6 +24,7 @@
     "twilightforest:minoshroom",
     "twilightforest:ur_ghast",
     "mowziesmobs:ferrous_wroughtnaut",
-    "mowziesmobs:umvuthi"
+    "mowziesmobs:umvuthi",
+    "aquamirae:captain_cornelia"
   ]
 }

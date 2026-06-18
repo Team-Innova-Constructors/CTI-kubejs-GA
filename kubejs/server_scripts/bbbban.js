@@ -250,6 +250,8 @@ ServerEvents.recipes(event => {
 		'tcintegrations:tools/modifiers/compat/terrestrial_chestplates',
 		'tcintegrations:tools/modifiers/compat/terrestrial_leggings',
 		'tcintegrations:tools/modifiers/compat/terrestrial_boots',
+		//熔融温度
+		'cloudertinker:materials/caststone/melting'
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 

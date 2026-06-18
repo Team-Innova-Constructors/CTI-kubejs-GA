@@ -259,17 +259,17 @@ ServerEvents.recipes(event => {
             'undergarden:depthrock_pebble',
         ]
     )
-    event.shapeless(Item.of('l2complements:shulkerate_ingot', 3), [
-            'minecraft:shulker_shell',
-            'thermal:steel_ingot',
-            'minecraft:shulker_shell',
-            'minecraft:shulker_shell',
-            'solidarytinker:heavy_armor_steel_ingot',
-            'minecraft:shulker_shell',
-            'minecraft:shulker_shell',
-            'thermal:steel_ingot',
-            'minecraft:shulker_shell',
-        ]
+    event.shaped(Item.of('l2complements:shulkerate_ingot', 3), [
+            'BCB',
+            'DAD',
+            'BCB'
+        ],
+        {
+            B: 'minecraft:shulker_shell',
+            C: 'thermal:steel_ingot',
+            A: 'solidarytinker:heavy_armor_steel_ingot',
+            D: 'l2complements:captured_shulker_bullet',
+        }
     )
     event.shapeless(Item.of('immersiveengineering:graphite_electrode').withNBT('{Unbreakable:1b}'), [
             'immersiveengineering:graphite_electrode',

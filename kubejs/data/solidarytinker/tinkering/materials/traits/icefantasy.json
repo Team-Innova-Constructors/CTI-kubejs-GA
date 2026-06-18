@@ -15,7 +15,7 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 5
       },
       {
         "name": "etshtinker:solidex",
@@ -37,7 +37,7 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 5
       },
       {
         "name": "etshtinker:solidex",
@@ -50,8 +50,12 @@
         "level": 1
       },
       {
-        "name": "cti:shadow_of_vigrid",
+        "name": "solidarytinker:somatizationdemon",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 5
       },
       {
         "name": "etshtinker:solidex",
@@ -68,12 +72,16 @@
         "level": 1
       },
       {
+        "name": "solidarytinker:somatizationdemon",
+        "level": 1
+      },
+      {
         "name": "cti:deepoceanecho",
         "level": 1
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 5
       },
       {
         "name": "etshtinker:solidex",
@@ -95,7 +103,7 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 5
       },
       {
         "name": "etshtinker:solidex",
@@ -117,7 +125,7 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 5
       },
       {
         "name": "etshtinker:solidex",
@@ -132,6 +140,10 @@
       {
         "name": "etshtinker:solidex",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 5
       }
     ]
   }

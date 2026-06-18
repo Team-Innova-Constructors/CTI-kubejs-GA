@@ -144,6 +144,8 @@ ServerEvents.recipes(event => {
     addMelting('tinkers_reforged:titanium_dust', "tinkers_reforged:titanium", 90, 2000, 100)
     addMelting('tinkers_reforged:titanium_nugget', "tinkers_reforged:titanium", 10, 2000, 20)
 
+    addMelting('twilightforest:castle_brick', "cloudertinker:molten_castone", 1000, 1888, 40)
+
     addMelting("aether:valkyrie_boots", "kubejs:molten_valkyrie", 3240, 3250, 100)
     addMelting("aether:valkyrie_helmet", "kubejs:molten_valkyrie", 4050, 3250, 125)
     addMelting("aether:valkyrie_chestplate", "kubejs:molten_valkyrie", 6480, 3250, 200)

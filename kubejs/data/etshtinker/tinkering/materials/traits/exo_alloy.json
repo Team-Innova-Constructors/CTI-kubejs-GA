@@ -14,10 +14,10 @@
     },
     {
       "name": "cti:shadow_of_vigrid",
-      "level": 3
+      "level": 5
     }
   ],
-  "perStat" : {
+  "perStat": {
     "etshtinker:ionizer": [
       {
         "name": "etshtinker:godlymetal",
@@ -36,9 +36,9 @@
         "level": 1
       },
       {
-      "name": "cti:shadow_of_vigrid",
-      "level": 3
-    }
+        "name": "cti:shadow_of_vigrid",
+        "level": 5
+      }
     ],
     "tconstruct:armor": [
       {
@@ -54,9 +54,9 @@
         "level": 1
       },
       {
-      "name": "cti:shadow_of_vigrid",
-      "level": 3
-    }
+        "name": "cti:shadow_of_vigrid",
+        "level": 5
+      }
     ]
   }
 }

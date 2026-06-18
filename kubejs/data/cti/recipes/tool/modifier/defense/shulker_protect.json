@@ -4,23 +4,21 @@
   "check_trait_level": false,
   "inputs": [
     {
-      "item": "l2complements:shulkerate_ingot",
-      "amount_needed": 3
+      "item": "l2complements:shulkerate_block"
     },
     {
       "item": "l2hostility:protection"
     },
     {
-      "item": "l2complements:shulkerate_ingot",
-      "amount_needed": 3
+      "item": "l2complements:shulkerate_block"
     },
     {
       "item":"tconstruct:cobalt_reinforcement",
-      "amount_needed": 6
+      "amount_needed": 9
     },
     {
-      "item": "tconstruct:cobalt_reinforcement",
-      "amount_needed": 6
+      "item": "tinkersinnovation:shulkerate_reinforcement",
+      "amount_needed": 9
     }
   ],
   "level": {
