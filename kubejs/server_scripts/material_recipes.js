@@ -299,4 +299,7 @@ ServerEvents.recipes(event => {
         },
         "temperature": 1800
     })
+    craftableMaterial("kubejs:industrial_gel", 'kubejs:industrial_gel')
+    craftableMaterial("kubejs:source_gem", 'ars_nouveau:source_gem')
+    craftableMaterial("kubejs:terrasteel", 'botania:terrasteel_ingot')
 })

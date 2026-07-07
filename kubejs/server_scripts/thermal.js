@@ -335,7 +335,7 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('kubejs:dust_aerotheum', 1), [
     'powah:charged_snowball',
     'thermal:blitz_powder',
-    'aether:aerogel',
+    '#forge:sand',
     'minecraft:redstone',
   ]
   )

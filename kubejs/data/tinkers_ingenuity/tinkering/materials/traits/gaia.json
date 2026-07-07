@@ -2,8 +2,8 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
-        "name": "tinkers_ingenuity:gaia_wrath",
-        "level": 1
+        "name": "cti:terra_burst",
+        "level": 3
       },
       {
         "name": "tinkers_ingenuity:sprite_of_gaia",
@@ -32,8 +32,8 @@
     ],
     "tinkers_ingenuity:laser_gun": [
       {
-        "name": "tinkers_ingenuity:gaia_wrath",
-        "level": 1
+        "name": "cti:terra_burst",
+        "level": 3
       },
       {
         "name": "tinkers_ingenuity:sprite_of_gaia",

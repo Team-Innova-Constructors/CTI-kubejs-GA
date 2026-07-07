@@ -405,6 +405,17 @@
     "material.kubejs.swet_bronze.flavor": "拥有神之能量的黏液合金",
     "material.kubejs.swet_bronze.encyclopedia": "拥有神之能量的黏液合金",
 
+    "item.kubejs.industrial_gel": "工业胶质",
+    "material.kubejs.industrial_gel": "工业胶质",
+    "material.kubejs.industrial_gel.flavor": "复合复合复合材料",
+    "material.kubejs.industrial_gel.encyclopedia": "复合复合复合材料",
+
+    "material.kubejs.source_gem": "魔源宝石",
+    "material.kubejs.source_gem.flavor": "魔源宝石",
+
+    "material.kubejs.terrasteel": "泰拉钢",
+    "material.kubejs.terrasteel.flavor": "泰拉钢",
+
 
 
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
