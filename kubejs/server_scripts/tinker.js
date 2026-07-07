@@ -1158,6 +1158,40 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "etshtinker:basalz_signalum",
+            },
+            {
+                "item": "thermal:earth_grenade"
+            },
+            {
+                "item": "botania:terrasteel_ingot",
+            }
+        ],
+        "level": 1,
+        "result": "cti:burst_bypass_cooldown",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:burst_bypass_cooldown",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
 
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)

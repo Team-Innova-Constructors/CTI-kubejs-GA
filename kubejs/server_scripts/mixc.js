@@ -923,4 +923,16 @@ ServerEvents.recipes(event => {
         B: 'enigmaticlegacy:evil_essence',
         C: 'tconstruct:manyullyn_ingot'
     })
+
+    event.shaped(Item.of('cti:ritual_elemental_summon', 1), [
+        ' A ',
+        'DEB',
+        ' C '
+    ], {
+        A: 'botania:red_petal',
+        B: 'botania:yellow_petal',
+        C: 'botania:light_blue_petal',
+        D: 'botania:brown_petal',
+        E: 'ars_nouveau:ritual_wilden_summon'
+    })
 })
