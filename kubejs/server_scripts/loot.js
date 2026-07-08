@@ -30,6 +30,7 @@ LootJS.modifiers(event => {
             { item: 'megacells:mega_energy_cell', count: 1, chance: 0.2 },
             { item: 'gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit', count: 1, chance: 0.2 },
             { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
+            { item: 'cti:meteor_shower_tablet', count: 1, chance: 0.05 },
         ],
         //金星
         pygroVillage: [
