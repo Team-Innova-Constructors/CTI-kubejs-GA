@@ -5,19 +5,19 @@
       "parts": [
         {
           "item": "tconstruct:broad_blade",
-          "scale": 1.5
+          "scale": 2
         },
         {
           "item": "tconstruct:tough_handle",
-          "scale": 0.75
+          "scale": 1
         },
         {
           "item": "tconstruct:tough_handle",
-          "scale": 0.75
+          "scale": 1
         },
         {
           "item": "tconstruct:large_plate",
-          "scale": 0.75
+          "scale": 1
         }
       ]
     },
@@ -52,7 +52,7 @@
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:attack_damage": 1.5,
+        "tconstruct:attack_damage": 1.4,
         "tconstruct:durability": 3.5,
         "tconstruct:mining_speed": 0.25
       }
@@ -68,10 +68,6 @@
       "type": "tconstruct:traits",
       "traits": [
         {
-          "level": 1,
-          "name": "cti:supercrithit"
-        },
-        {
           "level": 5,
           "name": "tconstruct:severing"
         },
@@ -82,6 +78,10 @@
         {
           "level": 2,
           "name": "tconstruct:looting"
+        },
+        {
+          "level": 5,
+          "name": "cti:supercrithit"
         }
       ]
     },

@@ -11,7 +11,7 @@
   "trait.l2hostility.reflect.desc": "将怪物受到的有源伤害以魔法反伤伤害的形式反射,不会被增幅\n•数值为每级词条增加原伤害10%,但是不会超过怪物当前生命30% * 词条等级\n•伤害穿透无敌可以无视此效果\n•扭曲之魂可以无视此效果",
   "trait.l2hostility.regenerate": "再生",
   "trait.l2hostility.regenerate.desc": "每秒回复总血量的0.5% * 词条等级点\n•在首次跌入半血会触发黎明使者效果,短时间内快速恢复一大部分生命\n•触发黎明使者效果后,怪物造成的伤害提升30%",
-  "trait.l2hostility.speedy": "神速",
+  "trait.l2hostility.speedy": "雪峰",
   "trait.l2hostility.tank": "重装",
   "trait.l2hostility.blindness": "致盲",
   "trait.l2hostility.cursed": "诅咒",
