@@ -190,4 +190,56 @@ event.custom({
       D: 'mythicbotany:mana_collector'
    }
    )
+   event.remove({id:'botania:runic_altar'})
+   event.remove({id:'botania:runic_altar_alt'})
+   event.remove({id:'botanicalmachinery:runic_altar'})
+
+  event.shaped(Item.of('botania:runic_altar',1), [
+    '   ',
+    'BEC',
+    'AFD'
+  ],
+    {
+      A: 'botania:rune_water',
+      B: 'botania:rune_fire',
+      C: 'botania:rune_air',
+      D: 'botania:rune_earth',
+      E: 'botania:livingrock',
+      F: 'botania:mana_pearl'
+   }
+  )
+  event.remove({id:'botania:terra_plate'})
+  event.shaped(Item.of('botania:terra_plate',1), [
+    'AAA',
+    'CGD',
+    'BFE'
+  ],
+    {
+      A: 'minecraft:lapis_block',
+      B: 'botania:rune_spring',
+      C: 'botania:rune_summer',
+      D: 'botania:rune_autumn',
+      E: 'botania:rune_winter',
+      F: 'botania:rune_mana',
+      G: 'botania:manasteel_block'
+   }
+  )
+  event.remove({id:'mythicbotany:mana_infuser'})
+  event.recipes.botania.terra_plate('mythicbotany:mana_infuser', 
+    [
+      'botania:dragonstone_block',
+      'mythicbotany:nidavellir_rune',
+      'mythicbotany:niflheim_rune', 
+      'mythicbotany:muspelheim_rune',
+      'mythicbotany:joetunheim_rune',
+      'mythicbotany:midgard_rune',
+      'mythicbotany:alfheim_rune',
+      'mythicbotany:asgard_rune',
+      'mythicbotany:vanaheim_rune',
+      'mythicbotany:helheim_rune'
+    ], 
+    4000000
+  )
+  event.remove({id:'botania:gaia_ingot'})
+
 })

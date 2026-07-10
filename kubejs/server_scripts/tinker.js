@@ -772,6 +772,36 @@ ServerEvents.recipes(event => {
         "allow_crystal": false,
         "inputs": [
             {
+                "item": "twilightforest:carminite",
+            },
+            {
+                "item": "twilightforest:experiment_115",
+            },
+            {
+                "item": "twilightforest:ore_magnet",
+            },
+            {
+                "item": "twilightforest:transformation_powder",
+            },
+            {
+                "item": "twilightforest:transformation_powder",
+            }
+
+        ],
+        "level": 2,
+        "result": "etshtinker:echo_slash",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "item": "etshtinker:constrained_plasma_saber"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": false,
+        "inputs": [
+            {
                 "item": "aether:lightning_knife",
             },
             {
@@ -788,7 +818,7 @@ ServerEvents.recipes(event => {
             }
 
         ],
-        "level": 2,
+        "level": 3,
         "result": "etshtinker:echo_slash",
         "slots": {
             "upgrades": 1
@@ -905,10 +935,269 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "botania:mana_powder",
+            },
+            {
+                "item": "botania:manasteel_sword"
+            },
+            {
+                "item": "botania:mana_powder",
+            },
+            {
+                "item": "botania:mana_powder",
+            },
+            {
+                "item": "botania:mana_powder",
+            }
+        ],
+        "level": 1,
+        "result": "cti:farther_sights",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:farther_sights",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "botania:rune_mana",
+            },
+            {
+                "item": "botania:mana_tablet"
+            },
+            {
+                "item": "botania:rune_mana",
+            },
+        ],
+        "level": {
+            "max": 3
+        },
+        "result": "cti:mana_capacity",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:mana_capacity",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "botania:mana_string",
+            },
+            {
+                "item": "botania:lens_speed"
+            },
+            {
+                "item": "botania:mana_string",
+            },
+            {
+                "item": "botania:mana_string",
+            },
+            {
+                "item": "botania:mana_string",
+            },
+        ],
+        "level": {
+            "max": 3
+        },
+        "result": "cti:burst_accelerate",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:burst_accelerate",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "botania:lens_mine",
+            },
+            {
+                "item": "ars_nouveau:glyph_break"
+            }
+        ],
+        "level": 1,
+        "result": "cti:destruction_magic",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:destruction_magic",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "aether:golden_amber",
+            },
+            {
+                "item": "twilightforest:seeker_bow",
+            },
+            {
+                "item": "etshtinker:exotic_matter"
+            }
+        ],
+        "level": 1,
+        "result": "cti:chasing_burst",
+        "slots": {
+            "abilities": 2
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:chasing_burst",
+        "slots": {
+            "abilities": 2
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "botania:rune_air",
+            },
+            {
+                "item": "powah:charged_snowball",
+            },
+            {
+                "item": "botania:rune_summer"
+            },
+            {
+                "item": "aether:blue_aercloud"
+            },
+            {
+                "item": "aether:blue_aercloud"
+            }
+        ],
+        "level": 1,
+        "result": "cti:thunderstorm",
+        "slots": {
+            "abilities": 2
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:thunderstorm",
+        "slots": {
+            "abilities": 2
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "etshtinker:basalz_signalum",
+            },
+            {
+                "item": "thermal:earth_grenade"
+            },
+            {
+                "item": "botania:terrasteel_ingot",
+            }
+        ],
+        "level": 1,
+        "result": "cti:burst_bypass_cooldown",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:burst_bypass_cooldown",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
 
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)
     addOverslime("aether_redux:vanilla_swet_ball", 120)
     addOverslime("aether_redux:dark_swet_ball", 120)
     addOverslime("industrialforegoing:pink_slime", 480)
+
+    addCastingTable("etshtinker:molten_alfsteel",180,'botania:life_essence','botania:gaia_ingot',true,500)
 })
