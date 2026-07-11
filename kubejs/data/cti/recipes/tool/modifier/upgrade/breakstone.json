@@ -6,15 +6,14 @@
       "amount_needed": 5
     },
     {
-      "item": "aether:zanite_pickaxe",
-      "amount_needed": 1
+      "item": "twilightforest:giant_pickaxe"
     },
     {
       "item": "aether:golden_amber",
       "amount_needed": 5
     },
     {
-      "item": "meetyourfight:mossy_tooth"
+      "item": "twilightforest:giant_cobblestone"
     },
     {
       "item": "kubejs:compressed_hardlead",

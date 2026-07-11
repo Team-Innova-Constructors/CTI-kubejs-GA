@@ -10,7 +10,7 @@
     },
     {
       "name": "cti:cutter",
-      "level": 2
+      "level": 3
     },
     {
       "name": "tconstruct:golden",
@@ -28,7 +28,7 @@
     },
     {
       "name": "cti:cutter",
-      "level": 2
+      "level": 3
     },
     {
       "name": "tconstruct:golden",
@@ -50,7 +50,7 @@
     },
     {
       "name": "cti:cutter",
-      "level": 2
+      "level": 3
     }
   ]
 }

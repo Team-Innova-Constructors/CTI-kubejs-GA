@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
 
 
 //钴-阿迪特伴生矿
-        event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), Item.of('tinkers_thinking:raw_ardite'), Item.of('tinkerscalibration:raw_inert_witherium').withChance(0.2)], '{"text": "钴-阿迪特伴生矿"}', 30, 80)
+        event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), Item.of('tinkers_thinking:raw_ardite')], '{"text": "钴-阿迪特伴生矿"}', 30, 80)
             .drill('#createoreexcavation:second_createore_drill')
             .fluid('minecraft:lava')
             .biomeWhitelist('minecraft:is_nether')

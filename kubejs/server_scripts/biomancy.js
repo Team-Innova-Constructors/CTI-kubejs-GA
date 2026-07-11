@@ -111,6 +111,16 @@ ServerEvents.recipes(event => {
             result: 'solidarytinker:crystal_brain',
             nutrients: 20
         },
+        {
+            items: [
+                {item: 'kubejs:brain', count: 1},
+                {item: 'twilightforest:carminite', count: 2},
+                {item: 'biomancy:hormone_secretion', count: 3},
+                {item: 'twilightforest:borer_essence', count: 1},
+            ],
+            result: 'twilightdelight:experiment_110',
+            nutrients: 5
+        },
 
         {
             items: [

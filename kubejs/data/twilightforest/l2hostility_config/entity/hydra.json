@@ -12,7 +12,7 @@
       "difficulty": {
         "apply_chance": 1.0,
         "base": 150,
-        "min": 600,
+        "min": 800,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0
@@ -33,12 +33,12 @@
           "trait": "l2hostility:cursed"
         },
         {
-          "free": 3,
+          "free": 1,
           "min": 3,
           "trait": "l2hostility:corrosion"
         },
         {
-          "free": 3,
+          "free": 1,
           "min": 3,
           "trait": "l2hostility:erosion"
         }
