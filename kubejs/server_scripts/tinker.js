@@ -1191,7 +1191,39 @@ ServerEvents.recipes(event => {
             "tag": "tconstruct:modifiable/melee"
         }
     })
-
+    
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tinkers_ingenuity:blue_sky_ingot",
+            },
+            {
+                "item": "tconstruct:sky_slime_ball"
+            }
+        ],
+        "level": {
+            "max": 3
+        },
+        "result": "cti:fixed_celestial",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/armor"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:fixed_celestial",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/armor"
+        }
+    })
 
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)
