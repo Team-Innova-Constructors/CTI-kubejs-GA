@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
   //感应炉
   event.recipes.thermal.smelter('4x etshtinker:hardlead_plate', ['3x #forge:ingots/lead', 'etshtinker:bismuth_ingot']).energy(10000)
   event.recipes.thermal.smelter('2x tinkers_thinking:tinkers_bronze_ingot', ['2x #forge:ingots/copper', 'minecraft:sand']).energy(4000)
-  event.recipes.thermal.smelter('4x cti:aluminium_glass', ['4x #forge:dusts/aluminum', '4x #thermal:glass/hardened', '2x #forge:dusts/sulfur']).energy(200000)
+  event.recipes.thermal.smelter('4x cti:aluminium_glass', ['4x #forge:dusts/aluminum', '4x #thermal:glass/hardened', '2x tconstruct:amethyst_bronze_ingot']).energy(40000)
   event.recipes.thermal.smelter('2x tinkers_ingenuity:blood_binding_ingot', ['3x thermal:steel_ingot','4x minecraft:gold_ingot','5x minecraft:blaze_rod']).energy(10000)
   event.recipes.thermal.smelter('2x tinkers_reforged:duralumin_ingot', ['4x immersiveengineering:ingot_aluminum', '2x minecraft:copper_ingot']).energy(8000)
   event.recipes.thermal.smelter('4x thermal:enderium_ingot', ['3x #forge:ingots/lead', '2x minecraft:ender_pearl','#forge:dusts/diamond']).energy(16000)
