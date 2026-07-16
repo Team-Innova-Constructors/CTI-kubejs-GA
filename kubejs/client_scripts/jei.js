@@ -11,7 +11,6 @@ JEIEvents.information(event => {
     event.addFluid('kubejs:hot_metal_lava', Text.black({"translate": "kubejs.jei.hot_metal_lava"}))
     event.addItem('immersiveengineering:railgun', Text.black({"translate": "kubejs.jei.railgun"}))
 
-    event.addItem('tinkers_ingenuity:splendid_ingot', Text.black({"translate": "kubejs.jei.glorious_seal"}))
     event.addItem('bigger_ae2:4_core_crafting_accelerator', Text.black({"translate": "kubejs.jei.accelerator"}))
     event.addItem('bigger_ae2:16_core_crafting_accelerator', Text.black({"translate": "kubejs.jei.accelerator"}))
     event.addItem('bigger_ae2:64_core_crafting_accelerator', Text.black({"translate": "kubejs.jei.accelerator"}))

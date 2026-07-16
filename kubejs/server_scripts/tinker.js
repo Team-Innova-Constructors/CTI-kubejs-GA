@@ -1191,7 +1191,211 @@ ServerEvents.recipes(event => {
             "tag": "tconstruct:modifiable/melee"
         }
     })
+    
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tinkers_ingenuity:blue_sky_ingot",
+            },
+            {
+                "item": "tconstruct:sky_slime_ball"
+            }
+        ],
+        "level": {
+            "max": 3
+        },
+        "result": "cti:fixed_celestial",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/armor"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:fixed_celestial",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/armor"
+        }
+    })
 
+    event.custom({
+        "type": "cti:modifier_etching",
+        "allow_crystal": false,
+        "inputs": [
+            {
+                "item": "aether:golden_amber",
+            },
+            {
+                "tag": "tconstruct:parts",
+            },
+            {
+                "item": "aether:golden_amber",
+            },
+            {
+                "item": "tinkers_ingenuity:splendid_ingot",
+            },
+            {
+                "item": "tinkers_ingenuity:splendid_ingot",
+            }
+        ],
+        "level": 1,
+        "result": "cti:glory_etch",
+        "slots": {
+            "glorious": 2
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:glory_etch",
+        "slots": {
+            "glorious": 2
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable"
+        }
+    })
+
+    event.custom({
+        "type": "cti:modifier_etching",
+        "allow_crystal": false,
+        "inputs": [
+            {
+                "item": "gobber2:gobber2_ingot",
+                "amount_needed": 2
+            },
+            {
+                "tag": "tconstruct:parts",
+            },
+            {
+                "item": "gobber2:gobber2_glass",
+                "amount_needed": 8
+            },
+            {
+                "item": "gobber2:gobber2_rod",
+                "amount_needed": 4
+            },
+            {
+                "item": "gobber2:gobber2_rod",
+                "amount_needed": 4
+            }
+        ],
+        "level": 1,
+        "result": "cti:gobber_etch_1",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:gobber_etch_1",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "cti:modifier_etching",
+        "allow_crystal": false,
+        "inputs": [
+            {
+                "item": "gobber2:gobber2_ingot_nether",
+                "amount_needed": 2
+            },
+            {
+                "tag": "tconstruct:parts",
+            },
+            {
+                "item": "gobber2:gobber2_glass_nether",
+                "amount_needed": 8
+            },
+            {
+                "item": "gobber2:gobber2_rod_nether",
+                "amount_needed": 4
+            },
+            {
+                "item": "gobber2:gobber2_rod_nether",
+                "amount_needed": 4
+            }
+        ],
+        "level": 1,
+        "result": "cti:gobber_etch_2",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:gobber_etch_2",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "cti:modifier_etching",
+        "allow_crystal": false,
+        "inputs": [
+            {
+                "item": "gobber2:gobber2_ingot_end",
+                "amount_needed": 2
+            },
+            {
+                "tag": "tconstruct:parts",
+            },
+            {
+                "item": "gobber2:gobber2_glass_end",
+                "amount_needed": 8
+            },
+            {
+                "item": "gobber2:gobber2_rod_end",
+                "amount_needed": 4
+            },
+            {
+                "item": "gobber2:gobber2_rod_end",
+                "amount_needed": 4
+            }
+        ],
+        "level": 1,
+        "result": "cti:gobber_etch_3",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:gobber_etch_3",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
 
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)
