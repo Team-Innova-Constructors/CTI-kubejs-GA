@@ -205,6 +205,29 @@ ServerEvents.recipes(event => {
         ]
     )
 
+
+    event.shapeless(Item.of('twilightforest:fortification_scepter', 1), [
+            'twilightforest:twilight_scepter'
+        ]
+    )
+    event.shapeless(Item.of('twilightforest:zombie_scepter', 1), [
+            'twilightforest:fortification_scepter'
+        ]
+    )
+    event.shapeless(Item.of('twilightforest:lifedrain_scepter', 1), [
+            'twilightforest:zombie_scepter'
+        ]
+    )
+    event.shapeless(Item.of('twilightforest:twilight_scepter', 1), [
+            'twilightforest:lifedrain_scepter'
+        ]
+    )
+    event.shapeless(Item.of('extendedcrafting:redstone_ingot', 1), [
+            'minecraft:iron_ingot',
+            'minecraft:redstone',
+        ]
+    )
+
     event.shaped(Item.of('sophisticatedstorage:stack_upgrade_tier_4', 1), [
             'BBB',
             'BAB',
@@ -250,14 +273,17 @@ ServerEvents.recipes(event => {
             'ae2:fluix_glass_cable',
         ]
     )
-    event.shapeless(Item.of('tinkers_ingenuity:dragon_soul_crystal', 1), [
-            'undergarden:utherium_crystal',
-            'createutilities:polished_amethyst',
-            'ae2:charged_certus_quartz_crystal',
-            'undergarden:depthrock_pebble',
-            'undergarden:depthrock_pebble',
-            'undergarden:depthrock_pebble',
-        ]
+    event.shaped(Item.of('tinkers_ingenuity:dragon_soul_crystal', 1), [
+            'ABC',
+            'DED',
+            ' D '
+        ], {
+            A: 'undergarden:utherium_crystal',
+            B: 'createutilities:polished_amethyst',
+            C: 'ae2:charged_certus_quartz_crystal',
+            D: 'undergarden:depthrock_pebble',
+            E: 'undergarden:regalium_crystal'
+        }
     )
     event.shaped(Item.of('l2complements:shulkerate_ingot', 3), [
             'BCB',

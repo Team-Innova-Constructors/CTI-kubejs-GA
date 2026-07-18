@@ -101,7 +101,12 @@ LootJS.modifiers(event => {
         frozenChest: [
             { item: 'avaritia:infinity_nugget', count: 1, chance: 1 },//无尽液滴
             { item: 'obscure_api:astral_dust', count: 1, chance: 1 },//保底星体尘尘
-            { item: Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), count: 1, chance: 0.8 },//创造能力槽
+            { item: 'avaritia:infinity_catalyst', count: 1, chance: 1 },//无尽催化剂
+            { item: 'avaritia:infinity_catalyst', count: 2, chance: 0.8 },//无尽催化剂
+            { item: 'avaritia:infinity_catalyst', count: 3, chance: 0.6 },//无尽催化剂
+            { item: 'cti:extereme_speed_augment', count: 1, chance: 1 },//恶念组件
+            { item: 'cti:extereme_output_augment', count: 1, chance: 1 },//恶念组件
+            { item: 'cti:upgrade_augment_9', count: 2, chance: 1 },//恶念组件
         ],
         //亡灵海盗船普通宝藏
         seas_dungeon_ship_cheap: [
