@@ -98,4 +98,5 @@ StartupEvents.registry("item",event=>{
 
     event.create("swet_bronze_ingot","basic")
     event.create("industrial_gel","basic")
+    event.create("quantum_alloy_ingot","basic")
 })

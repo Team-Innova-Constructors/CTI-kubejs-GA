@@ -935,4 +935,6 @@ ServerEvents.recipes(event => {
         D: 'botania:brown_petal',
         E: 'ars_nouveau:ritual_wilden_summon'
     })
+    event.replaceInput({id:'sophisticatedbackpacks:feeding_upgrade'},"minecraft:golden_apple","enigmaticlegacy:astral_fruit")
+    event.replaceInput({id:'sophisticatedstorage:feeding_upgrade'},"minecraft:golden_apple","enigmaticlegacy:astral_fruit")
 })

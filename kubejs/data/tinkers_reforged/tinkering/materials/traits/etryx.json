@@ -14,7 +14,63 @@
         "level": 1
       }
     ],
-    "tconstruct:armor": [
+    "tconstruct:maille": [
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      },
+      {
+        "name": "cti:ender_suppress",
+        "level": 1
+      },
+      {
+        "name": "cti:slime_shield",
+        "level": 4
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      },
+      {
+        "name": "cti:ender_suppress",
+        "level": 1
+      },
+      {
+        "name": "cti:slime_shield",
+        "level": 4
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      },
+      {
+        "name": "cti:ender_suppress",
+        "level": 1
+      },
+      {
+        "name": "cti:slime_shield",
+        "level": 4
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      },
+      {
+        "name": "cti:ender_suppress",
+        "level": 1
+      },
+      {
+        "name": "cti:slime_shield",
+        "level": 4
+      }
+    ],
+    "tconstruct:plating_leggings": [
       {
         "name": "tconstruct:overslime",
         "level": 1

@@ -422,6 +422,11 @@
     "material.kubejs.terrasteel": "泰拉钢",
     "material.kubejs.terrasteel.flavor": "泰拉钢",
 
+    "item.kubejs.quantum_alloy_ingot": "量子合金锭",
+    "material.kubejs.quantum_alloy_ingot": "量子合金",
+    "material.kubejs.quantum_alloy_ingot.flavor": "量子合金",
+    "material.kubejs.quantum_alloy_ingot.encyclopedia": "融入了量子材料的金属",
+
 
 
     "dimension.ad_astra.venus": "金星",
