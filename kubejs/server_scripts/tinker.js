@@ -1397,6 +1397,27 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "thermal:electrum_ingot"
+            },
+            {
+                "item": "aether:zanite_gemstone"
+            },
+            {
+                "item": "thermal:electrum_ingot"
+            }
+        ],
+        "level": 1,
+        "result": "cti:golden_amber_touch",
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)
     addOverslime("aether_redux:vanilla_swet_ball", 120)

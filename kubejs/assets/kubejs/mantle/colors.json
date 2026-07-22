@@ -20,7 +20,8 @@
     "gobber_etch_1":"#00A2E8",
     "gobber_etch_2":"#C2001E",
     "gobber_etch_3":"#00E88C",
-    "coordinator":"#3B190A"
+    "coordinator":"#3B190A",
+    "golden_amber_touch":"#FFCC44"
   },
   "material.cti": {
     "violium": "#A48DFF",
