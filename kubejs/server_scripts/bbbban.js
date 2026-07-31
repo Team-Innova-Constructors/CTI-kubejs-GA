@@ -35,7 +35,24 @@ ServerEvents.recipes(event => {
 		'projecte:rm_shovel',
 		'projecte:rm_axe',
 		'projecte:rm_pick',
-		'projecte:watch_of_flowing_time'
+		'projecte:watch_of_flowing_time',
+		'projecte:evertide_amulet',
+		'projecte:swiftwolf_rending_gale',
+		'projecte:zero_ring',
+		'projecte:ignition_ring',
+		'projecte:harvest_goddess_band',
+		'projecte:archangel_smite',
+		'projecte:black_hole_band',
+		'projecte:iron_band',
+		'projecte:interdiction_torch',
+		'projecte:life_stone',
+		'projecte:mind_stone',
+		'projecte:soul_stone',
+		'projecte:body_stone',
+		'projecte:mercurial_eye',
+		'projecte:arcana_ring',
+		'projecte:void_ring',
+		'projecte:volcanite_amulet'
 	]
 	for (let i of proje) { event.remove({ id: `${i}` }) }
 	event.remove({ mod: 'projecte', type: 'crafting_shapeless', input: 'projecte:philosophers_stone' })
