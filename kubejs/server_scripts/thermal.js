@@ -45,8 +45,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.bottler(Item.of('ae2:annihilation_plane').enchant('minecraft:silk_touch', 1), ['ae2:annihilation_plane', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(10000)
   //精炼机
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)], Fluid.of('etshtinker:overchargedneutronium', 100))
-  event.recipes.thermal.refinery([Item.of('immersiveengineering:dust_sulfur').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:light_oil', 100))
-  event.recipes.thermal.refinery([Item.of('thermal:tar').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:heavy_oil', 100))
+  event.recipes.thermal.refinery([Item.of('immersiveengineering:dust_sulfur').withChance(1.25), Fluid.of('thermal:refined_fuel', 200)], Fluid.of('thermal:light_oil', 200))
+  event.recipes.thermal.refinery([Item.of('thermal:tar').withChance(1.25), Fluid.of('thermal:refined_fuel', 200)], Fluid.of('thermal:heavy_oil', 200))
   event.recipes.thermal.refinery([Item.of('minecraft:honeycomb').withChance(0.75), Fluid.of('cofh_core:honey', 500)], Fluid.of('kubejs:royal_jelly', 250))
   event.recipes.thermal.refinery([Item.of('kubejs:stable_slag').withChance(1.15), Fluid.of('tinkerscalibration:moltentitanium', 180)], Fluid.of('kubejs:used_lava', 200)).energy(25000)
   //结晶器
@@ -69,6 +69,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crystallizer('create:brass_casing', ['thermal:stripped_rubberwood_log','create:brass_ingot', Fluid.of("cti:lava_overheated", 50)]).energy(1000)
   event.recipes.thermal.crystallizer('create:copper_casing', ['thermal:stripped_rubberwood_log','minecraft:copper_ingot', Fluid.of("cti:lava_overheated", 50)]).energy(1000)
   event.recipes.thermal.crystallizer('etshtinker:soul_fluix', ['ae2:charged_certus_quartz_crystal','ae2:fluix_crystal', Fluid.of("thermal:glowstone", 100)]).energy(2000)
+  event.recipes.thermal.crystallizer('cyclic:gem_amber', ['tconstruct:amethyst_bronze_ingot','pneumaticcraft:plastic', Fluid.of("thermal:refined_fuel", 1000)]).energy(10000)
+  event.recipes.thermal.crystallizer('cyclic:gem_obsidian', ['create:sturdy_sheet','thermal:tar', Fluid.of("tconstruct:seared_stone", 4000)]).energy(10000)
   //熔岩炉
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(100000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(100000)
@@ -81,14 +83,17 @@ ServerEvents.recipes(event => {
 
   //热解炉
   event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(0.65), Item.of('minecraft:netherite_scrap').withChance(0.35), Fluid.of("tinkers_reforged:titanium", 90)], 'kubejs:stable_slag').energy(20000)
+  event.recipes.thermal.pyrolyzer([Item.of('immersivepetroleum:bitumen').withChance(1.45),'minecraft:sand',Item.of('thermal:tar').withChance(2.25), Fluid.of('thermal:heavy_oil', 1000)], '#forge:oil_sand').energy(8000)
+  event.recipes.thermal.pyrolyzer([Item.of('thermal:coal_coke').withChance(1.25),Item.of('thermal:tar').withChance(2.25), Fluid.of("thermal:heavy_oil", 200)], 'immersivepetroleum:bitumen').energy(10000)
   //压缩能源炉
-  event.recipes.thermal.compression_fuel(Fluid.of('thermal:refined_fuel', 1000)).energy(5200000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(6400000)
-  event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(7950000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:gasoline', 1000)).energy(9800000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(10200000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(14400000)
-  event.recipes.thermal.compression_fuel(Fluid.of('kubejs:ethyne', 100)).energy(9500000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(5000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(5000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('thermal:refined_fuel', 1000)).energy(6000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(7000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:gasoline', 1000)).energy(8000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(9500000)
+  event.recipes.thermal.compression_fuel(Fluid.of('kubejs:methane', 1000)).energy(10500000)
+  event.recipes.thermal.compression_fuel(Fluid.of('kubejs:ethyne', 200)).energy(12000000)
 
 //有机灌注器
   event.recipes.thermal.insolator(['4x thermal:rubberwood_log',Item.of('thermal:rubberwood_sapling').withChance(1.1)],'thermal:rubberwood_sapling').water(1000).energy(60000)
@@ -97,9 +102,6 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.insolator(['4x ars_nouveau:blue_archwood_log',Item.of('ars_nouveau:blue_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:frostaya_pod').withChance(0.25)],'ars_nouveau:blue_archwood_sapling').water(1000).energy(60000)
   event.recipes.thermal.insolator(['4x ars_nouveau:red_archwood_log',Item.of('ars_nouveau:red_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bombegranate_pod').withChance(0.25)],'ars_nouveau:red_archwood_sapling').water(1000).energy(60000)
   event.recipes.thermal.insolator(['4x culturaldelights:avocado_log',Item.of('culturaldelights:avocado_sapling').withChance(1.5),Item.of('culturaldelights:avocado').withChance(0.25)],'culturaldelights:avocado_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans',Item.of('tofucraft:seeds_soybeans').withChance(1.1)],'tofucraft:seeds_soybeans').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_nether',Item.of('tofucraft:seeds_soybeans_nether').withChance(0.5)],'tofucraft:seeds_soybeans_nether').water(10000).energy(120000)
-  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_soul',Item.of('tofucraft:seeds_soybeans_soul').withChance(0.1)],'tofucraft:seeds_soybeans_soul').water(10000).energy(120000)
   event.recipes.thermal.insolator(['twilightforest:torchberries',Item.of('twilightforest:torchberries').withChance(1.31)],'twilightforest:torchberries').water(1000).energy(60000)
   event.recipes.thermal.insolator(['ends_delight:chorus_succulent',Item.of('ends_delight:chorus_succulent').withChance(1.31)],'ends_delight:chorus_succulent').water(1000).energy(60000)
   event.recipes.thermal.insolator(['minecraft:warped_fungus',Item.of('minecraft:warped_fungus').withChance(1.31),'6x minecraft:warped_stem','9x minecraft:warped_wart_block'],'minecraft:warped_fungus').water(1000).energy(60000)
@@ -135,8 +137,8 @@ ServerEvents.recipes(event => {
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.5).secondaryMod(2.0).energyMod(0.9).minChance(0.05).useChance(0.25)
-  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(5.6).secondaryMod(5.6).energyMod(0.72).minChance(0.05).useChance(0.50)
-  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(5.6).secondaryMod(5.6).energyMod(0.72).minChance(0.05).useChance(0.75)
+  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(5.0).secondaryMod(5.0).energyMod(0.7).minChance(0.05).useChance(1)
+  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(5.0).secondaryMod(5.0).energyMod(0.7).minChance(0.05).useChance(1)
   //锯木机
   event.recipes.thermal.sawmill('6x create:shaft','create:andesite_alloy')
   //次级能源炉燃烧组件
@@ -147,7 +149,7 @@ ServerEvents.recipes(event => {
     'BAB'
   ],
     {
-      A: 'immersivepetroleum:bitumen',
+      A: 'immersivepetroleum:paraffin_wax',
       B: 'etshtinker:chroma_plate',
       C: 'thermal:dynamo_fuel_augment',
       D: '#thermal:glass/hardened',

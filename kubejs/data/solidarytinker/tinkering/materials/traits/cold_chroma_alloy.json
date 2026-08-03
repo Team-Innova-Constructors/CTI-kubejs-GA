@@ -2,6 +2,10 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
+        "name": "cti:refined",
+        "level": 2
+      },
+      {
         "name": "solidarytinker:fluxweapon",
         "level": 1
       },
@@ -12,14 +16,14 @@
       {
         "name": "cti:the_relic",
         "level": 2
-      },
-      {
-        "name": "cti:refined",
-        "level": 1
       }
     ],
     "tconstruct:ranged": [
       {
+        "name": "cti:refined",
+        "level": 2
+      },
+      {
         "name": "solidarytinker:fluxweapon",
         "level": 1
       },
@@ -30,13 +34,13 @@
       {
         "name": "cti:the_relic",
         "level": 2
-      },{
-        "name": "cti:refined",
-        "level": 1
       }
-
     ],
     "tconstruct:armor": [
+      {
+        "name": "cti:refined",
+        "level": 2
+      },
       {
         "name": "solidarytinker:fluxarmor",
         "level": 1
@@ -48,42 +52,42 @@
       {
         "name": "cti:the_relic",
         "level": 2
-      },
-      {
-        "name": "cti:refined",
-        "level": 1
       }
     ],
     "tinkersinnovation:shield": [
       {
-        "name": "solidarytinker:elasticity",
+        "name": "cti:refined",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:fluxweapon",
         "level": 1
+      },
+      {
+        "name": "solidarytinker:energyadd",
+        "level": 2
       },
       {
         "name": "cti:the_relic",
         "level": 2
-      },
-      {
-        "name": "cti:refined",
-        "level": 1
       }
     ],
     "tinkers_ingenuity:laser_gun": [
       {
-        "name": "solidarytinker:corrode",
+        "name": "cti:refined",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:fluxweapon",
         "level": 1
       },
       {
-        "name": "solidarytinker:swell",
-        "level": 1
+        "name": "solidarytinker:energyadd",
+        "level": 2
       },
       {
         "name": "cti:the_relic",
         "level": 2
-      },
-      {
-        "name": "cti:refined",
-        "level": 1
       }
     ]
   }
