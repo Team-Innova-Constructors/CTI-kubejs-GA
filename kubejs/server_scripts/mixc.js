@@ -222,11 +222,6 @@ ServerEvents.recipes(event => {
             'twilightforest:lifedrain_scepter'
         ]
     )
-    event.shapeless(Item.of('extendedcrafting:redstone_ingot', 1), [
-            'minecraft:iron_ingot',
-            'minecraft:redstone',
-        ]
-    )
 
     event.shaped(Item.of('sophisticatedstorage:stack_upgrade_tier_4', 1), [
             'BBB',
@@ -489,17 +484,6 @@ ServerEvents.recipes(event => {
             A: 'minecraft:ender_pearl',
         }
     )
-    event.shaped(Item.of('l2complements:eternium_nugget', 4), [
-            'CBC',
-            'BAB',
-            'CBC'
-        ],
-        {
-            B: 'l2complements:space_shard',
-            A: 'l2complements:explosion_shard',
-            C: 'l2complements:shulkerate_nugget',
-        }
-    )
     event.shaped(Item.of('aether:golden_feather', 1), [
             'ABA',
             'BCB',
@@ -509,6 +493,28 @@ ServerEvents.recipes(event => {
             A: 'l2complements:sun_membrane',
             C: 'minecraft:feather',
             B: 'minecraft:gold_nugget',
+        }
+    )
+    event.shaped(Item.of('pneumaticcraft:regulator_tube_module', 1), [
+            '   ',
+            'ABA',
+            '   '
+        ],
+        {
+            A: 'tconstruct:cobalt_ingot',
+            B: 'pneumaticcraft:pressure_tube',
+        }
+    )
+    event.shaped(Item.of('expatternprovider:wireless_connect', 2), [
+            'CDC',
+            'ABA',
+            'CDC'
+        ],
+        {
+            A: 'ae2:fluix_smart_cable',
+            B: 'ae2:smooth_sky_stone_block',
+            C: 'kubejs:tungsten_steel_ingot',
+            D: 'ae2:wireless_receiver',
         }
     )
     event.smithing('constructionwand:infinity_wand', 'constructionwand:diamond_wand', 'tconstruct:manyullyn_ingot')
@@ -937,7 +943,6 @@ ServerEvents.recipes(event => {
         }
     )
     event.shapeless('aether:enchanted_gravitite', '9x aether_redux:gravitite_ingot')
-    event.shapeless('9x aether_redux:gravitite_ingot', 'aether:enchanted_gravitite')
 
     event.remove({id: 'enigmaticlegacy:evil_ingot'})
     event.shaped(Item.of('enigmaticlegacy:evil_ingot', 4), [

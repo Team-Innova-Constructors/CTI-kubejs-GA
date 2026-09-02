@@ -70,6 +70,7 @@ ServerEvents.recipes(event => {
 		'l2hostility:book_of_omniscience',
 		'l2hostility:greed_of_nidhoggur',
 		'l2complements:craft/totem_of_dream',
+		'l2complements:craft/eternium_nugget',
 		'l2hostility:charm_of_looting_2',
 		'l2hostility:charm_of_looting_3',
 		'l2hostility:charm_of_looting_4',
@@ -92,6 +93,12 @@ ServerEvents.recipes(event => {
 		'pneumaticcraft:thermo_plant/lubricant_from_biodiesel',
 		'pneumaticcraft:thermo_plant/lubricant_from_diesel',
 		'pneumaticcraft:fluid_mixer/biodiesel',
+
+		'pneumaticcraft:security_upgrade',
+		'pneumaticcraft:safety_tube_module',
+		'pneumaticcraft:regulator_tube_module',
+		'ae2additions:blocks/wireless_transceiver',
+		'expatternprovider:wireless_connector',
 		//热力的
 		'thermal:fire_charge/signalum_ingot_4',
 		'thermal:fire_charge/lumium_ingot_4',
@@ -201,6 +208,7 @@ ServerEvents.recipes(event => {
 		'tinkersinnovation:modifier/blind',
 		'tinkersinnovation:modifier/stone_cage',
 		'tinkersinnovation:modifier/tanky',
+		'tinkersinnovation:modifier/abyss_resonance',
 		'tinkerscalibration:tools/materials/oraclium',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti_upgrade_1',
@@ -223,6 +231,7 @@ ServerEvents.recipes(event => {
 		//多彩合金锭前置锭的部分配方删除
 		'tinkers_reforged:crafting/duralumin_ingot_from_smelting_duralumin_dust',
 		'tinkers_reforged:smeltery/alloy/duralumin',
+		'tinkers_reforged:smeltery/alloy/ferobolt',
 		'tinkers_ingenuity:alloys/blood_binding',
 		'tconstruct:smeltery/alloys/molten_slimesteel',
 		'tinkers_thinking:common/chlorophyte/ingot_blasting2',
@@ -268,7 +277,10 @@ ServerEvents.recipes(event => {
 		'tcintegrations:tools/modifiers/compat/terrestrial_leggings',
 		'tcintegrations:tools/modifiers/compat/terrestrial_boots',
 		//熔融温度
-		'cloudertinker:materials/castone/melting'
+		'cloudertinker:materials/castone/melting',
+		'thermal:machines/centrifuge/centrifuge_oil_red_sand',
+		'thermal:machines/centrifuge/centrifuge_oil_sand',
+		'thermal:machines/pyrolyzer/pyrolyzer_bitumen'
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -413,6 +425,7 @@ ServerEvents.recipes(event => {
 		'cyclic:uncrafter',
 		'cyclic:sleeping_mat',
 		'cyclic:charm_crit',
+		'cyclic:charm_creeper',
 		'cyclic:crafting_stick',
 		'cyclic:crafting_bag',
 		'cyclic:fluid_pipe',
@@ -423,6 +436,9 @@ ServerEvents.recipes(event => {
 		'cyclic:crusher/powered_rail',
 		'cyclic:crusher/detector_rail',
 		'cyclic:antigravity',
+		'cyclic:solidifier/solidifier_amber',
+		'cyclic:solidifier/solidifier_amberalt',
+		'cyclic:solidifier/solidifier_obs',
 	]
 	for (let i of cyclics) { event.remove({ id: `${i}` }) }
 	//堆

@@ -2,7 +2,6 @@
   "modifier.kubejs": {
   },
   "modifier.cti": {
-    "refined": "#A48DFF",
     "zanite": "#A984D1",
     "weight_unstable": "#948B8B",
     "farther_sights":"#8E9DFF",
@@ -32,10 +31,12 @@
   },
   "material.cti": {
     "violium": "#A48DFF",
-    "aetherium": "#A48DFF"
+    "aetherium": "#A48DFF",
+    "xenoglarium": "#415ea2"
   },
   "material.kubejs": {
     "zirconium_alloy": "#FACCFF",
+    "tungsten_steel": "#7d7d7d",
     "perfect_generic_item_new": "#90FF90",
     "veridium": "#00A2E8",
     "star_alloy": "#3259be",
@@ -53,6 +54,7 @@
     "industrial_gel": "#3B190A",
     "source_gem": "#F18CFF",
     "terrasteel": "#4BFF4E",
-    "sturdy_sheet": "#3B2754"
+    "sturdy_sheet": "#3B2754",
+    "swet_bronze": "#ffe978"
   }
 }

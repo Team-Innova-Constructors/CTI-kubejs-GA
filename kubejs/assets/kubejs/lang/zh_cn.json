@@ -12,7 +12,7 @@
     "fluid.kubejs.co2_water": "富二氧化碳水",
     "fluid.kubejs.ca_solution": "钙质溶液",
     "fluid.kubejs.biotic_acids": "浓缩腐蚀性生物酸",
-    "fluid.kubejs.tar_mix": "焦油混合物",
+    "fluid.kubejs.tar_mix": "裂解混合物",
     "fluid.kubejs.ethyne": "液态乙炔",
     "fluid.kubejs.royal_jelly": "蜂王浆",
     "fluid.kubejs.hot_heavymetal_lava": "重质金属高温熔岩",
@@ -291,10 +291,6 @@
     "modifier.cti.structure": "结构拓印",
     "modifier.cti.structure.flavor": "结构化学的知识增加了",
     "modifier.cti.structure.description": "增加2个升级槽",
-
-    "modifier.cti.refined": "精炼",
-    "modifier.cti.refined.flavor": "由最先进的科技炼成，有着至强的效用。",
-    "modifier.cti.refined.description": "每级提供10%大部分属性提升和能力槽、升级槽各一个，增加25%（最大100%）不消耗耐久的概率。\n作为护甲时基于全身词条等级获得每级10%，最大60%的伤害减免，该减免对穿甲伤害具有一半的效力。",
 
     "modifier.cti.zanite": "紫晶石",
     "modifier.cti.zanite.flavor": "蕴含天镜能量的宝石",

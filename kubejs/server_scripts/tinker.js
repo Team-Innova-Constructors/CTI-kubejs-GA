@@ -126,6 +126,17 @@ ServerEvents.recipes(event => {
         {fluid: "tconstruct:liquid_soul", amount: 250},
         {fluid: "immersivepetroleum:crudeoil", amount: 1000},
     ], 1250, null, "undergarden:virulent_mix_source", 1000)
+    addAlloy([
+        {fluid: "tinkers_thinking:molten_tinkers_bronze", amount: 270},
+        {fluid: "kubejs:molten_veridium", amount: 90},
+        {fluid: "kubejs:molten_azure_swet", amount: 250},
+        {fluid: "kubejs:molten_gold_swet", amount: 250},
+    ], 3255, null, "kubejs:molten_swet_bronze", 180)
+    addAlloy([
+        {fluid: "tconstruct:molten_slimesteel", amount: 270},
+        {fluid: "kubejs:molten_swet_bronze", amount: 180},
+        {fluid: "kubejs:molten_azure_swet", amount: 250},
+    ], 4535, null, "kubejs:molten_blue_sky", 180)
 
     addCastingTable("kubejs:molten_absorption_boost", 250, null, 'biomancy:absorption_boost', true, 80);
 
@@ -156,7 +167,6 @@ ServerEvents.recipes(event => {
     addMelting("aether:valkyrie_shovel", "kubejs:molten_valkyrie", 810, 3250, 100)
     addMelting("aether:valkyrie_pickaxe", "kubejs:molten_valkyrie", 2430, 3250, 100)
     addMelting("aether:valkyrie_gloves", "kubejs:molten_valkyrie", 1620, 3250, 100)
-    addMelting('aether:valkyrie_lance', "kubejs:molten_valkyrie", 3240, 3250, 100)
 
     addMelting('biomancy:toxin_extract', "tconstruct:venom", 250, 400, 100)
     addMelting('biomancy:withering_ooze', "tinkerscalibration:molteninertwitherium", 90, 1650, 100)
