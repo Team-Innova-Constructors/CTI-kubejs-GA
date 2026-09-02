@@ -306,6 +306,7 @@
 
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
+    "item.minecraft.brush":"刷子",
 
     "_null_": "jei信息显示部分",
     "kubejs.jei.coinmint": "铸币机器已经被禁用",

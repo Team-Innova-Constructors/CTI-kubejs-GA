@@ -1418,6 +1418,43 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tconstruct:scorched_brick",
+                "amount_needed": 8
+            },
+            {
+                "item": "botania:thermalily",
+            },
+            {
+                "item": "twilightforest:fiery_ingot"
+            }
+        ],
+        "level": {
+            "max": 1
+        },
+        "result": "cti:exothermic",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:exothermic",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)
     addOverslime("aether_redux:vanilla_swet_ball", 120)

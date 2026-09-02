@@ -21,7 +21,14 @@
     "gobber_etch_2":"#C2001E",
     "gobber_etch_3":"#00E88C",
     "coordinator":"#3B190A",
-    "golden_amber_touch":"#FFCC44"
+    "golden_amber_touch":"#FFCC44",
+    "replaced_conducting":"#FFEE39",
+    "high_heat":"#FFEE39",
+    "replaced_fiery":"#E35336",
+    "replaced_heat_sword":"#FF6613",
+    "scorched":"#381910",
+    "ruby_laser":"#FF5151",
+    "exothermic":"#FF923B"
   },
   "material.cti": {
     "violium": "#A48DFF",

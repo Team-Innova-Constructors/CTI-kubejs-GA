@@ -2,7 +2,7 @@
   "perStat": {
     "tconstruct:head": [
       {
-        "name": "cloudertinker:heatsword",
+        "name": "cti:replaced_heat_sword",
         "level": 1
       },
       {
@@ -10,17 +10,17 @@
         "level": 1
       },
       {
-        "name": "cloudertinker:superheat",
-        "level": 1
+        "name": "cti:replaced_fiery",
+        "level": 3
       },
       {
         "name": "cti:infernal",
-        "level": 3
+        "level": 2
       }
     ],
     "tconstruct:handle": [
       {
-        "name": "cloudertinker:heatsword",
+        "name": "cti:replaced_heat_sword",
         "level": 1
       },
       {
@@ -28,17 +28,13 @@
         "level": 1
       },
       {
-        "name": "cloudertinker:superheat",
-        "level": 1
-      },
-      {
-        "name": "cti:infernal",
+        "name": "cti:replaced_fiery",
         "level": 3
       }
     ],
     "tconstruct:binding": [
       {
-        "name": "cloudertinker:heatsword",
+        "name": "cti:replaced_heat_sword",
         "level": 1
       },
       {
@@ -46,11 +42,7 @@
         "level": 1
       },
       {
-        "name": "cloudertinker:superheat",
-        "level": 1
-      },
-      {
-        "name": "cti:infernal",
+        "name": "cti:replaced_fiery",
         "level": 3
       }
     ]
