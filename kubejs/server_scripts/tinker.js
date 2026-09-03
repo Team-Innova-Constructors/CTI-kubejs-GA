@@ -1464,6 +1464,107 @@ ServerEvents.recipes(event => {
             "tag": "tconstruct:modifiable/melee"
         }
     })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "twilightforest:knightmetal_ring",
+            }
+        ],
+        "level": {
+            "max": 30
+        },
+        "result": "tconstruct:reach",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "item": "cloudertinker:giantsword"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "tconstruct:reach",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "item": "cloudertinker:giantsword"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tconstruct:scorched_bricks",
+                "amount_needed": 32
+            },
+            {
+                "item":"tconstruct:blazing_blood_bucket"
+            }
+        ],
+        "level": {
+            "max": 9
+        },
+        "result": "cti:searing_blow",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:searing_blow",
+        "slots": {
+            "upgrades": 1
+        },
+        "level": {
+            "max": 9
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tconstruct:scorched_bricks",
+                "amount_needed": 32
+            },
+            {
+                "item":"cti:lava_gaseous_bucket"
+            }
+        ],
+        "level": {
+            "min": 10
+        },
+        "result": "cti:searing_blow",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:searing_blow",
+        "slots": {
+            "abilities": 1
+        },
+        "level": {
+            "min": 10
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
 
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)

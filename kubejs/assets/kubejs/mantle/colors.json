@@ -27,7 +27,9 @@
     "replaced_heat_sword":"#FF6613",
     "scorched":"#381910",
     "ruby_laser":"#FF5151",
-    "exothermic":"#FF923B"
+    "exothermic":"#FF923B",
+    "searing_blow":"#FF923B",
+    "oxidizing_flame":"#FF6845"
   },
   "material.cti": {
     "violium": "#A48DFF",
