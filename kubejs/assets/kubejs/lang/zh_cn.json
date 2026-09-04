@@ -100,6 +100,7 @@
     "block.kubejs.mercury_tungsten_ore":"水星钨矿石",
     "block.kubejs.mercury_orichalcum_ore":"水星山铜矿",
     "block.kubejs.reactor_casing":"反应堆外壳",
+    "block.kubejs.wireless_connect_broken":"<破损>无线连接器",
 
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
     "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",
@@ -250,7 +251,7 @@
     "item.cti.advanced_range_augment": "高级范围插件",
     "item.cti.advanced_output_augment": "高级深度催化器",
     "item.kubejs.phytogro_zero":"植育零号",
-    "item.kubejs.broken_victory_medal":"碎裂 胜利奖牌",
+    "item.kubejs.broken_victory_medal":"<碎裂>胜利奖牌",
     "item.kubejs.sentrite":"纯化哨石",
     "item.kubejs.unipolar_magnet_shard":"单极磁石小块",
 

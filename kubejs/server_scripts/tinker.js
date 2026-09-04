@@ -1565,6 +1565,23 @@ ServerEvents.recipes(event => {
             "tag": "tconstruct:modifiable/melee"
         }
     })
+    event.custom({
+        "type": "cti:modifier_etching",
+        "allow_crystal": false,
+        "inputs": [
+            {
+                "item": "tinkers_thinking:echo_bronze_ingot",
+            },
+            {
+                "item": "etshtinker:plasma_generator",
+            }
+        ],
+        "level": 1,
+        "result": "cti:slash_colorize",
+        "tools": {
+            "item": "etshtinker:constrained_plasma_saber"
+        }
+    })
 
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)
