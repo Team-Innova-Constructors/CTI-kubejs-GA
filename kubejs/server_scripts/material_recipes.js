@@ -254,4 +254,5 @@ ServerEvents.recipes(event => {
     craftableMaterial("kubejs:industrial_gel", 'kubejs:industrial_gel')
     craftableMaterial("kubejs:source_gem", 'ars_nouveau:source_gem')
     craftableMaterial("kubejs:terrasteel", 'botania:terrasteel_ingot')
+    craftableMaterial("kubejs:fortunes_favor", 'meetyourfight:fortunes_favor')
 })

@@ -30,7 +30,8 @@
     "exothermic":"#FF923B",
     "searing_blow":"#FF923B",
     "oxidizing_flame":"#FF6845",
-    "melee_fiery_javelin":"#FF6C00"
+    "melee_fiery_javelin":"#FF6C00",
+    "phantom_forged":"#4BFFA3"
   },
   "material.cti": {
     "violium": "#A48DFF",

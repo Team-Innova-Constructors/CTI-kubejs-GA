@@ -971,4 +971,5 @@ ServerEvents.recipes(event => {
     event.replaceInput({id:'projecte:low_covalence_dust'},"minecraft:charcoal","etshtinker:exotic_matter")
     event.replaceInput({id:'projecte:medium_covalence_dust'},"minecraft:redstone",'mekanism:alloy_reinforced')
     event.replaceInput({id:'projecte:high_covalence_dust'},"minecraft:coal",'ae2:singularity')
+    event.smithing("iceandfire:ghost_ingot","iceandfire:ectoplasm","meetyourfight:phantoplasm")
 })

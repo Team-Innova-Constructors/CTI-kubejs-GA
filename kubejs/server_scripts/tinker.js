@@ -201,6 +201,10 @@ ServerEvents.recipes(event => {
     addMelting("aether:gravitite_pickaxe", "kubejs:molten_gravitite", 270, 4950, 100)
 
     addSevering("undergarden:forgotten_guardian", "undergarden:forgotten_ingot", 2)
+    addSevering("meetyourfight:bellringer", "meetyourfight:phantoplasm", 4)
+    addSevering("meetyourfight:dame_fortuna", "meetyourfight:fortunes_favor", 4)
+    addSevering("meetyourfight:rosalyne", "meetyourfight:violet_bloom", 4)
+    addSevering("meetyourfight:swampjaw", "meetyourfight:mossy_tooth", 4)
 
     event.custom(
         {
@@ -1565,6 +1569,7 @@ ServerEvents.recipes(event => {
             "tag": "tconstruct:modifiable/melee"
         }
     })
+
     event.custom({
         "type": "cti:modifier_etching",
         "allow_crystal": false,
@@ -1580,6 +1585,40 @@ ServerEvents.recipes(event => {
         "result": "cti:slash_colorize",
         "tools": {
             "item": "etshtinker:constrained_plasma_saber"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "minecraft:quartz",
+                "amount_needed": 8
+            },
+            {
+                "item":"meetyourfight:mossy_tooth"
+            }
+        ],
+        "level": {
+            "max": 5
+        },
+        "result": "cti:enforced_sharpness",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:enforced_sharpness",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
         }
     })
 
