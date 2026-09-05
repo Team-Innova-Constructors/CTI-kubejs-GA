@@ -242,4 +242,49 @@ event.custom({
   )
   event.remove({id:'botania:gaia_ingot'})
 
+  event.custom({
+    "type": "mythicbotany:infuser",
+    "fromColor": 0xFF7F27,
+    "group": "infuser",
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_scrap"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "kubejs:tungsten_ingot"
+      }
+    ],
+    "mana": 125000,
+    "output": {
+      "count": 1,
+      "item": "minecraft:netherite_ingot"
+    },
+    "toColor": 0x261B1B
+  })
+  event.custom({
+    "type": "mythicbotany:infuser",
+    "fromColor": 0xFFffFF,
+    "group": "infuser",
+    "ingredients": [
+      {
+        "item": "etshtinker:basalz_signalum"
+      },
+      {
+        "item": "etshtinker:blitz_lumium"
+      },
+      {
+        "item": "etshtinker:blizz_enderium"
+      }
+    ],
+    "mana": 750000,
+    "output": {
+      "count": 3,
+      "item": "etshtinker:activated_chroma_plate"
+    },
+    "toColor": 0xFFFFFF
+  })
+
 })
