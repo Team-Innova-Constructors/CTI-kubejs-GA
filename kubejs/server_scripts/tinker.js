@@ -1629,4 +1629,91 @@ ServerEvents.recipes(event => {
     addOverslime("industrialforegoing:pink_slime", 480)
 
     addCastingTable("etshtinker:molten_alfsteel",180,'botania:life_essence','botania:gaia_ingot',true,500)
+
+    event.shaped(Item.of('4x cti:soul_forge_bricks'), [
+        'AB',
+        'BA'
+    ], {
+        A: 'minecraft:end_stone_bricks',
+        B: 'tconstruct:scorched_bricks'
+    })
+    event.shaped(Item.of('4x cti:soul_forge_glass'), [
+        ' A ',
+        'BCB',
+        ' A '
+    ], {
+        A: 'minecraft:end_stone_bricks',
+        B: 'tconstruct:scorched_bricks',
+        C: "#forge:glass"
+    })
+    event.shaped(Item.of('2x cti:soul_forge_chute'), [
+        'ABA',
+        '   ',
+        'ABA'
+    ], {
+        A: 'thermal:steel_plate',
+        B: 'cti:soul_forge_bricks',
+    })
+    event.shaped(Item.of('2x cti:soul_forge_drain'), [
+        'A A',
+        'B B',
+        'A A'
+    ], {
+        A: 'thermal:steel_plate',
+        B: 'cti:soul_forge_bricks',
+    })
+    event.shaped(Item.of('2x cti:soul_forge_duct'), [
+        'A A',
+        'B B',
+        'A A'
+    ], {
+        A: 'thermal:gold_plate',
+        B: 'cti:soul_forge_bricks'
+    })
+    event.shaped(Item.of('4x cti:soul_brick_heat_conductor'), [
+        'ABA',
+        'BAB',
+        'ABA'
+    ], {
+        A: "pneumaticcraft:compressed_iron_block",
+        B: 'cti:soul_forge_bricks'
+    })
+    event.shaped(Item.of('2x cti:soul_valve'), [
+        'A A',
+        'B B',
+        'A A'
+    ], {
+        A: 'kubejs:zirconium_alloy',
+        B: 'cti:soul_forge_bricks'
+    })
+    event.shaped(Item.of('4x cti:soul_forge_ingot_gauge'), [
+        'ACA',
+        'BAB',
+        'ACA'
+    ], {
+        A: "#forge:glass",
+        B: 'tconstruct:scorched_bricks',
+        C: 'minecraft:end_stone_bricks',
+    })
+    event.shaped(Item.of('4x cti:soul_forge_fuel_gauge'), [
+        'BAC',
+        'AAA',
+        'CAB'
+    ], {
+        A: "#forge:glass",
+        B: 'tconstruct:scorched_bricks',
+        C: 'minecraft:end_stone_bricks',
+    })
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cast": {"item": "cti:soul_forge_bricks"},
+        "cast_consumed": true,
+        "fluid": {
+            "name": "tconstruct:molten_steel",
+            "amount": 360
+        },
+        "result": "cti:soul_forge_controller",
+        "cooling_time": 200
+    })
+
 })
