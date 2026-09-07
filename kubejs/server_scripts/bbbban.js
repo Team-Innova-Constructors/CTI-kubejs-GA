@@ -161,6 +161,7 @@ ServerEvents.recipes(event => {
 		'etshtinker:smeltery/casting/lightless_alloy/lightless_alloy',
 		'etshtinker:create/mixing/bismuth_ingot',
         'etshtinker:create/mixing/molten_bismuth',
+		'etshtinker:tools/modifiers/phantomreforged',
 		//工匠创新等匠魂附属
 		'tinkersinnovation:items/polychrome_mix',
 		'cherrytinker:tables/enchantedgold_block',
