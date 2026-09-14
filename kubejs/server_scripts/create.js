@@ -44,6 +44,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.splashing(Item.of('cti:feima_ingot').withChance(0.08), 'thermal:netherite_coin')
 
     event.recipes.create.crushing('immersiveengineering:dust_aluminum','immersiveengineering:ingot_aluminum').processingTime(50);
+    event.recipes.create.crushing([Item.of('biomancy:stone_powder').withChance(0.5),Item.of('minecraft:quartz').withChance(0.42),Item.of('mekanism:dust_lithium').withChance(0.08)],'minecraft:granite').processingTime(50);
 
     event.recipes.create.compacting([Item.of('ae2:calculation_processor', 16)], ['16x ae2:printed_calculation_processor', '16x ae2:printed_silicon', Fluid.of('thermal:redstone').withAmount(250)])
     event.recipes.create.compacting([Item.of('ae2:engineering_processor', 16)], ['16x ae2:printed_engineering_processor', '16x ae2:printed_silicon', Fluid.of('thermal:redstone').withAmount(250)])

@@ -3,7 +3,7 @@
     "tconstruct:armor": [
       {
         "name": "cti:industrial_armor",
-        "level": 1
+        "level": 2
       },
       {
         "name": "cti:fragment",

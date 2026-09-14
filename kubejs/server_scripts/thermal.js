@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.smelter('2x tinkers_ingenuity:blood_binding_ingot', ['3x thermal:steel_ingot','4x minecraft:gold_ingot','5x minecraft:blaze_rod']).energy(10000)
   event.recipes.thermal.smelter('2x tinkers_reforged:duralumin_ingot', ['4x immersiveengineering:ingot_aluminum', '2x minecraft:copper_ingot']).energy(8000)
   event.recipes.thermal.smelter('4x thermal:enderium_ingot', ['3x #forge:ingots/lead', '2x minecraft:ender_pearl','#forge:dusts/diamond']).energy(16000)
+  event.recipes.thermal.smelter('tinkers_reforged:mosite_block', ['2x mekanism:dust_lithium', 'tinkerscalibration:titanium_block','4x solidarytinker:heavy_armor_steel_ingot']).energy(12000)
   event.recipes.thermal.smelter(Item.of('etshtinker:bismuth_ingot').withChance(1.25), ['etshtinker:bismuthinite']).energy(12000)
   event.recipes.thermal.smelter(Item.of('twilightforest:ironwood_ingot').withChance(2.3), ['twilightforest:raw_ironwood']).energy(6000)
   event.recipes.thermal.smelter([Item.of('l2hostility:hostility_essence').withChance(1.1),'64x minecraft:glass_bottle'], ['64x l2hostility:bottle_of_curse','kubejs:dust_pyrotheum']).energy(12000)
