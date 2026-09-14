@@ -482,7 +482,7 @@ ServerEvents.recipes(event => {
         },
         
         {
-          "item": "twilightforest:fiery_ingot",
+          "item": "cloudertinker:glavenus_ingot",
           "count":1
         }
     ],

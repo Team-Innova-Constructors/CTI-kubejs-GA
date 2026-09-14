@@ -29,7 +29,7 @@ LootJS.modifiers(event => {
             { item: 'ae2:dense_energy_cell', count: 1, chance: 0.8 },
             { item: 'megacells:mega_energy_cell', count: 1, chance: 0.2 },
             { item: 'gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit', count: 1, chance: 0.2 },
-            { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
+            { item: 'cti:creative_energy_cell_4k', count: 1, chance: 0.04 },
             { item: 'cti:meteor_shower_tablet', count: 1, chance: 0.05 },
         ],
         //金星

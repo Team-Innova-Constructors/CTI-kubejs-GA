@@ -201,6 +201,10 @@ ServerEvents.recipes(event => {
     addMelting("aether:gravitite_pickaxe", "kubejs:molten_gravitite", 270, 4950, 100)
 
     addSevering("undergarden:forgotten_guardian", "undergarden:forgotten_ingot", 2)
+    addSevering("meetyourfight:bellringer", "meetyourfight:phantoplasm", 4)
+    addSevering("meetyourfight:dame_fortuna", "meetyourfight:fortunes_favor", 4)
+    addSevering("meetyourfight:rosalyne", "meetyourfight:violet_bloom", 4)
+    addSevering("meetyourfight:swampjaw", "meetyourfight:mossy_tooth", 4)
 
     event.custom(
         {
@@ -1428,6 +1432,196 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tconstruct:scorched_brick",
+                "amount_needed": 8
+            },
+            {
+                "item": "botania:thermalily",
+            },
+            {
+                "item": "twilightforest:fiery_ingot"
+            }
+        ],
+        "level": {
+            "max": 1
+        },
+        "result": "cti:exothermic",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:exothermic",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "twilightforest:knightmetal_ring",
+            }
+        ],
+        "level": {
+            "max": 30
+        },
+        "result": "tconstruct:reach",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "item": "cloudertinker:giantsword"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "tconstruct:reach",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "item": "cloudertinker:giantsword"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tconstruct:scorched_bricks",
+                "amount_needed": 32
+            },
+            {
+                "item":"tconstruct:blazing_blood_bucket"
+            }
+        ],
+        "level": {
+            "max": 9
+        },
+        "result": "cti:searing_blow",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:searing_blow",
+        "slots": {
+            "upgrades": 1
+        },
+        "level": {
+            "max": 9
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tconstruct:scorched_bricks",
+                "amount_needed": 32
+            },
+            {
+                "item":"cti:lava_gaseous_bucket"
+            }
+        ],
+        "level": {
+            "min": 10
+        },
+        "result": "cti:searing_blow",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:searing_blow",
+        "slots": {
+            "abilities": 1
+        },
+        "level": {
+            "min": 10
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
+    event.custom({
+        "type": "cti:modifier_etching",
+        "allow_crystal": false,
+        "inputs": [
+            {
+                "item": "tinkers_thinking:echo_bronze_ingot",
+            },
+            {
+                "item": "etshtinker:plasma_generator",
+            }
+        ],
+        "level": 1,
+        "result": "cti:slash_colorize",
+        "tools": {
+            "item": "etshtinker:constrained_plasma_saber"
+        }
+    })
+
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "minecraft:quartz",
+                "amount_needed": 8
+            },
+            {
+                "item":"meetyourfight:mossy_tooth"
+            }
+        ],
+        "level": {
+            "max": 5
+        },
+        "result": "cti:enforced_sharpness",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:enforced_sharpness",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
     addOverslime("aether:swet_ball", 120)
     addOverslime("aether_redux:golden_swet_ball", 120)
     addOverslime("aether_redux:vanilla_swet_ball", 120)
@@ -1435,4 +1629,91 @@ ServerEvents.recipes(event => {
     addOverslime("industrialforegoing:pink_slime", 480)
 
     addCastingTable("etshtinker:molten_alfsteel",180,'botania:life_essence','botania:gaia_ingot',true,500)
+
+    event.shaped(Item.of('4x cti:soul_forge_bricks'), [
+        'AB',
+        'BA'
+    ], {
+        A: 'minecraft:end_stone_bricks',
+        B: 'tconstruct:scorched_bricks'
+    })
+    event.shaped(Item.of('4x cti:soul_forge_glass'), [
+        ' A ',
+        'BCB',
+        ' A '
+    ], {
+        A: 'minecraft:end_stone_bricks',
+        B: 'tconstruct:scorched_bricks',
+        C: "#forge:glass"
+    })
+    event.shaped(Item.of('2x cti:soul_forge_chute'), [
+        'ABA',
+        '   ',
+        'ABA'
+    ], {
+        A: 'thermal:steel_plate',
+        B: 'cti:soul_forge_bricks',
+    })
+    event.shaped(Item.of('2x cti:soul_forge_drain'), [
+        'A A',
+        'B B',
+        'A A'
+    ], {
+        A: 'thermal:steel_plate',
+        B: 'cti:soul_forge_bricks',
+    })
+    event.shaped(Item.of('2x cti:soul_forge_duct'), [
+        'A A',
+        'B B',
+        'A A'
+    ], {
+        A: 'thermal:gold_plate',
+        B: 'cti:soul_forge_bricks'
+    })
+    event.shaped(Item.of('4x cti:soul_brick_heat_conductor'), [
+        'ABA',
+        'BAB',
+        'ABA'
+    ], {
+        A: "pneumaticcraft:compressed_iron_block",
+        B: 'cti:soul_forge_bricks'
+    })
+    event.shaped(Item.of('2x cti:soul_valve'), [
+        'A A',
+        'B B',
+        'A A'
+    ], {
+        A: 'kubejs:zirconium_alloy',
+        B: 'cti:soul_forge_bricks'
+    })
+    event.shaped(Item.of('4x cti:soul_forge_ingot_gauge'), [
+        'ACA',
+        'BAB',
+        'ACA'
+    ], {
+        A: "#forge:glass",
+        B: 'tconstruct:scorched_bricks',
+        C: 'minecraft:end_stone_bricks',
+    })
+    event.shaped(Item.of('4x cti:soul_forge_fuel_gauge'), [
+        'BAC',
+        'AAA',
+        'CAB'
+    ], {
+        A: "#forge:glass",
+        B: 'tconstruct:scorched_bricks',
+        C: 'minecraft:end_stone_bricks',
+    })
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cast": {"item": "cti:soul_forge_bricks"},
+        "cast_consumed": true,
+        "fluid": {
+            "name": "tconstruct:molten_steel",
+            "amount": 360
+        },
+        "result": "cti:soul_forge_controller",
+        "cooling_time": 200
+    })
+
 })

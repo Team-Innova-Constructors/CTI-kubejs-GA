@@ -52,15 +52,6 @@ ServerEvents.recipes(event => {
     }
     event.shapeless('9x etshtinker:blitz_lumium', 'kubejs:blitz_luminium_block')
     event.shapeless('kubejs:blitz_luminium_block', '9x etshtinker:blitz_lumium')
-    event.shapeless(Item.of('undergarden:forgotten_ingot', 1), [
-            'kubejs:violium_alloy',
-            'kubejs:violium_alloy',
-            'l2hostility:miracle_ingot',
-            'undergarden:forgotten_nugget',
-            'l2complements:heirophant_green',
-            'l2hostility:hostility_essence',
-        ]
-    )
 
     //星图
     event.shaped(Item.of('cti:astra_tablet_5', 1), [
@@ -951,8 +942,8 @@ ServerEvents.recipes(event => {
             B: '#forge:glass',
         }
     )
+    event.shapeless('aether:enchanted_gravitite', '9x aether_redux:gravitite_ingot')
 
-    event.shapeless('9x aether_redux:gravitite_ingot', 'aether:enchanted_gravitite')
     event.remove({id: 'enigmaticlegacy:evil_ingot'})
     event.shaped(Item.of('enigmaticlegacy:evil_ingot', 4), [
         'ABA',
@@ -975,9 +966,10 @@ ServerEvents.recipes(event => {
         D: 'botania:brown_petal',
         E: 'ars_nouveau:ritual_wilden_summon'
     })
-    event.replaceInput({id: 'sophisticatedbackpacks:feeding_upgrade'}, "minecraft:golden_apple", "enigmaticlegacy:astral_fruit")
-    event.replaceInput({id: 'sophisticatedstorage:feeding_upgrade'}, "minecraft:golden_apple", "enigmaticlegacy:astral_fruit")
-    event.replaceInput({id: 'projecte:low_covalence_dust'}, "minecraft:charcoal", "etshtinker:exotic_matter")
-    event.replaceInput({id: 'projecte:medium_covalence_dust'}, "minecraft:redstone", 'mekanism:alloy_reinforced')
-    event.replaceInput({id: 'projecte:high_covalence_dust'}, "minecraft:coal", 'ae2:singularity')
+    event.replaceInput({id:'sophisticatedbackpacks:feeding_upgrade'},"minecraft:golden_apple","enigmaticlegacy:astral_fruit")
+    event.replaceInput({id:'sophisticatedstorage:feeding_upgrade'},"minecraft:golden_apple","enigmaticlegacy:astral_fruit")
+    event.replaceInput({id:'projecte:low_covalence_dust'},"minecraft:charcoal","etshtinker:exotic_matter")
+    event.replaceInput({id:'projecte:medium_covalence_dust'},"minecraft:redstone",'mekanism:alloy_reinforced')
+    event.replaceInput({id:'projecte:high_covalence_dust'},"minecraft:coal",'ae2:singularity')
+    event.smithing("iceandfire:ghost_ingot","iceandfire:ectoplasm","meetyourfight:phantoplasm")
 })

@@ -16,7 +16,12 @@
       {
         "type": "pneumaticcraft:stacked_item",
         "item": "kubejs:tungsten_steel_ingot",
-        "count": 16
+        "count": 8
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "industrialforegoing:pink_slime_ingot",
+        "count": 1
       }
     ],
     "pressure": 3.0,

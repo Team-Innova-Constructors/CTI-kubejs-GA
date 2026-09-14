@@ -100,6 +100,7 @@
     "block.kubejs.mercury_tungsten_ore":"水星钨矿石",
     "block.kubejs.mercury_orichalcum_ore":"水星山铜矿",
     "block.kubejs.reactor_casing":"反应堆外壳",
+    "block.kubejs.wireless_connect_broken":"<破损>无线连接器",
 
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
     "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",
@@ -250,7 +251,7 @@
     "item.cti.advanced_range_augment": "高级范围插件",
     "item.cti.advanced_output_augment": "高级深度催化器",
     "item.kubejs.phytogro_zero":"植育零号",
-    "item.kubejs.broken_victory_medal":"碎裂 胜利奖牌",
+    "item.kubejs.broken_victory_medal":"<碎裂>胜利奖牌",
     "item.kubejs.sentrite":"纯化哨石",
     "item.kubejs.unipolar_magnet_shard":"单极磁石小块",
 
@@ -300,8 +301,14 @@
     "modifier.tinkers_reforged.weight_exchange.description": "将工具50%的挖掘速度添加到攻击伤害上。",
     "modifier.tinkers_reforged.weight_exchange.flavor": "重量交换",
 
+    "modifier.cti.enforced_sharpness": "强化锋利",
+    "modifier.cti.enforced_sharpness.flavor": "打磨，抛光，直至最利。",
+    "modifier.cti.enforced_sharpness.description": "每级+2.5和5%攻击伤害。",
+
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
+    "item.minecraft.brush":"刷子",
 
     "_null_": "jei信息显示部分",
     "kubejs.jei.coinmint": "铸币机器已经被禁用",
@@ -422,6 +429,9 @@
     "material.kubejs.quantum_alloy_ingot": "量子合金",
     "material.kubejs.quantum_alloy_ingot.flavor": "量子合金",
     "material.kubejs.quantum_alloy_ingot.encyclopedia": "融入了量子材料的金属",
+
+    "material.kubejs.fortunes_favor": "命运之眷",
+    "material.kubejs.fortunes_favor.flavor": "命运之眷",
 
 
 

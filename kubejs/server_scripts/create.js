@@ -271,4 +271,6 @@ ServerEvents.recipes(event => {
                 "count": 2
             },
         })
+    
+    event.recipes.create.item_application("expatternprovider:wireless_connect",["kubejs:wireless_connect_broken","kubejs:valkyrie_ingot"])
 })
