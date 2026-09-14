@@ -931,6 +931,15 @@ ServerEvents.recipes(event => {
             C: 'minecraft:ender_eye',
         }
     )
+        event.shapeless(Item.of('undergarden:forgotten_ingot', 1), [
+            'kubejs:violium_alloy',
+            'kubejs:violium_alloy',
+            'l2hostility:miracle_ingot',
+            'undergarden:forgotten_nugget',
+            'l2complements:heirophant_green',
+            'l2hostility:hostility_essence',
+        ]
+    )
     event.shaped(Item.of('dimstorage:dimensional_tank', 1), [
             'ABA',
             'BCB',
