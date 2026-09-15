@@ -233,6 +233,7 @@ ServerEvents.recipes(event => {
 		'tinkers_reforged:crafting/duralumin_ingot_from_smelting_duralumin_dust',
 		'tinkers_reforged:smeltery/alloy/duralumin',
 		'tinkers_reforged:smeltery/alloy/ferobolt',
+		'tinkers_reforged:smeltery/alloy/mosite',
 		'tinkers_ingenuity:alloys/blood_binding',
 		'tconstruct:smeltery/alloys/molten_slimesteel',
 		'tinkers_thinking:common/chlorophyte/ingot_blasting2',
@@ -281,7 +282,8 @@ ServerEvents.recipes(event => {
 		'cloudertinker:materials/castone/melting',
 		'thermal:machines/centrifuge/centrifuge_oil_red_sand',
 		'thermal:machines/centrifuge/centrifuge_oil_sand',
-		'thermal:machines/pyrolyzer/pyrolyzer_bitumen'
+		'thermal:machines/pyrolyzer/pyrolyzer_bitumen',
+		'create:milling/granite'
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 

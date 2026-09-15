@@ -55,6 +55,7 @@ ServerEvents.recipes(event => {
     crystalMelt.forEach(m => {
         event.remove({id: `tconstruct:smeltery/melting/slime/${m}/crystal`})
         event.remove({id: `tconstruct:smeltery/melting/slime/${m}/crystal_block`})
+        event.remove({id: `tconstruct:smeltery/melting/slime/${m}/bud_cluster`})
     })
 
     event.remove({id: "tinkerscalibration:tools/materials/melting/ichor/crystal_block"});
@@ -391,7 +392,14 @@ ServerEvents.recipes(event => {
         fluid: "tconstruct:molten_emerald",
         amount: 300
     }, {fluid: "tconstruct:molten_diamond", amount: 100, rate: "gem"}, 1200, 80, "metal")
+
+
+
     //水晶和水晶块
+    addOreMelting('tconstruct:earth_slime_crystal_cluster', {
+        fluid: "tconstruct:earth_slime",
+        amount: 1000
+    }, {fluid: "tconstruct:molten_clay", amount: 500, rate: "gem"}, 100, 100, "gem")
     addOreMelting('tconstruct:earth_slime_crystal', {
         fluid: "tconstruct:earth_slime",
         amount: 250
@@ -400,6 +408,12 @@ ServerEvents.recipes(event => {
         fluid: "tconstruct:earth_slime",
         amount: 1000
     }, {fluid: "tconstruct:molten_clay", amount: 500, rate: "gem"}, 100, 250, "gem")
+
+
+    addOreMelting('tconstruct:sky_slime_crystal_cluster', {
+        fluid: "tconstruct:sky_slime",
+        amount: 1000
+    }, {fluid: "tconstruct:powdered_snow", amount: 500, rate: "gem"}, 100, 100, "gem")
     addOreMelting('tconstruct:sky_slime_crystal', {
         fluid: "tconstruct:sky_slime",
         amount: 250
@@ -408,6 +422,12 @@ ServerEvents.recipes(event => {
         fluid: "tconstruct:sky_slime",
         amount: 1000
     }, {fluid: "tconstruct:powdered_snow", amount: 1000, rate: "gem"}, 10, 250, "gem")
+
+
+    addOreMelting('tconstruct:ender_slime_crystal_cluster', {
+        fluid: "tconstruct:ender_slime",
+        amount: 1000
+    }, {fluid: "tconstruct:molten_ender", amount: 500, rate: "gem"}, 100, 100, "gem")
     addOreMelting('tconstruct:ender_slime_crystal', {
         fluid: "tconstruct:ender_slime",
         amount: 250
@@ -416,6 +436,12 @@ ServerEvents.recipes(event => {
         fluid: "tconstruct:ender_slime",
         amount: 1000
     }, {fluid: "tconstruct:molten_ender", amount: 500, rate: "gem"}, 1500, 200, "gem")
+
+
+    addOreMelting('tconstruct:ichor_slime_crystal_cluster', {
+        fluid: "tinkerscalibration:moltenichor",
+        amount: 1000
+    }, {fluid: "tconstruct:blazing_blood", amount: 500, rate: "gem"}, 100, 100, "gem")
     addOreMelting('tconstruct:ichor_slime_crystal', {
         fluid: "tinkerscalibration:moltenichor",
         amount: 250
@@ -424,4 +450,5 @@ ServerEvents.recipes(event => {
         fluid: "tinkerscalibration:moltenichor",
         amount: 1000
     }, {fluid: "tconstruct:blazing_blood", amount: 1000, rate: "gem"}, 1000, 200, "gem")
+
 })
