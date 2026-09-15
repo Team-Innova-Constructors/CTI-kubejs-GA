@@ -140,6 +140,10 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.5).secondaryMod(2.0).energyMod(0.9).minChance(0.05).useChance(0.25)
   event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(5.0).secondaryMod(5.0).energyMod(0.7).minChance(0.05).useChance(1)
   event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(5.0).secondaryMod(5.0).energyMod(0.7).minChance(0.05).useChance(1)
+  event.recipes.thermal.pulverizer_catalyst("undergarden:catalyst").primaryMod(2.375).secondaryMod(2.4).energyMod(0.5).minChance(0.05).useChance(0)
+  event.recipes.thermal.smelter_catalyst("undergarden:catalyst").primaryMod(2.375).secondaryMod(2.4).energyMod(0.5).minChance(0.05).useChance(0)
+  event.recipes.thermal.pulverizer_catalyst("cti:orb_of_curse").primaryMod(3.125).secondaryMod(3.2).energyMod(0.35).minChance(0.05).useChance(0)
+  event.recipes.thermal.smelter_catalyst("cti:orb_of_curse").primaryMod(3.125).secondaryMod(3.2).energyMod(0.35).minChance(0.05).useChance(0)
   //锯木机
   event.recipes.thermal.sawmill('6x create:shaft','create:andesite_alloy')
   //次级能源炉燃烧组件

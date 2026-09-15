@@ -259,6 +259,15 @@ ServerEvents.recipes(event => {
         event.recipes.create.filling('minecraft:iron_ingot', ['minecraft:iron_ingot', Fluid.of('tconstruct:sky_slime').withAmount(250)]),
         event.recipes.create.filling('minecraft:iron_ingot', ['minecraft:iron_ingot', Fluid.of('tconstruct:blazing_blood').withAmount(100)]),
     ]).transitionalItem('minecraft:iron_ingot').loops(2)
+    event.recipes.create.sequenced_assembly([
+        Item.of('kubejs:steel_leaved_iron_block')
+    ], Item.of("minecraft:iron_block"), [
+        event.recipes.createDeploying('minecraft:iron_block', ['minecraft:iron_block', "minecraft:iron_block"]),
+        event.recipes.createDeploying('minecraft:iron_block', ['minecraft:iron_block', "twilightforest:steeleaf_ingot"]),
+        event.recipes.createDeploying('minecraft:iron_block', ['minecraft:iron_block', "twilightforest:carminite"]),
+        event.recipes.createDeploying('minecraft:iron_block', ['minecraft:iron_block', "twilightforest:steeleaf_ingot"]),
+        event.recipes.create.filling('minecraft:iron_block', ['minecraft:iron_ingot', Fluid.of("minecraft:water").withAmount(250)]),
+    ]).transitionalItem('minecraft:iron_block').loops(1)
 
     event.custom(
         {
