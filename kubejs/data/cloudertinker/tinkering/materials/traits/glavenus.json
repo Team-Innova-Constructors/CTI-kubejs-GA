@@ -10,12 +10,8 @@
         "level": 1
       },
       {
-        "name": "cti:replaced_fiery",
-        "level": 3
-      },
-      {
         "name": "cti:infernal",
-        "level": 2
+        "level": 1
       }
     ],
     "tconstruct:handle": [
@@ -26,10 +22,6 @@
       {
         "name": "cloudertinker:highspirits",
         "level": 1
-      },
-      {
-        "name": "cti:replaced_fiery",
-        "level": 3
       }
     ],
     "tconstruct:binding": [
@@ -40,10 +32,6 @@
       {
         "name": "cloudertinker:highspirits",
         "level": 1
-      },
-      {
-        "name": "cti:replaced_fiery",
-        "level": 3
       }
     ]
   }
