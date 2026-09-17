@@ -395,7 +395,17 @@ ServerEvents.tags('block', event => {
         'cti:silicated_ingot_gauge',
         'cti:silicated_fuel_gauge',
         'cti:silicated_chute',
-        'cti:mana_interface'
+        'cti:mana_interface',
+        'cti:soul_forge_controller',
+        'cti:soul_brick_heat_conductor',
+        'cti:soul_valve',
+        'cti:soul_forge_bricks',
+        'cti:soul_forge_glass',
+        'cti:soul_forge_drain',
+        'cti:soul_forge_duct',
+        'cti:soul_forge_ingot_gauge',
+        'cti:soul_forge_fuel_gauge',
+        'cti:soul_forge_chute'
     ]
     for (let i of req_dmnd_pickaxe) {
         event.add('minecraft:needs_diamond_tool', `${i}`)
