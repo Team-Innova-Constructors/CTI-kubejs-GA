@@ -361,7 +361,17 @@ ServerEvents.tags('block', event => {
         'tconstruct:seared_glass',
         'tconstruct:seared_soul_glass',
         'tconstruct:seared_tinted_glass',
-        'tconstruct:seared_drain'
+        'tconstruct:seared_drain',
+        'cti:soul_forge_controller',
+        'cti:soul_brick_heat_conductor',
+        'cti:soul_valve',
+        'cti:soul_forge_bricks',
+        'cti:soul_forge_glass',
+        'cti:soul_forge_drain',
+        'cti:soul_forge_duct',
+        'cti:soul_forge_ingot_gauge',
+        'cti:soul_forge_fuel_gauge',
+        'cti:soul_forge_chute'
     ]
     for (let i of tconstructblock) {
         event.add('minecraft:wither_immune', `${i}`)
