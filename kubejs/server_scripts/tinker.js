@@ -1716,4 +1716,25 @@ ServerEvents.recipes(event => {
         "cooling_time": 200
     })
 
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "immersiveengineering:hammer",
+            },
+            {
+                "item":"twilightforest:knightmetal_ingot"
+            },
+            {
+                "item":"twilightforest:knightmetal_ring"
+            }
+        ],
+        "level": 1,
+        "result": "cti:plate_smashing",
+        "tools": {
+            "item": "tconstruct:sledge_hammer"
+        }
+    })
+
 })
