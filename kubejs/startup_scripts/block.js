@@ -43,4 +43,6 @@ StartupEvents.registry("block",event=>{
                 level.playSound(null,blockPos.x,blockPos.y,blockPos.z,"block.metal.break","blocks",1,1)
             }
         })
+    event.create("dense_certus_block","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
+    event.create("silicon_block","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
 })

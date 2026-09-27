@@ -981,4 +981,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({id:'projecte:medium_covalence_dust'},"minecraft:redstone",'mekanism:alloy_reinforced')
     event.replaceInput({id:'projecte:high_covalence_dust'},"minecraft:coal",'ae2:singularity')
     event.smithing("iceandfire:ghost_ingot","iceandfire:ectoplasm","meetyourfight:phantoplasm")
+
+    event.shapeless('9x ae2:silicon', 'kubejs:silicon_block')
+    event.shapeless('kubejs:silicon_block', '9x ae2:silicon')
+    event.shapeless('9x ae2:certus_quartz_crystal', 'kubejs:dense_certus_block')
+    event.shapeless('kubejs:dense_certus_block', '9x ae2:certus_quartz_crystal')
 })

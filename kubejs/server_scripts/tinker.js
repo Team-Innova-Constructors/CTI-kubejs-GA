@@ -1721,7 +1721,7 @@ ServerEvents.recipes(event => {
         "allow_crystal": true,
         "inputs": [
             {
-                "item": "immersiveengineering:hammer",
+                "item": "immersiveengineering:hammer"
             },
             {
                 "item":"twilightforest:knightmetal_ingot"
@@ -1734,6 +1734,29 @@ ServerEvents.recipes(event => {
         "result": "cti:plate_smashing",
         "tools": {
             "item": "tconstruct:sledge_hammer"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "cloudertinker:hydra_scale",
+                "amount_needed": 2
+            },
+            {
+                "item":"twilightforest:steeleaf_ingot",
+                "amount_needed": 3
+            },
+            {
+                "item":"ae2:not_so_mysterious_cube",
+                "amount_needed": 4
+            }
+        ],
+        "level": 1,
+        "result": "cti:circuit_cutting",
+        "tools": {
+            "item": "etshtinker:constrained_plasma_saber"
         }
     })
 
