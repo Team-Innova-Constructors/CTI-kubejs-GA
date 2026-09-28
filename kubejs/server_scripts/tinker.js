@@ -1760,4 +1760,36 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "etshtinker:manalyn_queen",
+                "amount_needed": 2
+            },
+            {
+                "item":"botania:narslimmus"
+            }
+        ],
+        "level": 1,
+        "result": "cti:slimy_mana",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+    event.custom({
+        "type": "tconstruct:modifier_salvage",
+        "modifier": "cti:slimy_mana",
+        "slots": {
+            "abilities": 1
+        },
+        "tools": {
+            "tag": "tconstruct:modifiable/melee"
+        }
+    })
+
 })

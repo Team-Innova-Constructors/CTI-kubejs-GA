@@ -6,4 +6,6 @@ ItemEvents.tooltip(event => {
     event.add("kubejs:steel_leaved_iron_block",Text.aqua("随时间风化（可被晶体催生器加速）"))
     event.add('pneumaticcraft:security_upgrade',Text.red("合成已被禁用，可在天境的小行星实验室中少量发现"))
     event.add("pneumaticcraft:safety_tube_module",Text.red("合成已被禁用，可在天境的小行星实验室中少量发现"))
+    event.add("tinkerscalibration:iceland_spar_crystal","发现于霜原星深层地下")
+    event.add("tinkers_thinking:chlorophyll_ore","常见于丛林浅层地下")
 })
