@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
 
   //热解炉
   event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(0.65), Item.of('minecraft:netherite_scrap').withChance(0.35), Fluid.of("tinkers_reforged:titanium", 90)], 'kubejs:stable_slag').energy(20000)
-  event.recipes.thermal.pyrolyzer([Item.of('immersivepetroleum:bitumen').withChance(1.45),'minecraft:sand',Item.of('thermal:tar').withChance(2.25), Fluid.of('thermal:heavy_oil', 1000)], '#forge:oil_sand').energy(8000)
+  event.recipes.thermal.pyrolyzer([Item.of('immersivepetroleum:bitumen').withChance(1.45),'minecraft:sand',Item.of('thermal:tar').withChance(2.25), Fluid.of('thermal:heavy_oil', 4000)], '#forge:oil_sand').energy(8000)
   event.recipes.thermal.pyrolyzer([Item.of('thermal:coal_coke').withChance(1.25),Item.of('thermal:tar').withChance(2.25), Fluid.of("thermal:heavy_oil", 200)], 'immersivepetroleum:bitumen').energy(10000)
   //压缩能源炉
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(5000000)
@@ -138,8 +138,8 @@ ServerEvents.recipes(event => {
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.5).secondaryMod(2.0).energyMod(0.9).minChance(0.05).useChance(0.25)
-  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(5.0).secondaryMod(5.0).energyMod(0.7).minChance(0.05).useChance(1)
-  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(5.0).secondaryMod(5.0).energyMod(0.7).minChance(0.05).useChance(1)
+  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(6.657).secondaryMod(6.324).energyMod(0.25).minChance(0.05).useChance(0.48)
+  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(6.657).secondaryMod(6.324).energyMod(0.25).minChance(0.05).useChance(0.48)
   event.recipes.thermal.pulverizer_catalyst("undergarden:catalyst").primaryMod(2.375).secondaryMod(2.4).energyMod(0.5).minChance(0.05).useChance(0)
   event.recipes.thermal.smelter_catalyst("undergarden:catalyst").primaryMod(2.375).secondaryMod(2.4).energyMod(0.5).minChance(0.05).useChance(0)
   event.recipes.thermal.pulverizer_catalyst("cti:orb_of_curse").primaryMod(3.125).secondaryMod(3.2).energyMod(0.35).minChance(0.05).useChance(0)
