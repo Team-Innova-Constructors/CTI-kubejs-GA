@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id:'powah:crafting/thermo_generator_nitro'}, 'powah:dielectric_paste','kubejs:dielectric_paste_6')
 
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
+    event.recipes.powah.energizing(["minecraft:bread"], "solidarytinker:charged_bread",8888888)
     event.recipes.powah.energizing(["minecraft:redstone"], 'cti:refined_stone',350000)
     event.recipes.powah.energizing(["minecraft:emerald"], "powah:crystal_spirited",8000000)
     event.recipes.powah.energizing(["minecraft:diamond"], "powah:crystal_niotic",2400000)
