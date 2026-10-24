@@ -45,7 +45,7 @@
     },
     "tconstruct:plating_boots": {
       "armor": 5,
-      "durability": 850
+      "durability": 850,
       "knockback_resistance": 0,
       "toughness": 0
     },
